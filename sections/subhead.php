@@ -5,7 +5,7 @@
                 <h4 class="subhead-title">Inspectorate</h4>
                 <ul class="subhead-list">
                     <li>About</li>
-                    <li>Prolicy</li>
+                    <li>Policy</li>
                     <li>Structure</li>
                     <li>Staff</li>
                     <!-- <li>Risk Assessment</li> -->
