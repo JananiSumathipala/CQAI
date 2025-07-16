@@ -1,0 +1,224 @@
+      /* style.css content */
+        :root {
+            --primary-color: #1a237e;
+            --secondary-color: #1976d2;
+            --accent-color: #2196f3;
+            --light-color: #e3f2fd;
+            --dark-color: #0d47a1;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+            overflow-x: hidden;
+        }
+        
+        /* Header Styles */
+        header {
+            /* background: linear-gradient(135deg, var(--primary-color), var(--dark-color)); */
+            color: white;
+            /* padding: 2rem 0; */
+        }
+        
+        .logo {
+            max-height: 80px;
+            transition: transform 0.3s ease;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 10;
+        }
+        
+        .logo:hover {
+            transform: scale(1.05);
+        }
+        
+        header {
+            position: relative;
+        }
+
+        .swiper-container {
+            width: 100%;
+            height: 70vh;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .slide-caption {
+            display: none;
+            position: absolute;
+            bottom: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(25, 118, 210, 0.8);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            max-width: 500px;
+            border-radius: 8px;
+        }
+        
+        /* Navigation Circles */
+        .nav-circles {
+            position: relative;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        .circle-nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 6rem;
+        }
+        
+        .circle-link {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .circle-link:hover {
+            transform: translateY(-10px) scale(1.05);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(135deg, var(--accent-color), var(--secondary-color));
+        }
+        
+        /* News Marquee */
+        .news-marquee {
+            background-color: var(--accent-color);
+            color: white;
+            padding: 1rem;
+            margin: 2rem 0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .marquee-content {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 20s linear infinite;
+        }
+        
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        
+        /* Subhead Columns */
+        #subhead-row{
+            display: flex;
+            justify-content: space-evenly;;
+        }
+        .subhead-columns {
+            margin: 3rem 0;
+        }
+        
+        .subhead-column {
+            padding: 1.5rem;
+            background-color: var(--light-color);
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+            height: 100%;
+        }
+        
+        .subhead-column:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .subhead-title {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .subhead-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .subhead-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+        }
+        
+        .subhead-list li:before {
+            content: "•";
+            color: var(--accent-color);
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        .footer-content {
+            text-align: center;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .circle-link {
+                width: 100px;
+                height: 100px;
+                font-size: 0.9rem;
+            }
+            
+            .slide img {
+                height: 300px;
+            }
+            
+            .subhead-column {
+                margin-bottom: 1.5rem;
+            }
+        }
