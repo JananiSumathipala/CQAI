@@ -8,7 +8,7 @@
     <!-- Main Content -->
     <main class="container my-5 pt-5 min-vh-60">
         <div class="page-header mb-4">
-            <h3 class="colour-defult">Publications <i class="fa fa-book"></i>
+            <h3 class="colour-defult"> Technical & Publications <i class="fa fa-book"></i>
                 <div class="float-end">
                     <a href="index.php" class="btn btn-info me-2"><i class="fa fa-home"></i> Home</a>
                     <a href="javascript:history.back()" class="btn btn-secondary"><i class="fa fa-arrow-left"></i> Back</a>
@@ -19,11 +19,10 @@
         <div class="row justify-content-center">
             <?php
             $publications = [
-                ['title' => 'Manufacturing', 'icon' => 'fa-book', 'link' => '#'],
-                ['title' => 'Healthcare', 'icon' => 'fa-book-open', 'link' => '#'],
-                ['title' => 'Construction', 'icon' => 'fa-newspaper', 'link' => '#'],
-                ['title' => 'Information Technology', 'icon' => 'fa-file-alt', 'link' => '#'],
-                ['title' => 'Transportation', 'icon' => 'fa-envelope-open-text', 'link' => '#'],
+                ['title' => 'Publication Update', 'icon' => 'fa-book', 'link' => '#'],
+                ['title' => 'Master Copies', 'icon' => 'fa-book-open', 'link' => '#'],
+                ['title' => 'Publication Index', 'icon' => 'fa-newspaper', 'link' => '#'],
+                
             ];
             foreach ($publications as $pub): ?>
                 <div class="col-md-2 col-6 mb-4">

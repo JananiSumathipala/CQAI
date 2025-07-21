@@ -32,6 +32,9 @@
                     <li class="nav-item">
                         <a class="nav-link" id="responsibilities-tab" data-bs-toggle="pill" href="#responsibilities" role="tab">Staff</a>
                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" id="History-tab" data-bs-toggle="pill" href="#History" role="tab">History</a>
+                    </li>
                 </ul>
             </div>
 
@@ -41,62 +44,260 @@
                     <!-- Tab 1 -->
                     <div class="tab-pane fade show active" id="org" role="tabpanel">
                         <div class="alert alert-info">
-                            <h5><strong>THE ORGANIZATION</strong></h5>
+                            <h5><strong>ABOUT US</strong></h5>
                         </div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur quisquam quis est quod mollitia. Culpa veniam, facilis, incidunt numquam obcaecati temporibus quis qui maiores nulla odio magnam. A deserunt cum vitae provident quas rerum ea explicabo mollitia, labore neque commodi aperiam asperiores. Maxime, aut aperiam nulla molestiae ipsam odit, rerum esse laborum exercitationem, animi autem impedit eligendi optio perspiciatis est! Mollitia, error similique. Consequuntur veniam ab nesciunt rem aliquid aliquam sequi maiores excepturi, iste tenetur. Sed, illum? Ex, labore! Explicabo officiis perferendis id deleniti similique ratione soluta veritatis blanditiis. Pariatur aperiam quasi sunt esse? Illo possimus animi recusandae architecto maxime, obcaecati consectetur dolorum. Voluptatem optio perferendis aliquid veniam? Officia, corrupti. Numquam, officiis! Corrupti dolorem saepe rem nihil quas nam quisquam, provident, labore distinctio blanditiis modi facere aliquam iusto assumenda expedita ducimus deserunt delectus cupiditate vero corporis amet. Fugit ea deserunt, ipsam laborum itaque atque dicta dolores, dolore expedita adipisci porro distinctio inventore officia explicabo nulla. Possimus et mollitia blanditiis. Earum, dolorum omnis nam eius quisquam laborum tenetur accusamus velit ullam, magnam a facere aspernatur tempore deleniti quos explicabo ea possimus corrupti consequuntur totam ad enim. Dignissimos facere exercitationem quidem veniam praesentium eos? Minima accusamus temporibus officia nesciunt assumenda voluptate velit dignissimos fugiat libero eligendi? Expedita non, reiciendis porro nesciunt libero quaerat, quidem repellat ad, maxime nihil hic animi ducimus doloribus eveniet eaque quisquam culpa alias voluptatem minus iusto magnam laboriosam. Eos voluptatem tempora asperiores neque maiores, autem deleniti quo blanditiis impedit iste voluptatum, ea sapiente? Quos id similique magnam quae.</p>
+                        <p>The Sri Lanka Air Force (SLAF), in its commitment to fulfil the aspirations of the Nation by achieving excellence in the field of aviation and in all associated functions, is continually striving to enhance customer satisfaction by exceeding stake holders’ expectations whilst endeavouring to be efficient, reliable and socially responsible.<br><br>
+Towards this end, the Quality Assurance Inspectorate (QAI) was established to perform Quality Assurance Functions within the SLAF. The QAI functions under supervision of the Chief of Staff of the Sri Lanka Air Force and is headed by the Director Quality Assurance (DQA) who is primarily tasked to provide advice on the Quality Assurance Services (QAS) matters such as Policy, Organization and Administration. <br><br>
+As such the main functions of the QAI are as follows; <br><br>
+</p>
+                            <section>
+                            <ul style="line-height: 1.6;">
+                                <li>Administration of the Quality Assurance Services (QAS) in the SLAF</li>
+                                <li>Provide an organization to assess the quality of material, processors and workmanship for the SLAF</li>
+                                <li>Ensure that the service operates efficiently and economically to assist the completion of the task in accordance with the policy directives</li>
+                                <li>Provision of adequate facilities for the quality assurance activities and ensure that inspection facilities under QAS control are properly authorized, operated and maintained</li>
+                                <li>Ensure that SLAF personnel employed on quality assurance duties are trained</li>
+                                <li>Conduct awareness training on quality to all SLAF personnel within the organization scope and with assistance of outside organization</li>
+                                <li>Control of technical publication management system</li>
+                            </ul>
+                            </section>
+
+
                     </div>
 
                     <!-- Tab 2 -->
                     <div class="tab-pane fade" id="functions" role="tabpanel">
                         <div class="alert alert-info">
-                            <h5><strong>FUNCTIONS</strong></h5>
+                            <h5><strong>  POLICY</strong></h5>
                         </div>
-                        <p><strong>ROLE:</strong></p>
-                        <ul>
-                            <li>Advise commanders...</li>
-                            <!-- More items -->
-                        </ul>
-                        <p><strong>STATUS:</strong></p>
-                        <ul>
-                            <li>Advisory in the application of flight safety...</li>
-                        </ul>
-                        <p><strong>DIVISION OF WORK:</strong></p>
-                        <ul>
-                            <li>Remedial (including reporting and investigation).</li>
-                            <!-- More items -->
-                        </ul>
+                        <p style="text-align: center;">"The Sri Lanka Air Force is committed to fulfil the aspirations of the Nation by achieving excellence in the field of aviation and in all associated functions through enhanced customer satisfaction and by exceeding stake holders’ expectations, whilst endeavouring to be an efficient, reliable and socially responsible Air Force"</p>
                     </div>
 
                     <!-- Tab 3 -->
                     <div class="tab-pane fade" id="structure" role="tabpanel">
                         <div class="alert alert-info">
-                            <h5><strong>ORGANIZATION</strong></h5>
+                            <h5><strong>ORGANIZATIONAL STRUCTURE OF QUALITY ASSURANCE INSPECTORATE</strong></h5>
                         </div>
-                        <img class="img-fluid" src="assets/img/about/organisation.jpg" alt="Organization Chart">
+                        <img class="img-fluid" src="assets/img/about/Org Chart_QAI.jpg" alt="Organization Chart">
                     </div>
 
                     <!-- Tab 4 -->
                     <div class="tab-pane fade" id="responsibilities" role="tabpanel">
                         <div class="alert alert-info">
-                            <h5><strong>RESPONSIBILITIES</strong></h5>
+                            <h5><strong>DIRECTOR QUALITY ASSURANCE</strong></h5>
                         </div>
-                        <h6>Responsibilities of Command Flight Safety</h6>
-                        <ul>
-                            <li>Conducting visits to flying units...</li>
-                            <!-- More items -->
-                        </ul>
+                        <div class="card mx-auto my-4" style="max-width: 400px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">DIRECTOR QUALITY ASSURANCE</h5>
+                            <img src="assets/img/staff/01.jpg" alt="DIRECTOR QUALITY ASSURANCE"> 
+                            <br>
+                            <p><strong>Rank:</strong> Air Cdr</p>
+                            <p><strong>Name:</strong> CJ Hettiarachchi</p>
+                            <p><strong>Ext:</strong> 11100</p>
+                            <p><strong>Mobile:</strong> 077-2229145</p>
+                        </div>
+                        </div>
 
-                        <h6 class="mt-4">Responsibilities of Base/Station Flight Safety</h6>
-                        <ul>
-                            <li>Assisting the Base/Station commander...</li>
-                            <!-- More items -->
-                        </ul>
+                         <div class="alert alert-info">
+                            <h5><strong>QUALITY ASSURANCE STAFF OFFICERS</strong></h5>
+                        </div>
+                     <div class="container my-5">
+                        <div class="row justify-content-center">
+                            <!-- Card 1 -->
+                            <div class="col-md-4 mb-4">
+                            <div class="card h-100 text-center">
+                                <div class="card-body">
+                                <h5 class="card-title">Aeronautical Engineering</h5>
+                                <img src="assets/img/staff/officer1.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                <p><strong>Rank:</strong> Wg Cdr</p>
+                                <p><strong>Name:</strong>WNI Yalagama</p>
+                                <p><strong>Ext:</strong> 11115</p>
+                                <p><strong>Mobile:</strong> 077-2229145</p>
+                                </div>
+                            </div>
+                            </div>
 
-                        <h6 class="mt-4">Responsibilities of Squadron Flight Safety</h6>
-                        <ul>
-                            <li>Promoting high standards of risk awareness...</li>
-                            <!-- More items -->
-                        </ul>
+                            <!-- Card 2 -->
+                            <div class="col-md-4 mb-4">
+                            <div class="card h-100 text-center">
+                                <div class="card-body">
+                                <h5 class="card-title">Electronic Engineering</h5>
+                                <img src="assets/img/staff/officer2.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                <p><strong>Rank:</strong> Gp Capt</p>
+                                <p><strong>Name:</strong> I Chandratilleke</p>
+                                <p><strong>Ext:</strong> 11116</p>
+                                <p><strong>Mobile:</strong> 077-2229142</p>
+                                </div>
+                            </div>
+                            </div>
+
+                            <!-- Card 3 -->
+                            <div class="col-md-4 mb-4">
+                            <div class="card h-100 text-center">
+                                <div class="card-body">
+                                <h5 class="card-title">General Engineering</h5>
+                                <img src="assets/img/staff/officer3.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                <p><strong>Rank:</strong> Sqn Ldr</p>
+                                <p><strong>Name:</strong>THDM Hettige</p>
+                                <p><strong>Ext:</strong> 11117</p>
+                                <p><strong>Mobile:</strong> 077-2229165</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+
+
+                    </div>
+                     <div class="tab-pane fade" id="History" role="tabpanel">
+                        <div class="alert alert-info">
+                            <h5><strong>Histoty</strong></h5>
+                        </div>
+                        <p>The Quality Assurance Inspectorate (QAI) was first established at SLAF Base Rma as the Command Quality Assurance Inspectorate (CQAI) in year 1988 under the command of Wg Cdr GY De Silva on the aim of leading/guiding SLAF on Quality and Productivity.
+                            <br><br> Subsequently the Inspectorate was shifted to the Air Force Headquarters to facilitate its effective operations throughout the full spectrum of SLAF operations and since then the QAI has been commanded by 22 Command Quality Assurance Officers (CQAOs).</p><br>
+                        <h6 style="text-align: center;"> COMMAND QUALITY ASSURANCE OFFICERS </h6>
+                        
+                       <center> <table border="0" cellpadding="10" cellspacing="0" >
+                         <thead>
+                        <tr>
+                        <th  width="70%">Name</th>
+                        <th  width="70%">Period of Service</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Wg Cdr GY De Silva</td>
+                            <td>09.03.1988 - 31.12.1990</td>
+                        </tr>
+                        <tr>
+                            <td>Sqn Ldr PDJ Kumarasiri</td>
+                            <td>01.01.1991 - 31.12.1991</td>
+                        </tr>
+                        <tr>
+                            <td>Sqn Ldr SAH Satharasinghe</td>
+                            <td>01.01.1992 - 14.03.1993</td>
+                        </tr>
+                        <tr>
+                            <td>Sqn Ldr PDJ Kumarasiri</td>
+                            <td>15.03.1993 - 08.07.1996</td>
+                        </tr>
+                        <tr>
+                            <td>Wg Cdr PDJ Kumarasiri</td>
+                            <td>09.07.1996 - 31.12.1997</td>
+                        </tr>
+                        <tr>
+                            <td>Sqn Ldr DS Edirisinghe</td>
+                            <td>01.01.1998 - 01.03.1998</td>
+                        </tr>
+                        <tr>
+                            <td>Wg Cdr KDU Chandrathilala</td>
+                            <td>02.03.1998 - 01.12.2001</td>
+                        </tr>
+                        <tr>
+                            <td>Gp Cpt EPB Liyanage</td>
+                            <td>02.12.2001 - 14.01.2003</td>
+                        </tr>
+                        <tr>
+                            <td>Gp Cpt EGJP De Silva</td>
+                            <td>15.01.2003 - 31.09.2004</td>
+                        </tr>
+                        <tr>
+                            <td>Wg Cdr TKS Peiris</td>
+                            <td>01.10.2004 - 10.07.2005</td>
+                        </tr>
+                        <tr>
+                            <td>Wg Cdr WPAK Wijesinghe</td>
+                            <td>11.07.2005 - 09.08.2005</td>
+                        </tr>
+                        <tr>
+                            <td>Gp Cpt EPB Liyanage</td>
+                            <td>10.08.2005 - 10.02.2006</td>
+                        </tr>
+                        <tr>
+                            <td>Gp Cpt BLW Balasuriya</td>
+                            <td>11.02.2006 - 31.12.2006</td>
+                        </tr>
+                        <tr>
+                            <td>Air Cdre BLW Balasuriya</td>
+                            <td>01.01.2007 - 02.04.2007</td>
+                        </tr>
+                        <tr>
+                            <td>Gp Cpt PDJ Kumarasiri</td>
+                            <td>03.04.2007 - 10.09.2008</td>
+                        </tr>
+                        <tr>
+                            <td>Air Cdre PDJ Kumarasiri</td>
+                            <td>11.09.2008 - 31.12.2009</td>
+                        </tr>
+                        <tr>
+                            <td>AVM PDJ Kumarasiri</td>
+                            <td>01.01.2010 - 24.07.2011</td>
+                        </tr>
+                        <tr>
+                            <td>Gp Cpt AH Wijesiri</td>
+                            <td>25.07.2011 - 26.08.2012</td>
+                        </tr>
+                        <tr>
+                            <td>Gp Cpt AWE Wijesuriya</td>
+                            <td>27.08.2012 - 31.12.2012</td>
+                        </tr>
+                        <tr>
+                            <td>Air Cdre AWE Wijesuriya</td>
+                            <td>01.01.2013 - 12.08.2013</td>
+                        </tr>
+                        <tr>
+                            <td>Gp Cpt AH Wijesiri</td>
+                            <td>13.08.2013 - 31.12.2013</td>
+                        </tr>
+                        <tr>
+                            <td>Air Cdre AH Wijesiri</td>
+                            <td>01.01.2014 - 18.01.2015</td>
+                        </tr>
+                        <tr>
+                            <td>Air Cdre MD Rathnayake</td>
+                            <td>19.01.2015 - 25.07.2016</td>
+                        </tr>
+                        <tr>
+                            <td>Air Cdre RHKP Ranasinghe</td>
+                            <td>26.07.2016 - 10.01.2017</td>
+                        </tr>
+                        <tr>
+                            <td>Air Cdre TADR Senanayake</td>
+                            <td>11.01.2017 - 30.06.2019</td>
+                        </tr>
+                        <tr>
+                            <td>Air Cdre LMSK Leelaratne</td>
+                            <td>01.07.2019 - 20.03.2022</td>
+                        </tr>
+                        <tr>
+                            <td>Gp Capt LMCB Nissanka</td>
+                            <td>21.03.2022 – 18.09.2022</td>
+                        </tr>
+                        <tr>
+                            <td>Air Cdre MPA Mahawattage</td>
+                            <td>19.09.2022 – 04.07.2023</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align:center; font-weight:bold;">DIRECTOR QUALITY ASSURANCE</td>
+                        </tr>
+                        <tr>
+                            <td>Air Cdre SPS Martino</td>
+                            <td>05-07-2023 – 08-08-2024</td>
+                        </tr>
+                        <tr>
+                            <td>Air Cdre CJ Hettiarachchi</td>
+                            <td>08-08-2024 - 27-05-2025</td>
+                        </tr>
+                        <tr>
+                            <td>Air Cdre MF Jansen</td>
+                            <td>27-07-2025 - </td>
+                        </tr>
+                    </tbody>
+                    </table></center>
+                       
+
+
+                       
                     </div>
                 </div>
             </div>

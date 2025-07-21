@@ -11,13 +11,13 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <img src="assets/img/slider/one.jpg" alt="Our Team">
+                <img src="assets/img/slider/two.jpg" alt="Our Team">
                 <div class="slide-caption">
                     <h5>Dedicated Team of Quality Professionals</h5>
                 </div>
             </div>
             <div class="swiper-slide">
-                <img src="assets/img/slider/one.jpg" alt="Innovation">
+                <img src="assets/img/slider/three.jpg" alt="Innovation">
                 <div class="slide-caption">
                     <h5>Innovative Solutions for Quality Assurance</h5>
                 </div>
@@ -26,7 +26,7 @@
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
         <!-- Add Navigation -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <!-- <div class="swiper-button-next"></div> -->
+        <!-- <div class="swiper-button-prev"></div> -->
     </div>
 </header>

@@ -24,10 +24,16 @@
                         <a class="nav-link active" id="org-tab" data-bs-toggle="pill" href="#org" role="tab">OSH</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="functions-tab" data-bs-toggle="pill" href="#functions" role="tab">Events</a>
+                        <a class="nav-link" id="functions-tab" data-bs-toggle="pill" href="#functions" role="tab">Eventment</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">Publications</a>
+                        <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">Pub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">Tool & Technique </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">QCC </a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link" id="responsibilities-tab" data-bs-toggle="pill" href="#responsibilities" role="tab">RESPONSIBILITIES</a>

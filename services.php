@@ -21,13 +21,22 @@
                 <!-- Nav Tabs -->
                 <ul class="nav flex-column nav-pills" id="inspectorateTabs" role="tablist" aria-orientation="vertical">
                     <li class="nav-item">
-                        <a class="nav-link active" id="org-tab" data-bs-toggle="pill" href="#org" role="tab">Check Lists</a>
+                        <a class="nav-link active" id="org-tab" data-bs-toggle="pill" href="#org" role="tab">Check List</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="functions-tab" data-bs-toggle="pill" href="#functions" role="tab">Audit Plans</a>
+                        <a class="nav-link" id="functions-tab" data-bs-toggle="pill" href="#functions" role="tab">Audit Report</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">Feedback Reports</a>
+                        <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">Feedback Report</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">R&D</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">Latitude</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">Modification</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link" id="responsibilities-tab" data-bs-toggle="pill" href="#responsibilities" role="tab">RESPONSIBILITIES</a>

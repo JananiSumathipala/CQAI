@@ -21,7 +21,7 @@
                 <!-- Nav Tabs -->
                 <ul class="nav flex-column nav-pills" id="inspectorateTabs" role="tablist" aria-orientation="vertical">
                     <li class="nav-item">
-                        <a class="nav-link active" id="org-tab" data-bs-toggle="pill" href="#org" role="tab">Compulsory</a>
+                        <a class="nav-link active" id="org-tab" data-bs-toggle="pill" href="#org" role="tab">Compdiency Training</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="functions-tab" data-bs-toggle="pill" href="#functions" role="tab">CPD</a>
@@ -30,7 +30,7 @@
                         <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">PIPD</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="responsibilities-tab" data-bs-toggle="pill" href="#responsibilities" role="tab">Outside</a>
+                        <a class="nav-link" id="responsibilities-tab" data-bs-toggle="pill" href="#responsibilities" role="tab">Outside Training</a>
                     </li>
                 </ul>
             </div>
