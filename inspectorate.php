@@ -159,7 +159,7 @@ As such the main functions of the QAI are as follows; <br><br>
                         </div>
                         <p>The Quality Assurance Inspectorate (QAI) was first established at SLAF Base Rma as the Command Quality Assurance Inspectorate (CQAI) in year 1988 under the command of Wg Cdr GY De Silva on the aim of leading/guiding SLAF on Quality and Productivity.
                             <br><br> Subsequently the Inspectorate was shifted to the Air Force Headquarters to facilitate its effective operations throughout the full spectrum of SLAF operations and since then the QAI has been commanded by 22 Command Quality Assurance Officers (CQAOs).</p><br>
-                        <h6 style="text-align: center;"> COMMAND QUALITY ASSURANCE OFFICERS ts </h6>
+                        <h6 style="text-align: center;"> COMMAND QUALITY ASSURANCE OFFICERS </h6>
                         
                        <center> <table border="0" cellpadding="4" cellspacing="0" >
                          <thead>
