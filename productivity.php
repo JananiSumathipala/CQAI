@@ -29,9 +29,9 @@
                     <li class="nav-item">
                         <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">Pub</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">Tool & Technique </a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">QCC </a>
                     </li>

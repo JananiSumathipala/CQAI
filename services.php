@@ -38,6 +38,9 @@
                      <li class="nav-item">
                         <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">Modification</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">Confidency</a>
+                    </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link" id="responsibilities-tab" data-bs-toggle="pill" href="#responsibilities" role="tab">RESPONSIBILITIES</a>
                     </li> -->

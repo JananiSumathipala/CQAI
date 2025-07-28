@@ -35,6 +35,9 @@
                      <li class="nav-item">
                         <a class="nav-link" id="History-tab" data-bs-toggle="pill" href="#History" role="tab">History</a>
                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" id="History-tab" data-bs-toggle="pill" href="#History" role="tab">Achievement</a>
+                    </li>
                 </ul>
             </div>
 
@@ -82,14 +85,14 @@ As such the main functions of the QAI are as follows; <br><br>
                     </div>
 
                     <!-- Tab 4 -->
-                    <div class="tab-pane fade" id="responsibilities" role="tabpanel">
+                    <!-- <div class="tab-pane fade" id="responsibilities" role="tabpanel">
                         <div class="alert alert-info">
                             <h5><strong>DIRECTOR QUALITY ASSURANCE</strong></h5>
                         </div>
                         <div class="card mx-auto my-4" style="max-width: 400px;">
                         <div class="card-body text-center">
                             <h5 class="card-title text-center">DIRECTOR QUALITY ASSURANCE</h5>
-                            <img src="assets/img/staff/01.jpg" alt="DIRECTOR QUALITY ASSURANCE"> 
+                           <img src="assets/img/staff/01.jpg" alt="DIRECTOR QUALITY ASSURANCE"> 
                             <br>
                             <p><strong>Rank:</strong> Air Cdr</p>
                             <p><strong>Name:</strong> CJ Hettiarachchi</p>
@@ -103,7 +106,7 @@ As such the main functions of the QAI are as follows; <br><br>
                         </div>
                      <div class="container my-5">
                         <div class="row justify-content-center">
-                            <!-- Card 1 -->
+                          
                             <div class="col-md-4 mb-4">
                             <div class="card h-100 text-center">
                                 <div class="card-body">
@@ -114,13 +117,13 @@ As such the main functions of the QAI are as follows; <br><br>
                                 <p><strong>Ext:</strong> 11115</p>
                                 <p><strong>Mobile:</strong> 077-2229145</p>
                                 </div>
-                            </div>
+                            </div> 
                             </div>
 
-                            <!-- Card 2 -->
+                          
                             <div class="col-md-4 mb-4">
                             <div class="card h-100 text-center">
-                                <div class="card-body">
+                                 <div class="card-body">
                                 <h5 class="card-title">Electronic Engineering</h5>
                                 <img src="assets/img/staff/officer2.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                 <p><strong>Rank:</strong> Gp Capt</p>
@@ -131,24 +134,25 @@ As such the main functions of the QAI are as follows; <br><br>
                             </div>
                             </div>
 
-                            <!-- Card 3 -->
+                       
                             <div class="col-md-4 mb-4">
                             <div class="card h-100 text-center">
-                                <div class="card-body">
+                               <div class="card-body">
                                 <h5 class="card-title">General Engineering</h5>
                                 <img src="assets/img/staff/officer3.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                 <p><strong>Rank:</strong> Sqn Ldr</p>
                                 <p><strong>Name:</strong>THDM Hettige</p>
                                 <p><strong>Ext:</strong> 11117</p>
                                 <p><strong>Mobile:</strong> 077-2229165</p>
-                                </div>
+                                </div> 
                             </div>
                             </div>
                         </div>
-                </div>
+                    </div> -->
+                </div> 
 
 
-                    </div>
+                    
                      <div class="tab-pane fade" id="History" role="tabpanel">
                         <div class="alert alert-info">
                             <h5><strong>Histoty</strong></h5>
@@ -157,7 +161,7 @@ As such the main functions of the QAI are as follows; <br><br>
                             <br><br> Subsequently the Inspectorate was shifted to the Air Force Headquarters to facilitate its effective operations throughout the full spectrum of SLAF operations and since then the QAI has been commanded by 22 Command Quality Assurance Officers (CQAOs).</p><br>
                         <h6 style="text-align: center;"> COMMAND QUALITY ASSURANCE OFFICERS </h6>
                         
-                       <center> <table border="0" cellpadding="10" cellspacing="0" >
+                       <center> <table border="0" cellpadding="4" cellspacing="0" >
                          <thead>
                         <tr>
                         <th  width="70%">Name</th>
