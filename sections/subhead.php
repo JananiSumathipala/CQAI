@@ -2,7 +2,7 @@
     <div class="row" id="subhead-row">
         <div class="col-md-2 mb-4 mb-md-0">
             <div class="subhead-column">
-                <h4 class="subhead-title">Inspectorate - Test</h4>
+                <h4 class="subhead-title">Inspectorate</h4>
                 <ul class="subhead-list">
                     <li>About</li>
                     <li>Policy</li>

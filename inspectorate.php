@@ -85,17 +85,17 @@ As such the main functions of the QAI are as follows; <br><br>
                     </div>
 
                     <!-- Tab 4 -->
-                    <!-- <div class="tab-pane fade" id="responsibilities" role="tabpanel">
+                    <div class="tab-pane fade" id="responsibilities" role="tabpanel">
                         <div class="alert alert-info">
                             <h5><strong>DIRECTOR QUALITY ASSURANCE</strong></h5>
                         </div>
                         <div class="card mx-auto my-4" style="max-width: 400px;">
                         <div class="card-body text-center">
                             <h5 class="card-title text-center">DIRECTOR QUALITY ASSURANCE</h5>
-                           <img src="assets/img/staff/01.jpg" alt="DIRECTOR QUALITY ASSURANCE"> 
+                           <img width="200" height="250"  src="assets/img/staff/01.jpg" alt="DIRECTOR QUALITY ASSURANCE"> 
                             <br>
                             <p><strong>Rank:</strong> Air Cdr</p>
-                            <p><strong>Name:</strong> CJ Hettiarachchi</p>
+                            <p><strong>Name:</strong> MF Jansen</p>
                             <p><strong>Ext:</strong> 11100</p>
                             <p><strong>Mobile:</strong> 077-2229145</p>
                         </div>
@@ -110,8 +110,8 @@ As such the main functions of the QAI are as follows; <br><br>
                             <div class="col-md-4 mb-4">
                             <div class="card h-100 text-center">
                                 <div class="card-body">
-                                <h5 class="card-title">Aeronautical Engineering</h5>
-                                <img src="assets/img/staff/officer1.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                <h5 class="card-title">SOQA(AERO ENG-FW/RW)</h5>
+                                <img width="200" height="250"src="assets/img/staff/officer1.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                 <p><strong>Rank:</strong> Wg Cdr</p>
                                 <p><strong>Name:</strong>WNI Yalagama</p>
                                 <p><strong>Ext:</strong> 11115</p>
@@ -124,8 +124,8 @@ As such the main functions of the QAI are as follows; <br><br>
                             <div class="col-md-4 mb-4">
                             <div class="card h-100 text-center">
                                  <div class="card-body">
-                                <h5 class="card-title">Electronic Engineering</h5>
-                                <img src="assets/img/staff/officer2.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                <h5 class="card-title">SOQA(E/E&T ENG)</h5>
+                                <img width="200" height="250" src="assets/img/staff/officer2.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                 <p><strong>Rank:</strong> Gp Capt</p>
                                 <p><strong>Name:</strong> I Chandratilleke</p>
                                 <p><strong>Ext:</strong> 11116</p>
@@ -138,8 +138,8 @@ As such the main functions of the QAI are as follows; <br><br>
                             <div class="col-md-4 mb-4">
                             <div class="card h-100 text-center">
                                <div class="card-body">
-                                <h5 class="card-title">General Engineering</h5>
-                                <img src="assets/img/staff/officer3.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                <h5 class="card-title">SOQA(GE)</h5>
+                                <img width="200" height="250" src="assets/img/staff/officer3.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                 <p><strong>Rank:</strong> Sqn Ldr</p>
                                 <p><strong>Name:</strong>THDM Hettige</p>
                                 <p><strong>Ext:</strong> 11117</p>
@@ -147,8 +147,22 @@ As such the main functions of the QAI are as follows; <br><br>
                                 </div> 
                             </div>
                             </div>
+
+                             <div class="col-md-4 mb-4">
+                            <div class="card h-100 text-center">
+                               <div class="card-body">
+                                <h5 class="card-title">SOQA(TRG & PUG)</h5>
+                                <img width="200" height="250" src="assets/img/staff/officer4.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                <p><strong>Rank:</strong> Sqn Ldr</p>
+                                <p><strong>Name:</strong>WPAC DAYARATHNE</p>
+                                <p><strong>Ext:</strong> 11117</p>
+                                <p><strong>Mobile:</strong> 077-2229165</p>
+                                </div> 
+                            </div>
+                            </div>
+
                         </div>
-                    </div> -->
+                    </div>
                 </div> 
 
 
