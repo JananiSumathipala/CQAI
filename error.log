@@ -1,0 +1,334 @@
+[31-Jul-2025 09:28:15 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 09:28:15 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\cqai-intra\admin\index.php on line 37
+[31-Jul-2025 09:28:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in C:\xampp\htdocs\cqai-intra\admin\index.php:37
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\index.php on line 37
+[31-Jul-2025 10:16:06 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:16:06 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\cqai-intra\admin\index.php on line 37
+[31-Jul-2025 10:16:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in C:\xampp\htdocs\cqai-intra\admin\index.php:37
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\index.php on line 37
+[31-Jul-2025 10:16:07 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:16:07 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\cqai-intra\admin\index.php on line 37
+[31-Jul-2025 10:16:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in C:\xampp\htdocs\cqai-intra\admin\index.php:37
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\index.php on line 37
+[31-Jul-2025 10:16:47 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:16:47 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\cqai-intra\admin\index.php on line 36
+[31-Jul-2025 10:16:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in C:\xampp\htdocs\cqai-intra\admin\index.php:36
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\index.php on line 36
+[31-Jul-2025 10:16:48 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:16:48 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\cqai-intra\admin\index.php on line 36
+[31-Jul-2025 10:16:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in C:\xampp\htdocs\cqai-intra\admin\index.php:36
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\index.php on line 36
+[31-Jul-2025 10:18:23 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:18:23 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\cqai-intra\admin\index.php on line 32
+[31-Jul-2025 10:18:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in C:\xampp\htdocs\cqai-intra\admin\index.php:32
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\index.php on line 32
+[31-Jul-2025 10:18:24 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:18:24 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\cqai-intra\admin\index.php on line 32
+[31-Jul-2025 10:18:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in C:\xampp\htdocs\cqai-intra\admin\index.php:32
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\index.php on line 32
+[31-Jul-2025 10:19:20 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:23:40 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:23:40 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\cqai-intra\admin\index.php on line 8
+[31-Jul-2025 10:23:40 Europe/Berlin] PHP Warning:  Undefined array key "password" in C:\xampp\htdocs\cqai-intra\admin\index.php on line 9
+[31-Jul-2025 10:24:47 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:24:48 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:24:57 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:24:57 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'branch' doesn't have a default value in C:\xampp\htdocs\cqai-intra\admin\index.php:23
+Stack trace:
+#0 C:\xampp\htdocs\cqai-intra\admin\index.php(23): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\index.php on line 23
+[31-Jul-2025 10:28:55 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:28:55 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(username, password) VALUES (?, ?)' at line 1 in C:\xampp\htdocs\cqai-intra\admin\index.php:20
+Stack trace:
+#0 C:\xampp\htdocs\cqai-intra\admin\index.php(20): mysqli->prepare('SELECT * FROM a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\index.php on line 20
+[31-Jul-2025 10:28:56 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:29:00 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:29:11 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:29:11 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(username, password) VALUES (?, ?)' at line 1 in C:\xampp\htdocs\cqai-intra\admin\index.php:20
+Stack trace:
+#0 C:\xampp\htdocs\cqai-intra\admin\index.php(20): mysqli->prepare('SELECT * FROM a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\index.php on line 20
+[31-Jul-2025 10:30:45 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:30:48 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:30:54 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:31:12 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:32:09 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:32:13 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:33:39 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:33:39 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:33:46 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:33:59 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:33:59 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:34:11 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:34:11 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(username, password) VALUES (?, ?)' at line 1 in C:\xampp\htdocs\cqai-intra\admin\index.php:20
+Stack trace:
+#0 C:\xampp\htdocs\cqai-intra\admin\index.php(20): mysqli->prepare('SELECT * FROM a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\index.php on line 20
+[31-Jul-2025 10:37:33 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:37:38 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:38:34 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 10:40:51 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:04:42 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:04:51 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:04:53 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:05:04 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:35:05 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:36:46 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:39:02 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:40:05 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:40:07 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:40:07 Europe/Berlin] PHP Warning:  mkdir(): No such file or directory in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 37
+[31-Jul-2025 11:40:07 Europe/Berlin] PHP Warning:  move_uploaded_file(../../uploads/688b39f7c0798_03608 Sqn Ldr PATP Jayasinghe.docx.pdf): Failed to open stream: No such file or directory in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 43
+[31-Jul-2025 11:40:07 Europe/Berlin] PHP Warning:  move_uploaded_file(): Unable to move &quot;C:\xampp\tmp\php5FA2.tmp&quot; to &quot;../../uploads/688b39f7c0798_03608 Sqn Ldr PATP Jayasinghe.docx.pdf&quot; in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 43
+[31-Jul-2025 11:41:45 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:41:47 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:41:47 Europe/Berlin] PHP Warning:  mkdir(): No such file or directory in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 37
+[31-Jul-2025 11:42:51 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:42:53 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:42:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'admin' for column 'uploaded_by' at row 1 in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php:48
+Stack trace:
+#0 C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php(48): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 48
+[31-Jul-2025 11:42:58 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:43:09 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:43:09 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'admin' for column 'uploaded_by' at row 1 in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php:48
+Stack trace:
+#0 C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php(48): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 48
+[31-Jul-2025 11:43:27 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:43:29 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:43:53 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:47:12 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:47:15 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:47:30 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:47:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'admin' for column 'uploaded_by' at row 1 in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php:50
+Stack trace:
+#0 C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php(50): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 50
+[31-Jul-2025 11:47:37 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:47:53 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:47:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'admin' for column 'uploaded_by' at row 1 in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php:50
+Stack trace:
+#0 C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php(50): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 50
+[31-Jul-2025 11:52:21 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:52:22 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:52:22 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'admin' for column 'uploaded_by' at row 1 in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php:51
+Stack trace:
+#0 C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php(51): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 51
+[31-Jul-2025 11:52:24 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:52:25 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:52:26 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:52:35 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:52:35 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'admin' for column 'uploaded_by' at row 1 in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php:51
+Stack trace:
+#0 C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php(51): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 51
+[31-Jul-2025 11:55:24 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:55:25 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:55:36 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:55:36 Europe/Berlin] PHP Warning:  Undefined array key "admin_id" in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 13
+[31-Jul-2025 11:56:13 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:56:15 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:56:32 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:56:32 Europe/Berlin] PHP Warning:  Undefined array key "admin_id" in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 13
+[31-Jul-2025 11:57:33 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 11:57:54 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:05:27 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:05:44 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:05:44 Europe/Berlin] PHP Warning:  Undefined array key "admin_id" in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 13
+[31-Jul-2025 12:05:44 Europe/Berlin] PHP Warning:  Undefined variable $temp_path in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 42
+[31-Jul-2025 12:05:44 Europe/Berlin] PHP Warning:  move_uploaded_file(): Unable to move &quot;C:\xampp\tmp\phpD3A8.tmp&quot; to &quot;&quot; in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 42
+[31-Jul-2025 12:05:44 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php:42
+Stack trace:
+#0 C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php(42): move_uploaded_file('C:\\xampp\\tmp\\ph...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 42
+[31-Jul-2025 12:06:51 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:06:52 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:07:05 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:07:05 Europe/Berlin] PHP Warning:  Undefined array key "admin_id" in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 13
+[31-Jul-2025 12:19:12 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:19:15 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:31:34 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:33:56 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:34:13 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:34:13 Europe/Berlin] PHP Warning:  Undefined array key "admin_id" in C:\xampp\htdocs\cqai-intra\admin\action\doc-process.php on line 14
+[31-Jul-2025 12:36:38 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:36:38 Europe/Berlin] PHP Warning:  Undefined array key "admin_id" in C:\xampp\htdocs\cqai-intra\admin\sample.php on line 45
+[31-Jul-2025 12:36:39 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:36:39 Europe/Berlin] PHP Warning:  Undefined array key "admin_id" in C:\xampp\htdocs\cqai-intra\admin\sample.php on line 45
+[31-Jul-2025 12:37:02 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:37:02 Europe/Berlin] PHP Warning:  Undefined array key "admin_id" in C:\xampp\htdocs\cqai-intra\admin\sample.php on line 51
+[31-Jul-2025 12:37:15 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:37:21 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:37:30 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:37:34 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:44:40 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:44:46 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:45:01 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:45:05 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:45:46 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:48:01 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:48:11 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:57:20 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:58:55 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:58:56 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 12:58:57 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:08:07 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:08:07 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\cqai-intra\admin\services-docs.php:6
+Stack trace:
+#0 C:\xampp\htdocs\cqai-intra\admin\services-docs.php(6): mysqli->query('SELECT * FROM d...')
+#1 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 6
+[31-Jul-2025 13:08:19 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:08:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\cqai-intra\admin\services-docs.php:6
+Stack trace:
+#0 C:\xampp\htdocs\cqai-intra\admin\services-docs.php(6): mysqli->query('SELECT * FROM d...')
+#1 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 6
+[31-Jul-2025 13:10:18 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:10:18 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\cqai-intra\admin\services-docs.php:6
+Stack trace:
+#0 C:\xampp\htdocs\cqai-intra\admin\services-docs.php(6): mysqli->query('SELECT * FROM d...')
+#1 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 6
+[31-Jul-2025 13:10:19 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:10:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\cqai-intra\admin\services-docs.php:6
+Stack trace:
+#0 C:\xampp\htdocs\cqai-intra\admin\services-docs.php(6): mysqli->query('SELECT * FROM d...')
+#1 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 6
+[31-Jul-2025 13:10:22 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:10:22 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\cqai-intra\admin\services-docs.php:6
+Stack trace:
+#0 C:\xampp\htdocs\cqai-intra\admin\services-docs.php(6): mysqli->query('SELECT * FROM d...')
+#1 {main}
+  thrown in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 6
+[31-Jul-2025 13:11:48 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "category_id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 84
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 88
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 91
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 95
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "category_id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 84
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 88
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 91
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 95
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "category_id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 84
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 88
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 91
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 95
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "category_id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 84
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 88
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 91
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 95
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "category_id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 84
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 88
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 91
+[31-Jul-2025 13:14:52 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 95
+[31-Jul-2025 13:15:08 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 88
+[31-Jul-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 91
+[31-Jul-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 95
+[31-Jul-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 88
+[31-Jul-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 91
+[31-Jul-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 95
+[31-Jul-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 88
+[31-Jul-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 91
+[31-Jul-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 95
+[31-Jul-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 88
+[31-Jul-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 91
+[31-Jul-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 95
+[31-Jul-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 88
+[31-Jul-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 91
+[31-Jul-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 95
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "branch_name" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 86
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 90
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 93
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 97
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "branch_name" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 86
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 90
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 93
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 97
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "branch_name" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 86
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 90
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 93
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 97
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "branch_name" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 86
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 90
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 93
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 97
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "branch_name" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 86
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 90
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 93
+[31-Jul-2025 13:17:27 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 97
+[31-Jul-2025 13:19:25 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:19:25 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 91
+[31-Jul-2025 13:19:25 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 94
+[31-Jul-2025 13:19:25 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 98
+[31-Jul-2025 13:19:25 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 91
+[31-Jul-2025 13:19:25 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 94
+[31-Jul-2025 13:19:25 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 98
+[31-Jul-2025 13:24:19 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:24:19 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 92
+[31-Jul-2025 13:24:19 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 95
+[31-Jul-2025 13:24:19 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 99
+[31-Jul-2025 13:25:41 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:29:18 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:29:18 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 92
+[31-Jul-2025 13:29:18 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 95
+[31-Jul-2025 13:29:18 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 99
+[31-Jul-2025 13:29:35 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:29:35 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 92
+[31-Jul-2025 13:29:35 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 95
+[31-Jul-2025 13:29:35 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 99
+[31-Jul-2025 13:33:18 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:33:18 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 92
+[31-Jul-2025 13:33:18 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 95
+[31-Jul-2025 13:33:18 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 99
+[31-Jul-2025 13:33:24 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:36:35 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:36:35 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 92
+[31-Jul-2025 13:36:35 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 95
+[31-Jul-2025 13:36:35 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 99
+[31-Jul-2025 13:44:50 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:44:50 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 93
+[31-Jul-2025 13:44:50 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 96
+[31-Jul-2025 13:44:50 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 100
+[31-Jul-2025 13:44:51 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:45:06 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:45:06 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[31-Jul-2025 13:45:06 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 93
+[31-Jul-2025 13:45:06 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 96
+[31-Jul-2025 13:45:06 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 100
+[31-Jul-2025 13:45:06 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 93
+[31-Jul-2025 13:45:06 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 96
+[31-Jul-2025 13:45:06 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 100

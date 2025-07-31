@@ -15,7 +15,7 @@
 							<li><a href="personal-record.php.html">Personal Record</a></li>
 						</ul> -->
 					</li>
-					<li><a  href=".\table-datatable-basic.php.php" aria-expanded="false">
+					<li><a  href="services-docs.php" aria-expanded="false">
 							<i class="flaticon-381-briefcase"></i>
 							<span class="nav-text">Services</span>
 						</a>

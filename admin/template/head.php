@@ -2,7 +2,7 @@
 
 <head>
    <!-- PAGE TITLE HERE -->
-	<title>Fito - PHP Fitness Admin Dashboard Bootstrap Template</title>
+	<title>CQAI</title>
 	<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -20,7 +20,7 @@
 <meta name="twitter:image" content="https://fito.dexignzone.com/php/social-image.png">
 <meta name="twitter:card" content="summary_large_image">
 	<!-- FAVICONS ICON -->
-	<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+	<link rel="shortcut icon" type="image/png" href="">
 	<link href="assets/vendor/chartist/css/chartist.min.css" rel="stylesheet" type="text/css">
 <link href="assets/vendor/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
 <link href="assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
