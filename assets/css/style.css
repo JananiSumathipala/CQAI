@@ -103,8 +103,8 @@ header {
 }
 
 .circle-link {
-  width: 120px;
-  height: 120px;
+  width:80px;
+  height: 80px;
   border-radius: 50%;
   background: linear-gradient(
     135deg,
@@ -117,6 +117,7 @@ header {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  font-size:small;
   text-align: center;
   transition: all 0.3s ease;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -136,7 +137,7 @@ header {
 .news-marquee {
   background-color: var(--accent-color);
   color: white;
-  padding: 1rem;
+  /* padding: 1rem; */
   margin: 2rem 0;
   border-radius: 5px;
   overflow: hidden;
@@ -163,7 +164,7 @@ header {
   justify-content: space-evenly;
 }
 .subhead-columns {
-  margin: 3rem 0;
+  /* margin: 3rem 0; */
 }
 
 .subhead-column {
