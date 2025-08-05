@@ -4,12 +4,12 @@
             <div class="subhead-column">
                 <h4 class="subhead-title">Inspectorate</h4>
                 <ul class="subhead-list">
-                    <li>About</li>
-                    <li>Policy</li>
-                    <li>Structure</li>
-                    <li>Staff</li>
-                    <li>History</li>
-                     <li>Achievement</li>
+                    <li><a href="inspectorate.php.#org"  style="text-decoration: none;"> About</a> </li>
+                 <li><a href="inspectorate.php#functions" style="text-decoration: none;">Policy</a></li>
+                    <li><a href="inspectorate.php.#structure" style="text-decoration: none;">Structure</a></li>
+                    <li><a href="inspectorate.php.#staff" style="text-decoration: none;">Staff</a></li>
+                    <li><a href="inspectorate.php.#history" style="text-decoration: none;">History</a></li>
+                    <li><a href="inspectorate.php.#achievement" style="text-decoration: none;">Achievement</a></li>
                     <!-- <li>Risk Assessment</li> -->
                 </ul>
             </div>

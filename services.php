@@ -62,7 +62,7 @@
                                 <div class="card border border-primary">
                                     <div class="card-body">
                                         <i class="bi bi-people fs-2 text-primary"></i>
-                                        <h6 class="mt-2 text-primary">AO</h6>
+                                         <h6 class="mt-2 text-primary"><a href="services-checklist-ao.php">AO </a></h6>
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@
                                 <div class="card border border-primary">
                                     <div class="card-body">
                                         <i class="bi bi-journal-text fs-2 text-primary"></i>
-                                        <h6 class="mt-2 text-primary">AA</h6>
+                                        <h6 class="mt-2 text-primary"><a href="services-checklist-aa.php">AA </a></h6>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@
                                 <div class="card border border-primary">
                                     <div class="card-body">
                                         <i class="bi bi-calendar-event fs-2 text-primary"></i>
-                                        <h6 class="mt-2 text-primary">GE</h6>
+                                        <h6 class="mt-2 text-primary"><a href="services-checklist-ge.php">GE</a></h6>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@
                                 <div class="card border border-primary">
                                     <div class="card-body">
                                         <i class="bi bi-building fs-2 text-primary"></i>
-                                        <h6 class="mt-2 text-primary">EE</h6>
+                                         <h6 class="mt-2 text-primary"><a href="services-checklist-ee.php">EE</a></h6>
                                     </div>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@
                                 <div class="card border border-primary">
                                     <div class="card-body">
                                         <i class="bi bi-people fs-2 text-primary"></i>
-                                        <h6 class="mt-2 text-primary">BE</h6>
+                                         <h6 class="mt-2 text-primary"><a href="services-checklist-be.php">BE</a></h6>
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@
                                 <div class="card border border-primary">
                                     <div class="card-body">
                                         <i class="bi bi-calendar-event fs-2 text-primary"></i>
-                                        <h6 class="mt-2 text-primary">Events</h6>
+                                         <h6 class="mt-2 text-primary"><a href="services-checklist-ce.php">CE</a></h6>
                                     </div>
                                 </div>
                             </div>
