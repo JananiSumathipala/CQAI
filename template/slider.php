@@ -1,4 +1,4 @@
-<header class="position-relative" style="margin-top: -3rem;">
+<header class="position-relative" style="margin-top: -6rem;">
     <div class="swiper-container">
         <!-- <div class="position-absolute top-0 start-0 p-4 z-3">
             <img src="assets/img/logo/qai-logo.png" alt="Command Quality Assurance Inspectorate Logo" class="logo">
@@ -11,7 +11,7 @@
                 </div>
             </div> -->
             <div class="swiper-slide">
-                <img src="assets/img/slider/five 1.jpg" alt="Our Team">
+                <img src="assets/img/slider/cqai-4.jpg" alt="Our Team">
                 <div class="slide-caption">
                     <h5>Dedicated Team of Quality Professionals</h5>
                 </div>
