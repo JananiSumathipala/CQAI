@@ -136,7 +136,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 }
 
 /* Flex container for row layout */
@@ -193,7 +193,7 @@ header {
   background-color: var(--accent-color);
   color: white;
   /* padding: 1rem; */
-  margin: 2rem 0;
+  margin: 0.5rem 0;
   border-radius: 5px;
   overflow: hidden;
 }
