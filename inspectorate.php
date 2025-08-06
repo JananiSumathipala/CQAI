@@ -349,7 +349,7 @@ As such the main functions of the QAI are as follows; <br><br>
                                     <div class="card h-100 text-center">
                                         <div class="card-body">
                                         <h5 class="card-title">2015 WINNER </h5><br>
-                                        <img width="200" height="250"src="assets/img/Achievements/National Productivity Award 2015 - Gold Award.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2"><br>
+                                        <img width="200" height="250"src="assets/img/achievements/National Productivity Award 2015 - Gold Award.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2"><br>
                                         <p><strong>National Productivity Award 2015 - Gold Award</strong></p>
                                     
                                         </div>
@@ -361,7 +361,7 @@ As such the main functions of the QAI are as follows; <br><br>
                                 <div class="card h-100 text-center">
                                         <div class="card-body">
                                         <h5 class="card-title">2014 WINNER </h5><br>
-                                        <img width="200" height="250"src="assets/img/Achievements/Inter Departmental category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2"><br>
+                                        <img width="200" height="250"src="assets/img/achievements/Inter Departmental category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2"><br>
                                         <p><strong>Nationa Productivity Award</strong></p> <br>
                                         <!-- <p><strong>Inter Departmental category Organized by national productivity secretariat</strong></p> -->
                                     
@@ -374,7 +374,7 @@ As such the main functions of the QAI are as follows; <br><br>
                                     <div class="card h-100 text-center">
                                     <div class="card-body">
                                         <h5 class="card-title">2008 WINNER</h5><br>
-                                        <img width="200" height="250" src="assets/img/Achievements/Public sector and Inter Departmental category Organized by national productivity secretariat 2008.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                        <img width="200" height="250" src="assets/img/achievements/Public sector and Inter Departmental category Organized by national productivity secretariat 2008.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                         <p><strong>Nationa Productivity Award - First Place</strong> 
                                     
                                         </div> 
@@ -385,7 +385,7 @@ As such the main functions of the QAI are as follows; <br><br>
                                     <div class="card h-100 text-center">
                                     <div class="card-body">
                                         <h5 class="card-title">2008 WINNER</h5><br>
-                                        <img width="200" height="250" src="assets/img/Achievements/Inter Departmental category Organized by national productivity secretariat 2008.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                        <img width="200" height="250" src="assets/img/achievements/Inter Departmental category Organized by national productivity secretariat 2008.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                         <p><strong>Provincial Productivity Award - First Place</strong> 
                                     
                                         </div> 
@@ -396,7 +396,7 @@ As such the main functions of the QAI are as follows; <br><br>
                                     <div class="card h-100 text-center">
                                     <div class="card-body">
                                         <h5 class="card-title">2003 WINNER</h5><br>
-                                        <img width="200" height="250" src="assets/img/Achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                        <img width="200" height="250" src="assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                         <p><strong>Nationa Productivity Award </strong> 
                                     
                                         </div> 
@@ -407,7 +407,7 @@ As such the main functions of the QAI are as follows; <br><br>
                                     <div class="card h-100 text-center">
                                     <div class="card-body">
                                         <h5 class="card-title">1996 WINNER</h5><br>
-                                        <img width="200" height="250" src="assets/img/Achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                        <img width="200" height="250" src="assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                         <p><strong>Excellence in Quality</strong> 
                                     
                                         </div> 
@@ -418,7 +418,7 @@ As such the main functions of the QAI are as follows; <br><br>
                                     <div class="card h-100 text-center">
                                     <div class="card-body">
                                         <h5 class="card-title">1996 Merit Award</h5><br>
-                                        <img width="200" height="250" src="assets/img/Achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                        <img width="200" height="250" src="assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                         <p><strong>Successful Quality Management Strategies and activities</strong> 
                                     
                                         </div> 
