@@ -18,13 +18,14 @@
             <div class="subhead-column">
                 <h4 class="subhead-title">Services</h4>
                 <ul class="subhead-list">
+                    <li>Annual audit plan</li>
                     <li>Check list</li>
                     <li>Audit report</li>
                     <li>Feedback report</li>
                     <li>R&D</li>
                     <li>Latitude</li>
                     <li>Modification</li>
-                    <li>Confidency</li>
+                    <!-- <li>Confidency</li> -->
                     <!-- <li>Supplier Evaluations</li> -->
                     <!-- <li>Risk Assessment</li> -->
                 </ul>
@@ -35,11 +36,11 @@
                 <h4 class="subhead-title">Publication</h4>
                 <ul class="subhead-list">
                     <li>Publication Update</li>
-                    <li>Master Copies(SMWS/MSW)</li>
+                    <li>Master Copies</li>
                     <li>Publication Index</li>
                     <li>Worksheets</li>
                     <li>Service Shedule</li>
-                    <li>Sefty Notice</li>
+                    <li>Safety Notice</li>
                     <li>AD & Bulletings</li>
 
                 </ul>
@@ -49,7 +50,8 @@
             <div class="subhead-column">
                 <h4 class="subhead-title">Training</h4>
                 <ul class="subhead-list">
-                    <li>Compdiency training</li>
+                    <li>Compdiency Details</li>
+                    <li>Approved Training Syllabus</li>
                     <li>CPD</li>
                     <li>PIPD</li>
                     <li>Outside Training</li>
