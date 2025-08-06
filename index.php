@@ -31,7 +31,7 @@
                 el: '.swiper-pagination',
                 clickable: true,
             },
-            
+
         });
     </script>
     <script>
