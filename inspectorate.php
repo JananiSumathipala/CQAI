@@ -49,9 +49,9 @@
                         <!-- <div >
                             <h5><strong>ABOUT US</strong></h5>
                         </div> -->
-                        <p>The Sri Lanka Air Force (SLAF), in its commitment to fulfil the aspirations of the Nation by achieving excellence in the field of aviation and in all associated functions, is continually striving to enhance customer satisfaction by exceeding stake holders’ expectations whilst endeavouring to be efficient, reliable and socially responsible.<br><br>
-                            Towards this end, the Quality Assurance Inspectorate (QAI) was established to perform Quality Assurance Functions within the SLAF. The QAI functions under supervision of the Chief of Staff of the Sri Lanka Air Force and is headed by the Director Quality Assurance (DQA) who is primarily tasked to provide advice on the Quality Assurance Services (QAS) matters such as Policy, Organization and Administration. <br><br>
-                            As such the main functions of the QAI are as follows; <br><br>
+                        <p style="font-family:DMSans;">The Sri Lanka Air Force (SLAF), in its commitment to fulfil the aspirations of the Nation by achieving excellence in the field of aviation and in all associated functions, is continually striving to enhance customer satisfaction by exceeding stake holders’ expectations whilst endeavouring to be efficient, reliable and socially responsible.<br>
+                            Towards this end, the Quality Assurance Inspectorate (QAI) was established to perform Quality Assurance Functions within the SLAF. The QAI functions under supervision of the Chief of Staff of the Sri Lanka Air Force and is headed by the Director Quality Assurance (DQA) who is primarily tasked to provide advice on the Quality Assurance Services (QAS) matters such as Policy, Organization and Administration. <br>
+                            As such the main functions of the QAI are as follows; <br>
                         </p>
                         <section>
                             <ul >
@@ -74,21 +74,21 @@
                     </div>
                     <!-- Tab 3 -->
                     <div class="tab-pane fade" id="structure" role="tabpanel">
-                        <div class="alert alert-info">
+                        <!-- <div class="alert alert-info">
                             <h5><strong>ORGANIZATIONAL STRUCTURE OF QUALITY ASSURANCE INSPECTORATE</strong></h5>
-                        </div>
-                        <img class="img-fluid" src="assets/img/about/Org Chart_QAI.jpg" alt="Organization Chart">
+                        </div> -->
+                        <img class="img-fluid" src="assets/img/about/org.jpg" alt="Organization Chart">
                     </div>
 
                     <!-- Tab 4 -->
                     <div class="tab-pane fade" id="responsibilities" role="tabpanel">
-                        <div class="alert alert-info">
+                        <!-- <div class="alert alert-info">
                             <h5><strong>DIRECTOR QUALITY ASSURANCE</strong></h5>
-                        </div>
-                        <div class="card mx-auto my-4" style="max-width: 400px;">
+                        </div> -->
+                        <div class="card mx-auto my-4" style="max-width: 250px;  box-shadow: 1px 1px 3px 1px;">
                             <div class="card-body text-center">
                                 <h5 class="card-title text-center">DIRECTOR QUALITY ASSURANCE</h5>
-                                <img width="200" height="250" src="assets/img/staff/01.jpg" alt="DIRECTOR QUALITY ASSURANCE">
+                                <img width="200" height="250" src="assets/img/staff/01.png" alt="DIRECTOR QUALITY ASSURANCE">
                                 <br>
                                 <p style="margin: 0;"><strong>Rank:</strong> Air Cdr</p>
                                 <p style="margin: 0;"><strong>Name:</strong> MF Jansen</p>
@@ -97,19 +97,19 @@
                             </div>
                         </div>
 
-                        <div class="alert alert-info">
-                            <h5><strong>QUALITY ASSURANCE STAFF OFFICERS</strong></h5>
+                        <div class="alert alert-info sm-padding">
+                            <h5 class="text-center"><strong>QUALITY ASSURANCE STAFF OFFICERS</strong></h5>
                         </div>
                         <div class="container my-5">
                             <div class="row justify-content-center">
 
                                 <div class="col-md-4 mb-4">
-                                    <div class="card h-100 text-center">
+                                    <div class="card h-100 text-center" style="max-width: 250px;box-shadow: 1px 1px 3px 1px;">
                                         <div class="card-body">
                                             <h5 class="card-title">SOQA(AERO ENG-FW/RW)</h5>
                                             <img width="200" height="250" src="assets/img/staff/officer1.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                             <p style="margin: 0;"><strong>Rank:</strong> Wg Cdr</p>
-                                            <p style="margin: 0;"><strong>Name:</strong>WNI Yalagama</p>
+                                            <p style="margin: 0;"><strong>Name:</strong> WNI Yalagama</p>
                                             <p style="margin: 0;"><strong>Ext:</strong> 11115</p>
                                             <p style="margin: 0;"><strong>Mobile:</strong> 077-2229145</p>
                                         </div>
@@ -117,7 +117,7 @@
                                 </div>
 
                                 <div class="col-md-4 mb-4">
-                                    <div class="card h-100 text-center">
+                                    <div class="card h-100 text-center" style="max-width: 250px;  box-shadow: 1px 1px 3px 1px;">
                                         <div class="card-body">
                                             <h5 class="card-title">SOQA(E/E&T ENG)</h5>
                                             <img width="200" height="250" src="assets/img/staff/officer2.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
@@ -130,12 +130,12 @@
                                 </div>
 
                                 <div class="col-md-4 mb-4">
-                                    <div class="card h-100 text-center">
+                                    <div class="card h-100 text-center" style="max-width: 250px;  box-shadow: 1px 1px 3px 1px;">
                                         <div class="card-body">
                                             <h5 class="card-title">SOQA(GE)</h5>
                                             <img width="200" height="250" src="assets/img/staff/officer3.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                             <p style="margin: 0;"><strong>Rank:</strong> Sqn Ldr</p>
-                                            <p style="margin: 0;"><strong>Name:</strong>THDM Hettige</p>
+                                            <p style="margin: 0;"><strong>Name:</strong> THDM Hettige</p>
                                             <p style="margin: 0;"><strong>Ext:</strong> 11117</p>
                                             <p style="margin: 0;"><strong>Mobile:</strong> 077-2229165</p>
                                         </div>
@@ -143,33 +143,33 @@
                                 </div>
 
                                 <div class="col-md-4 mb-4">
-                                    <div class="card h-100 text-center">
+                                    <div class="card h-100 text-center" style="max-width: 250px;  box-shadow: 1px 1px 3px 1px;">
                                         <div class="card-body">
                                             <h5 class="card-title">SOQA(TRG & PUG)</h5>
-                                            <img width="200" height="250" src="assets/img/staff/officer4.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                            <img width="200" height="250" src="assets/img/staff/officer5.png" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                             <p style="margin: 0;"><strong>Rank:</strong> Sqn Ldr</p>
-                                            <p style="margin: 0;"><strong>Name:</strong>WPAC DAYARATHNE</p>
-                                            <p style="margin: 0;"><strong>Ext:</strong> 11117</p>
-                                            <p style="margin: 0;"><strong>Mobile:</strong> 077-2229165</p>
+                                            <p style="margin: 0;"><strong>Name:</strong> MMDC MORAYAS</p>
+                                            <p style="margin: 0;"><strong>Ext:</strong> 11119</p>
+                                            <p style="margin: 0;"><strong>Mobile:</strong> 0778829671</p>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="alert alert-info">
-                                    <h5><strong>QUALITY ASSURANCE WO I/C</strong></h5>
+                                <div class="alert alert-info sm-padding">
+                                    <h5 class="text-center"><strong>QUALITY ASSURANCE WO I/C</strong></h5>
                                 </div>
                                 <div class="container my-5">
-                                    <div class="row justify-content-center">
+                                    <div class="row justify-content-center" >
 
                                         <div class="col-md-4 mb-4">
-                                            <div class="card h-100 text-center">
+                                            <div class="card h-100 text-center" style="max-width: 250px;  box-shadow: 1px 1px 3px 1px;">
                                                 <div class="card-body">
                                                     <h5 class="card-title">WO I/C</h5>
-                                                    <!-- <img width="200" height="250"src="assets/img/staff/officer1.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2"> -->
-                                                    <p style="margin: 0;"><strong>Rank:</strong> </p>
-                                                    <p style="margin: 0;"><strong>Name:</strong></p>
-                                                    <p style="margin: 0;"><strong>Ext:</strong> </p>
-                                                    <p style="margin: 0;"><strong>Mobile:</strong> </p>
+                                                    <img width="200" height="250"src="assets/img/staff/wo.png" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                                    <p style="margin: 0;"><strong>Rank:</strong> MWO</p>
+                                                    <p style="margin: 0;"><strong>Name:</strong> RGD ARIYARATHNA</p>
+                                                    <p style="margin: 0;"><strong>Ext:</strong> 11151</p>
+                                                    <p style="margin: 0;"><strong>Mobile:</strong> 0707909422</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -187,16 +187,16 @@
                             <h5><strong>Histoty</strong></h5>
                         </div> -->
                         <p>The Quality Assurance Inspectorate (QAI) was first established at SLAF Base Rma as the Command Quality Assurance Inspectorate (CQAI) in year 1988 under the command of Wg Cdr GY De Silva on the aim of leading/guiding SLAF on Quality and Productivity.
-                            <br><br> Subsequently the Inspectorate was shifted to the Air Force Headquarters to facilitate its effective operations throughout the full spectrum of SLAF operations and since then the QAI has been commanded by 22 Command Quality Assurance Officers (CQAOs).
+                            <br> Subsequently the Inspectorate was shifted to the Air Force Headquarters to facilitate its effective operations throughout the full spectrum of SLAF operations and since then the QAI has been commanded by 22 Command Quality Assurance Officers (CQAOs).
                         </p><br>
-                        <h6 style="text-align: center;"> COMMAND QUALITY ASSURANCE OFFICERS </h6>
+                        <h6 style="text-align: center;"><b> COMMAND QUALITY ASSURANCE OFFICERS </b></h6>
 
                         <center>
-                            <table border="0" cellpadding="4" cellspacing="0">
+                            <table border="0" cellpadding="2" cellspacing="0">
                                 <thead>
                                     <tr>
-                                        <th width="70%">Name</th>
-                                        <th width="70%">Period of Service</th>
+                                        <th width="65%">Name</th>
+                                        <th width="65%">Period of Service</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -344,23 +344,22 @@
                         <div class="container my-5">
                             <div class="row justify-content-center">
 
-                                <div class="col-md-4 mb-4">
-                                    <div class="card h-100 text-center">
+                                <div class="col-md-3 mb-4">
+                                    <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
-                                            <h5 class="card-title">2015 WINNER </h5><br>
+                                            <h5 class="card-title">2015 WINNER </h5>
                                             <img width="200" height="250" src="assets/img/achievements/National Productivity Award 2015 - Gold Award.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2"><br>
                                             <p><strong>National Productivity Award 2015 - Gold Award</strong></p>
-
                                         </div>
                                     </div>
                                 </div>
 
 
-                                <div class="col-md-4 mb-4">
-                                    <div class="card h-100 text-center">
+                                <div class="col-md-3 mb-4">
+                                    <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
-                                            <h5 class="card-title">2014 WINNER </h5><br>
-                                            <img width="200" height="250" src="assets/img/achievements/Inter Departmental category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2"><br>
+                                            <h5 class="card-title">2014 WINNER </h5>
+                                            <img width="200" height="250" src="assets/img/achievements/Inter Departmental category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                             <p><strong>Nationa Productivity Award</strong></p> <br>
                                             <!-- <p><strong>Inter Departmental category Organized by national productivity secretariat</strong></p> -->
 
@@ -369,10 +368,10 @@
                                 </div>
 
 
-                                <div class="col-md-4 mb-4">
-                                    <div class="card h-100 text-center">
+                                <div class="col-md-3 mb-4">
+                                    <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
-                                            <h5 class="card-title">2008 WINNER</h5><br>
+                                            <h5 class="card-title">2008 WINNER</h5>
                                             <img width="200" height="250" src="assets/img/achievements/Public sector and Inter Departmental category Organized by national productivity secretariat 2008.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                             <p><strong>Nationa Productivity Award - First Place</strong>
 
@@ -380,10 +379,10 @@
                                     </div>
                                 </div>
 
-                                <div class="col-md-4 mb-4">
-                                    <div class="card h-100 text-center">
+                                <div class="col-md-3 mb-4">
+                                    <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
-                                            <h5 class="card-title">2008 WINNER</h5><br>
+                                            <h5 class="card-title">2008 WINNER</h5>
                                             <img width="200" height="250" src="assets/img/achievements/Inter Departmental category Organized by national productivity secretariat 2008.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                             <p><strong>Provincial Productivity Award - First Place</strong>
 
@@ -391,10 +390,10 @@
                                     </div>
                                 </div>
 
-                                <div class="col-md-4 mb-4">
-                                    <div class="card h-100 text-center">
+                                <div class="col-md-3 mb-4">
+                                    <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
-                                            <h5 class="card-title">2003 WINNER</h5><br>
+                                            <h5 class="card-title">2003 WINNER</h5>
                                             <img width="200" height="250" src="assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                             <p><strong>Nationa Productivity Award </strong>
 
@@ -402,10 +401,10 @@
                                     </div>
                                 </div>
 
-                                <div class="col-md-4 mb-4">
-                                    <div class="card h-100 text-center">
+                                <div class="col-md-3 mb-4">
+                                    <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
-                                            <h5 class="card-title">1996 WINNER</h5><br>
+                                            <h5 class="card-title">1996 WINNER</h5>
                                             <img width="200" height="250" src="assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                             <p><strong>Excellence in Quality</strong>
 
@@ -413,12 +412,12 @@
                                     </div>
                                 </div>
 
-                                <div class="col-md-4 mb-4">
-                                    <div class="card h-100 text-center">
+                                <div class="col-md-3 mb-4">
+                                    <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
-                                            <h5 class="card-title">1996 Merit Award</h5><br>
+                                            <h5 class="card-title">1996 Merit Award</h5>
                                             <img width="200" height="250" src="assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
-                                            <p><strong>Successful Quality Management Strategies and activities</strong>
+                                            <p><strong><span style="font-size: 0.6rem;">Successful Quality Management Strategies and activities</span></strong>
 
                                         </div>
                                     </div>

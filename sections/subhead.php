@@ -4,12 +4,12 @@
             <div class="subhead-column">
                 <h4 class="subhead-title">Inspectorate</h4>
                 <ul class="subhead-list">
-                    <li><a href="inspectorate.php#org" style="text-decoration: none;"> About</a> </li>
-                    <li><a href="inspectorate.php#functions" style="text-decoration: none;">Policy</a></li>
-                    <li><a href="inspectorate.php#structure" style="text-decoration: none;">Structure</a></li>
-                    <li><a href="inspectorate.php#responsibilities" style="text-decoration: none;">Staff</a></li>
-                    <li><a href="inspectorate.php#history" style="text-decoration: none;">History</a></li>
-                    <li><a href="inspectorate.php#achievements" style="text-decoration: none;">Achievement</a></li>
+                    <li><a href="inspectorate.php#org" style="text-decoration: none; color: var(--dark-color);"> About</a> </li>
+                    <li><a href="inspectorate.php#functions" style="text-decoration: none; color: var(--dark-color);">Policy</a></li>
+                    <li><a href="inspectorate.php#structure" style="text-decoration: none; color: var(--dark-color);">Structure</a></li>
+                    <li><a href="inspectorate.php#responsibilities" style="text-decoration: none; color: var(--dark-color);">Staff</a></li>
+                    <li><a href="inspectorate.php#history" style="text-decoration: none; color: var(--dark-color);">History</a></li>
+                    <li><a href="inspectorate.php#achievements" style="text-decoration: none; color: var(--dark-color);">Achievement</a></li>
                     <!-- <li>Risk Assessment</li> -->
                 </ul>
             </div>
@@ -18,13 +18,12 @@
             <div class="subhead-column">
                 <h4 class="subhead-title">Services</h4>
                 <ul class="subhead-list">
-                    <li>Annual audit plan</li>
-                    <li>Check list</li>
+                    <li><a href="services.php#org" style="text-decoration: none;color: var(--dark-color);">Check list</a></li>
                     <li>Audit report</li>
                     <li>Feedback report</li>
-                    <li>R&D</li>
+                    <li>R&D Project Poposal</li>
                     <li>Latitude</li>
-                    <li>Modification</li>
+                    <li>Modification Leaflet</li>
                     <!-- <li>Confidency</li> -->
                     <!-- <li>Supplier Evaluations</li> -->
                     <!-- <li>Risk Assessment</li> -->
@@ -50,7 +49,7 @@
             <div class="subhead-column">
                 <h4 class="subhead-title">Training</h4>
                 <ul class="subhead-list">
-                    <li>Compdiency Details</li>
+                    <li>Competency Details</li>
                     <li>Approved Training Syllabus</li>
                     <li>CPD</li>
                     <li>PIPD</li>

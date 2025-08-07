@@ -21,7 +21,7 @@
                 <!-- Nav Tabs -->
                 <ul class="nav flex-column nav-pills" id="inspectorateTabs" role="tablist" aria-orientation="vertical">
                     <li class="nav-item">
-                        <a class="nav-link active" id="org-tab" data-bs-toggle="pill" href="#org" role="tab">Compdiency Training</a>
+                        <a class="nav-link active" id="org-tab" data-bs-toggle="pill" href="#org" role="tab">Competency  Training</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="functions-tab" data-bs-toggle="pill" href="#functions" role="tab">CPD</a>

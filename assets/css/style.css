@@ -8,7 +8,8 @@
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: DMSans, Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: var(--dark-color);
   overflow-x: hidden;
@@ -21,8 +22,13 @@ header {
   /* padding: 2rem 0; */
 }
 
+@font-face {
+  font-family: DMSans;
+  src: url(../fonts/DMSans.ttf);
+}
+
 .logo {
-  max-height: 80px;
+  max-height: 120px;
   transition: transform 0.3s ease;
   position: absolute;
   top: 20px;
@@ -150,6 +156,7 @@ header {
 
 /* Each individual card */
 .nav-card {
+  height: 8rem;
   background: white;
   border-radius: 12px;
   padding: 1rem 1.2rem;
@@ -294,4 +301,17 @@ footer {
 /* custom height  */
 .min-vh-60 {
   min-height: 60vh !important;
+}
+
+/* custom alert styling   */
+.sm-padding{
+  padding: 5px 0 5px 0;
+}
+/* custom card styling  */
+.shadow-card{
+  max-width: 250px;
+  box-shadow: 1px 1px 3px 1px;
+}
+.h-90{
+  height: 90% !important;
 }
