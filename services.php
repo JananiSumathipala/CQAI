@@ -31,7 +31,7 @@
                         <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">Feedback Report</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">R&D Project Poposal</a>
+                        <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#rd-project" role="tab">R&D Project Proposal</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">Latitude</a>
@@ -308,7 +308,7 @@
                 <!-- Tab Content -->
                 <div class="tab-content" id="inspectorateTabsContent">
                 <!-- Tab 4 -->
-                <div class="tab-pane fade" id="responsibilities" role="tabpanel">
+                <div class="tab-pane fade" id="rd-project" role="tabpanel">
 
                       <div class="row g-4">
                             <!-- AE Card -->
@@ -395,27 +395,10 @@
                                 </a>
                             </div>
                     </div>
+                   
 
-                    <div class="alert alert-info">
-                        <h5><strong>RESPONSIBILITIES</strong></h5>
-                    </div>
-                    <h6>Responsibilities of Command Flight Safety</h6>
-                    <ul>
-                        <li>Conducting visits to flying units...</li>
-                        <!-- More items -->
-                    </ul>
-
-                    <h6 class="mt-4">Responsibilities of Base/Station Flight Safety</h6>
-                    <ul>
-                        <li>Assisting the Base/Station commander...</li>
-                        <!-- More items -->
-                    </ul>
-
-                    <h6 class="mt-4">Responsibilities of Squadron Flight Safety</h6>
-                    <ul>
-                        <li>Promoting high standards of risk awareness...</li>
-                        <!-- More items -->
-                    </ul>
+                   
+                  
                 </div>
 
             </div>

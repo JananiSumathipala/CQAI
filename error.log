@@ -1184,3 +1184,9 @@ Stack trace:
 [13-Aug-2025 12:26:00 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
 [13-Aug-2025 12:26:06 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
 [13-Aug-2025 12:29:04 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[13-Aug-2025 12:31:20 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[13-Aug-2025 12:32:05 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[13-Aug-2025 12:35:59 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[13-Aug-2025 12:36:03 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[13-Aug-2025 12:38:34 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[13-Aug-2025 12:38:38 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
