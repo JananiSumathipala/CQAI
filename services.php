@@ -114,6 +114,69 @@
             
             <!-- Tab 2 -->
                 <div class="tab-pane fade" id="functions" role="tabpanel">
+                    
+                    <div class="tab-pane fade show active" id="org" role="tabpanel">
+                        <div class="row text-center">
+                            <div class="col-md-3 mb-3">
+                                <div class="card border border-primary">
+                                    <div class="card-body">
+                                        <i class="bi bi-building fs-2 text-primary"></i>
+                                        <h6 class="mt-2 text-primary"><a href="services-checklist-ae.php">AE </a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <div class="card border border-primary">
+                                    <div class="card-body">
+                                        <i class="bi bi-people fs-2 text-primary"></i>
+                                         <h6 class="mt-2 text-primary"><a href="services-checklist-ao.php">AO </a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <div class="card border border-primary">
+                                    <div class="card-body">
+                                        <i class="bi bi-journal-text fs-2 text-primary"></i>
+                                        <h6 class="mt-2 text-primary"><a href="services-checklist-aa.php">AA </a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <div class="card border border-primary">
+                                    <div class="card-body">
+                                        <i class="bi bi-calendar-event fs-2 text-primary"></i>
+                                        <h6 class="mt-2 text-primary"><a href="services-checklist-ge.php">GE</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-md-3 mb-3">
+                                <div class="card border border-primary">
+                                    <div class="card-body">
+                                        <i class="bi bi-building fs-2 text-primary"></i>
+                                         <h6 class="mt-2 text-primary"><a href="services-checklist-ee.php">EE</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <div class="card border border-primary">
+                                    <div class="card-body">
+                                        <i class="bi bi-people fs-2 text-primary"></i>
+                                         <h6 class="mt-2 text-primary"><a href="services-checklist-be.php">BE</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <div class="card border border-primary">
+                                    <div class="card-body">
+                                        <i class="bi bi-calendar-event fs-2 text-primary"></i>
+                                         <h6 class="mt-2 text-primary"><a href="services-checklist-ce.php">CE</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="alert alert-info">
                         <h5><strong>FUNCTIONS</strong></h5>
                     </div>

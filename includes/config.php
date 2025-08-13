@@ -5,8 +5,8 @@
 // define('DB_PASS', 'Sac@123');
 // define('DB_NAME', 'qai');
 define('DB_HOST', 'localhost');
-define('DB_USER', 'saru');
-define('DB_PASS', 'password');
+define('DB_USER', 'root');
+define('DB_PASS', '');
 define('DB_NAME', 'cqai');
 
 // Application Settings

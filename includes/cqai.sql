@@ -16,10 +16,38 @@ CREATE DATABASE /*!32312 IF NOT EXISTS*/`cqai` /*!40100 DEFAULT CHARACTER SET ut
 
 USE `cqai`;
 
+/*Table structure for table `admins` */
+
+DROP TABLE IF EXISTS `admins`;
+
+CREATE TABLE `admins` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `branch` varchar(100) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `password` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `last_login` timestamp NULL DEFAULT NULL,
+  `is_admin` tinyint(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE KEY `username` (`username`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
 /*Data for the table `admins` */
 
 insert  into `admins`(`id`,`username`,`branch`,`password`,`created_at`,`last_login`,`is_admin`) values 
 (1,'admin','all','$2y$10$2knpl.JqcMC0S0CdK4fkx.ESgqJiGEZcyXqjDHuyWdgFJ1sFvpE4e','2025-07-31 13:53:04',NULL,1);
+
+/*Table structure for table `branches` */
+
+DROP TABLE IF EXISTS `branches`;
+
+CREATE TABLE `branches` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE KEY `name` (`name`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 /*Data for the table `branches` */
 
@@ -32,6 +60,18 @@ insert  into `branches`(`id`,`name`,`created_at`) values
 (11,'BE','2025-06-30 16:17:01'),
 (12,'CE','2025-06-30 16:17:01');
 
+/*Table structure for table `categories` */
+
+DROP TABLE IF EXISTS `categories`;
+
+CREATE TABLE `categories` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE KEY `name` (`name`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
 /*Data for the table `categories` */
 
 insert  into `categories`(`id`,`name`,`created_at`) values 
@@ -42,6 +82,29 @@ insert  into `categories`(`id`,`name`,`created_at`) values
 (10,'Latitude','2025-06-30 16:17:01'),
 (11,'Modification','2025-06-30 16:17:01'),
 (12,'Confidency','2025-06-30 16:17:01');
+
+/*Table structure for table `documents` */
+
+DROP TABLE IF EXISTS `documents`;
+
+CREATE TABLE `documents` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `description` text CHARACTER SET latin1 COLLATE latin1_swedish_ci,
+  `category_id` int DEFAULT NULL,
+  `uploaded_by` int DEFAULT NULL,
+  `file_path` varchar(255) NOT NULL,
+  `uploaded_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `is_active` tinyint(1) DEFAULT '1',
+  `branch_id` int DEFAULT NULL,
+  `section` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  KEY `uploaded_by` (`uploaded_by`) USING BTREE,
+  KEY `fk_document_category` (`category_id`) USING BTREE,
+  CONSTRAINT `documents_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
+  CONSTRAINT `documents_ibfk_2` FOREIGN KEY (`uploaded_by`) REFERENCES `admins` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
+  CONSTRAINT `fk_document_category` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 /*Data for the table `documents` */
 
