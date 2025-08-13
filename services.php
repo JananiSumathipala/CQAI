@@ -118,11 +118,11 @@
             <div class="col-lg-10">
                 <!-- Tab Content -->
                 <div class="tab-content" id="inspectorateTabsContent">
-            <!-- Tab 2 -->
+            <!-- Tab 2 audit -->
                 <div class="tab-pane fade" id="functions" role="tabpanel">
                         <div class="row g-4">
                             <!-- AE Card -->
-                            <div class="col-md-3 mb-4">
+                            <div class="col-md-3 mb-3">
                                 <a href="services-checklist-ae.php" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-blue bg-white">
                                         <div class="card-body text-center p-4">
@@ -134,7 +134,7 @@
                             </div>
                             
                             <!-- AO Card -->
-                            <div class="col-md-3 mb-4">
+                            <div class="col-md-3 mb-3">
                                 <a href="services-checklist-ao.php" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-teal bg-white">
                                         <div class="card-body text-center p-4">
@@ -146,7 +146,7 @@
                             </div>
                             
                             <!-- AA Card -->
-                            <div class="col-md-3 mb-4">
+                            <div class="col-md-3 mb-3">
                                 <a href="services-checklist-aa.php" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-purple bg-white">
                                         <div class="card-body text-center p-4">
@@ -158,7 +158,7 @@
                             </div>
                             
                             <!-- GE Card -->
-                            <div class="col-md-3 mb-4">
+                            <div class="col-md-3 mb-3">
                                 <a href="services-checklist-ge.php" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-pink bg-white">
                                         <div class="card-body text-center p-4">
@@ -170,7 +170,7 @@
                             </div>
                             
                             <!-- EE Card -->
-                            <div class="col-md-3 mb-4">
+                            <div class="col-md-3 mb-3">
                                 <a href="services-checklist-ee.php" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-orange bg-white">
                                         <div class="card-body text-center p-4">
@@ -182,7 +182,7 @@
                             </div>
                             
                             <!-- BE Card -->
-                            <div class="col-md-3 mb-4">
+                            <div class="col-md-3 mb-3">
                                 <a href="services-checklist-be.php" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-green bg-white">
                                         <div class="card-body text-center p-4">
@@ -194,7 +194,7 @@
                             </div>
                             
                             <!-- CE Card -->
-                            <div class="col-md-3 mb-4">
+                            <div class="col-md-3 mb-3">
                                 <a href="services-checklist-ce.php" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-red bg-white">
                                         <div class="card-body text-center p-4">
@@ -205,37 +205,20 @@
                                 </a>
                             </div>
                     </div>
-
-                    
-                    <div class="alert alert-info">
-                        <h5><strong>FUNCTIONS</strong></h5>
-                    </div>
-                    <p><strong>ROLE:</strong></p>
-                    <ul>
-                        <li>Advise commanders...</li>
-                        <!-- More items -->
-                    </ul>
-                    <p><strong>STATUS:</strong></p>
-                    <ul>
-                        <li>Advisory in the application of flight safety...</li>
-                    </ul>
-                    <p><strong>DIVISION OF WORK:</strong></p>
-                    <ul>
-                        <li>Remedial (including reporting and investigation).</li>
-                        <!-- More items -->
-                    </ul>
                 </div>
             </div>
 
             <div class="col-lg-10">
                 <!-- Tab Content -->
                 <div class="tab-content" id="inspectorateTabsContent">
-                <!-- Tab 3 -->
+                <!-- Tab 3  feedback-->
                 <div class="tab-pane fade" id="structure" role="tabpanel">
                       <div class="row g-4">
+                            <div class="row g-4">
+             
                             <!-- AE Card -->
-                            <div class="col-md-3 mb-4">
-                                <a href="services-checklist-ae.php" class="card-link text-decoration-none">
+                            <div class="col-md-3 mb-3">
+                                <a href="services-feedback.php?section=AE" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-blue bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-building fs-3 text-blue mb-3"></i>
@@ -246,8 +229,8 @@
                             </div>
                             
                             <!-- AO Card -->
-                            <div class="col-md-3 mb-4">
-                                <a href="services-checklist-ao.php" class="card-link text-decoration-none">
+                            <div class="col-md-3 mb-3">
+                                <a href="services-feedback.php?section=AO" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-teal bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-people fs-3 text-teal mb-3"></i>
@@ -258,8 +241,8 @@
                             </div>
                             
                             <!-- AA Card -->
-                            <div class="col-md-3 mb-4">
-                                <a href="services-checklist-aa.php" class="card-link text-decoration-none">
+                            <div class="col-md-3 mb-3">
+                                <a href="services-feedback.php?section=AA" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-purple bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-journal-text fs-3 text-purple mb-3"></i>
@@ -270,8 +253,8 @@
                             </div>
                             
                             <!-- GE Card -->
-                            <div class="col-md-3 mb-4">
-                                <a href="services-checklist-ge.php" class="card-link text-decoration-none">
+                            <div class="col-md-3 mb-3">
+                                <a href="services-feedback.php?section=GE" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-pink bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-calendar-event fs-3 text-pink mb-3"></i>
@@ -282,8 +265,8 @@
                             </div>
                             
                             <!-- EE Card -->
-                            <div class="col-md-3 mb-4">
-                                <a href="services-checklist-ee.php" class="card-link text-decoration-none">
+                            <div class="col-md-3 mb-3">
+                                <a href="services-feedback.php?section=EE" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-orange bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-building fs-3 text-orange mb-3"></i>
@@ -294,8 +277,8 @@
                             </div>
                             
                             <!-- BE Card -->
-                            <div class="col-md-3 mb-4">
-                                <a href="services-checklist-be.php" class="card-link text-decoration-none">
+                            <div class="col-md-3 mb-3">
+                                <a href="services-feedback.php?section=BE" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-green bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-people fs-3 text-green mb-3"></i>
@@ -306,8 +289,8 @@
                             </div>
                             
                             <!-- CE Card -->
-                            <div class="col-md-3 mb-4">
-                                <a href="services-checklist-ce.php" class="card-link text-decoration-none">
+                            <div class="col-md-3 mb-3">
+                                <a href="services-feedback.php?section=CE" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-red bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-calendar-event fs-3 text-red mb-3"></i>
@@ -317,10 +300,7 @@
                                 </a>
                             </div>
                     </div>
-                    <div class="alert alert-info">
-                        <h5><strong>ORGANIZATION</strong></h5>
-                    </div>
-                    <img class="img-fluid" src="assets/img/about/organisation.jpg" alt="Organization Chart">
+                
                 </div>
             </div>
 
