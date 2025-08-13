@@ -123,7 +123,7 @@
                         <div class="row g-4">
                             <!-- AE Card -->
                             <div class="col-md-3 mb-3">
-                                <a href="services-checklist-ae.php" class="card-link text-decoration-none">
+                                <a href="services-auditreport.php?section=AE" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-blue bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-building fs-3 text-blue mb-3"></i>
@@ -135,7 +135,7 @@
                             
                             <!-- AO Card -->
                             <div class="col-md-3 mb-3">
-                                <a href="services-checklist-ao.php" class="card-link text-decoration-none">
+                                <a href="services-auditreport.php?section=AO" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-teal bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-people fs-3 text-teal mb-3"></i>
@@ -147,7 +147,7 @@
                             
                             <!-- AA Card -->
                             <div class="col-md-3 mb-3">
-                                <a href="services-checklist-aa.php" class="card-link text-decoration-none">
+                                <a href="services-auditreport.php?section=AA" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-purple bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-journal-text fs-3 text-purple mb-3"></i>
@@ -159,7 +159,7 @@
                             
                             <!-- GE Card -->
                             <div class="col-md-3 mb-3">
-                                <a href="services-checklist-ge.php" class="card-link text-decoration-none">
+                                <a href="services-auditreport.php?section=GE" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-pink bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-calendar-event fs-3 text-pink mb-3"></i>
@@ -171,7 +171,7 @@
                             
                             <!-- EE Card -->
                             <div class="col-md-3 mb-3">
-                                <a href="services-checklist-ee.php" class="card-link text-decoration-none">
+                                <a href="services-auditreport.php?section=EE" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-orange bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-building fs-3 text-orange mb-3"></i>
@@ -183,7 +183,7 @@
                             
                             <!-- BE Card -->
                             <div class="col-md-3 mb-3">
-                                <a href="services-checklist-be.php" class="card-link text-decoration-none">
+                                <a href="services-auditreport.php?section=BE" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-green bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-people fs-3 text-green mb-3"></i>
@@ -195,7 +195,7 @@
                             
                             <!-- CE Card -->
                             <div class="col-md-3 mb-3">
-                                <a href="services-checklist-ce.php" class="card-link text-decoration-none">
+                                <a href="services-auditreport.php?section=CE" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-red bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-calendar-event fs-3 text-red mb-3"></i>
