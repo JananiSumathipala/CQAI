@@ -998,3 +998,45 @@ Stack trace:
 [13-Aug-2025 08:13:05 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in D:\xampp\program\htdocs\SLAF\cqai-intra\template\footer.php on line 2
 [13-Aug-2025 08:13:10 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\SLAF\cqai-intra\includes\config.php on line 59
 [13-Aug-2025 08:13:10 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in D:\xampp\program\htdocs\SLAF\cqai-intra\template\footer.php on line 2
+[13-Aug-2025 08:39:20 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\SLAF\cqai-intra\includes\config.php on line 59
+[13-Aug-2025 08:39:20 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in D:\xampp\program\htdocs\SLAF\cqai-intra\template\footer.php on line 2
+[13-Aug-2025 08:47:43 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\SLAF\cqai-intra\includes\config.php on line 59
+[13-Aug-2025 08:47:50 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\SLAF\cqai-intra\includes\config.php on line 59
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\SLAF\cqai-intra\includes\config.php on line 59
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 93
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 96
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 100
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 93
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 96
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 100
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 93
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 96
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 100
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 93
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 96
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 100
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 93
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 96
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 100
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 93
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 96
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 100
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 93
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 96
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 100
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 93
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 96
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 100
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 93
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 96
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 100
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 93
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 96
+[13-Aug-2025 08:47:58 Europe/Berlin] PHP Warning:  Undefined array key "id" in D:\xampp\program\htdocs\SLAF\cqai-intra\admin\services-docs.php on line 100
+[13-Aug-2025 08:48:12 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\SLAF\cqai-intra\includes\config.php on line 59
+[13-Aug-2025 08:49:02 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\SLAF\cqai-intra\includes\config.php on line 59
+[13-Aug-2025 08:49:02 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in D:\xampp\program\htdocs\SLAF\cqai-intra\template\footer.php on line 2
+[13-Aug-2025 08:49:26 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\SLAF\cqai-intra\includes\config.php on line 59
+[13-Aug-2025 08:49:26 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in D:\xampp\program\htdocs\SLAF\cqai-intra\template\footer.php on line 2
+[13-Aug-2025 08:50:41 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\SLAF\cqai-intra\includes\config.php on line 59
+[13-Aug-2025 08:50:41 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in D:\xampp\program\htdocs\SLAF\cqai-intra\template\footer.php on line 2

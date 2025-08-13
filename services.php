@@ -1,5 +1,7 @@
 <?php include 'template/head.php'; ?>
-
+<head>
+    <link rel="stylesheet" href="assets/css/audit_card.css">
+</head>
 <body>
     <?php
     include 'template/header.php';
@@ -116,67 +118,94 @@
                 <div class="tab-pane fade" id="functions" role="tabpanel">
                     
                     <div class="tab-pane fade show active" id="org" role="tabpanel">
-                        <div class="row text-center">
-                            <div class="col-md-3 mb-3">
-                                <div class="card border border-primary">
-                                    <div class="card-body">
-                                        <i class="bi bi-building fs-2 text-primary"></i>
-                                        <h6 class="mt-2 text-primary"><a href="services-checklist-ae.php">AE </a></h6>
+                        <div class="row g-4">
+                            <!-- AE Card -->
+                            <div class="col-md-3 mb-4">
+                                <a href="services-checklist-ae.php" class="card-link text-decoration-none">
+                                    <div class="card hover-effect border border-2 border-blue bg-white">
+                                        <div class="card-body text-center p-4">
+                                            <i class="bi bi-building fs-3 text-blue mb-3"></i>
+                                            <h6 class="mb-0 text-dark fw-semibold">AE</h6>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
-                            <div class="col-md-3 mb-3">
-                                <div class="card border border-primary">
-                                    <div class="card-body">
-                                        <i class="bi bi-people fs-2 text-primary"></i>
-                                         <h6 class="mt-2 text-primary"><a href="services-checklist-ao.php">AO </a></h6>
+                            
+                            <!-- AO Card -->
+                            <div class="col-md-3 mb-4">
+                                <a href="services-checklist-ao.php" class="card-link text-decoration-none">
+                                    <div class="card hover-effect border border-2 border-teal bg-white">
+                                        <div class="card-body text-center p-4">
+                                            <i class="bi bi-people fs-3 text-teal mb-3"></i>
+                                            <h6 class="mb-0 text-dark fw-semibold">AO</h6>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
-                            <div class="col-md-3 mb-3">
-                                <div class="card border border-primary">
-                                    <div class="card-body">
-                                        <i class="bi bi-journal-text fs-2 text-primary"></i>
-                                        <h6 class="mt-2 text-primary"><a href="services-checklist-aa.php">AA </a></h6>
+                            
+                            <!-- AA Card -->
+                            <div class="col-md-3 mb-4">
+                                <a href="services-checklist-aa.php" class="card-link text-decoration-none">
+                                    <div class="card hover-effect border border-2 border-purple bg-white">
+                                        <div class="card-body text-center p-4">
+                                            <i class="bi bi-journal-text fs-3 text-purple mb-3"></i>
+                                            <h6 class="mb-0 text-dark fw-semibold">AA</h6>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
-                            <div class="col-md-3 mb-3">
-                                <div class="card border border-primary">
-                                    <div class="card-body">
-                                        <i class="bi bi-calendar-event fs-2 text-primary"></i>
-                                        <h6 class="mt-2 text-primary"><a href="services-checklist-ge.php">GE</a></h6>
+                            
+                            <!-- GE Card -->
+                            <div class="col-md-3 mb-4">
+                                <a href="services-checklist-ge.php" class="card-link text-decoration-none">
+                                    <div class="card hover-effect border border-2 border-pink bg-white">
+                                        <div class="card-body text-center p-4">
+                                            <i class="bi bi-calendar-event fs-3 text-pink mb-3"></i>
+                                            <h6 class="mb-0 text-dark fw-semibold">GE</h6>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
-                        </div>
-                        <div class="row text-center">
-                            <div class="col-md-3 mb-3">
-                                <div class="card border border-primary">
-                                    <div class="card-body">
-                                        <i class="bi bi-building fs-2 text-primary"></i>
-                                         <h6 class="mt-2 text-primary"><a href="services-checklist-ee.php">EE</a></h6>
+                            
+                            <!-- EE Card -->
+                            <div class="col-md-3 mb-4">
+                                <a href="services-checklist-ee.php" class="card-link text-decoration-none">
+                                    <div class="card hover-effect border border-2 border-orange bg-white">
+                                        <div class="card-body text-center p-4">
+                                            <i class="bi bi-building fs-3 text-orange mb-3"></i>
+                                            <h6 class="mb-0 text-dark fw-semibold">EE</h6>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
-                            <div class="col-md-3 mb-3">
-                                <div class="card border border-primary">
-                                    <div class="card-body">
-                                        <i class="bi bi-people fs-2 text-primary"></i>
-                                         <h6 class="mt-2 text-primary"><a href="services-checklist-be.php">BE</a></h6>
+                            
+                            <!-- BE Card -->
+                            <div class="col-md-3 mb-4">
+                                <a href="services-checklist-be.php" class="card-link text-decoration-none">
+                                    <div class="card hover-effect border border-2 border-green bg-white">
+                                        <div class="card-body text-center p-4">
+                                            <i class="bi bi-people fs-3 text-green mb-3"></i>
+                                            <h6 class="mb-0 text-dark fw-semibold">BE</h6>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
-                            <div class="col-md-3 mb-3">
-                                <div class="card border border-primary">
-                                    <div class="card-body">
-                                        <i class="bi bi-calendar-event fs-2 text-primary"></i>
-                                         <h6 class="mt-2 text-primary"><a href="services-checklist-ce.php">CE</a></h6>
+                            
+                            <!-- CE Card -->
+                            <div class="col-md-3 mb-4">
+                                <a href="services-checklist-ce.php" class="card-link text-decoration-none">
+                                    <div class="card hover-effect border border-2 border-red bg-white">
+                                        <div class="card-body text-center p-4">
+                                            <i class="bi bi-calendar-event fs-3 text-red mb-3"></i>
+                                            <h6 class="mb-0 text-dark fw-semibold">CE</h6>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
+
+
                     <div class="alert alert-info">
                         <h5><strong>FUNCTIONS</strong></h5>
                     </div>
