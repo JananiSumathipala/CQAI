@@ -11,7 +11,7 @@
                 </div>
             </div> -->
             <div class="swiper-slide">
-                <img src="assets/img/slider/cqai-4.jpg" alt="Our Team">
+                <img src="assets/img/slider/cqai-6.jpg" alt="Our Team">
                 <div class="slide-caption">
                     <h5>Dedicated Team of Quality Professionals</h5>
                 </div>

@@ -54,7 +54,7 @@
                             As such the main functions of the QAI are as follows; <br>
                         </p>
                         <section>
-                            <ul >
+                            <ul>
                                 <li>Administration of the Quality Assurance Services (QAS) in the SLAF</li>
                                 <li>Provide an organization to assess the quality of material, processors and workmanship for the SLAF</li>
                                 <li>Ensure that the service operates efficiently and economically to assist the completion of the task in accordance with the policy directives</li>
@@ -73,12 +73,28 @@
                         <p style="text-align: center;">"The Sri Lanka Air Force is committed to fulfil the aspirations of the Nation by achieving excellence in the field of aviation and in all associated functions through enhanced customer satisfaction and by exceeding stake holders’ expectations, whilst endeavouring to be an efficient, reliable and socially responsible Air Force"</p>
                     </div>
                     <!-- Tab 3 -->
+                    <!-- <div class="tab-pane fade" id="structure" role="tabpanel">
+                        <img class="img-fluid" src="assets/img/about/org.jpg" width="1800" height="1800" alt="Organization Chart">
+                    </div> -->
                     <div class="tab-pane fade" id="structure" role="tabpanel">
-                        <!-- <div class="alert alert-info">
-                            <h5><strong>ORGANIZATIONAL STRUCTURE OF QUALITY ASSURANCE INSPECTORATE</strong></h5>
-                        </div> -->
-                        <img class="img-fluid" src="assets/img/about/org.jpg" alt="Organization Chart">
+                        <img id="orgImage" class="img-fluid" src="assets/img/about/org.jpg" width="1800" height="1800" alt="Organization Chart" style="cursor: zoom-in;">
                     </div>
+
+                    <!-- Fullscreen Swiper -->
+                    <div id="swiperOverlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:9999; justify-content: center; align-items: center;">
+                        <div class="swiper mySwiper" style="width:80%; height:80%;">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="swiper-zoom-container">
+                                        <img src="assets/img/about/org.jpg" alt="Organization Chart">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="closeSwiper" style="position:absolute; top:20px; right:30px; font-size:40px; color:black; cursor:pointer;">&times;</div>
+                        </div>
+                    </div>
+
+
 
                     <!-- Tab 4 -->
                     <div class="tab-pane fade" id="responsibilities" role="tabpanel">
@@ -159,13 +175,13 @@
                                     <h5 class="text-center"><strong>QUALITY ASSURANCE WO I/C</strong></h5>
                                 </div>
                                 <div class="container my-5">
-                                    <div class="row justify-content-center" >
+                                    <div class="row justify-content-center">
 
                                         <div class="col-md-4 mb-4">
                                             <div class="card h-100 text-center" style="max-width: 250px;  box-shadow: 1px 1px 3px 1px;">
                                                 <div class="card-body">
                                                     <h5 class="card-title">WO I/C</h5>
-                                                    <img width="200" height="250"src="assets/img/staff/wo.png" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                                    <img width="200" height="250" src="assets/img/staff/wo1.png" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                                     <p style="margin: 0;"><strong>Rank:</strong> MWO</p>
                                                     <p style="margin: 0;"><strong>Name:</strong> RGD ARIYARATHNA</p>
                                                     <p style="margin: 0;"><strong>Ext:</strong> 11151</p>
@@ -192,143 +208,180 @@
                         <h6 style="text-align: center;"><b> COMMAND QUALITY ASSURANCE OFFICERS </b></h6>
 
                         <center>
-                            <table border="0" cellpadding="2" cellspacing="0">
+
+                            <table border="0" cellpadding="4" cellspacing="0" style="border-collapse:collapse; width:100%;">
                                 <thead>
                                     <tr>
-                                        <th width="65%">Name</th>
-                                        <th width="65%">Period of Service</th>
+                                        <th width="30%">Name</th>
+                                        <th width="10%" style="text-align:center;">From</th>
+                                        <th width="10%" style="text-align:center;">To</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>Wg Cdr GY De Silva</td>
-                                        <td>09.03.1988 - 31.12.1990</td>
+                                        <td style="text-align:center;">09.03.1988</td>
+                                        <td style="text-align:center;">31.12.1990</td>
                                     </tr>
                                     <tr>
                                         <td>Sqn Ldr PDJ Kumarasiri</td>
-                                        <td>01.01.1991 - 31.12.1991</td>
+                                        <td style="text-align:center;">01.01.1991</td>
+                                        <td style="text-align:center;">31.12.1991</td>
                                     </tr>
                                     <tr>
                                         <td>Sqn Ldr SAH Satharasinghe</td>
-                                        <td>01.01.1992 - 14.03.1993</td>
+                                        <td style="text-align:center;">01.01.1992</td>
+                                        <td style="text-align:center;">14.03.1993</td>
                                     </tr>
                                     <tr>
                                         <td>Sqn Ldr PDJ Kumarasiri</td>
-                                        <td>15.03.1993 - 08.07.1996</td>
+                                        <td style="text-align:center;">15.03.1993</td>
+                                        <td style="text-align:center;">08.07.1996</td>
                                     </tr>
                                     <tr>
                                         <td>Wg Cdr PDJ Kumarasiri</td>
-                                        <td>09.07.1996 - 31.12.1997</td>
+                                        <td style="text-align:center;">09.07.1996</td>
+                                        <td style="text-align:center;">31.12.1997</td>
                                     </tr>
                                     <tr>
                                         <td>Sqn Ldr DS Edirisinghe</td>
-                                        <td>01.01.1998 - 01.03.1998</td>
+                                        <td style="text-align:center;">01.01.1998</td>
+                                        <td style="text-align:center;">01.03.1998</td>
                                     </tr>
                                     <tr>
                                         <td>Wg Cdr KDU Chandrathilala</td>
-                                        <td>02.03.1998 - 01.12.2001</td>
+                                        <td style="text-align:center;">02.03.1998</td>
+                                        <td style="text-align:center;">01.12.2001</td>
                                     </tr>
                                     <tr>
                                         <td>Gp Cpt EPB Liyanage</td>
-                                        <td>02.12.2001 - 14.01.2003</td>
+                                        <td style="text-align:center;">02.12.2001</td>
+                                        <td style="text-align:center;">14.01.2003</td>
                                     </tr>
                                     <tr>
                                         <td>Gp Cpt EGJP De Silva</td>
-                                        <td>15.01.2003 - 31.09.2004</td>
+                                        <td style="text-align:center;">15.01.2003</td>
+                                        <td style="text-align:center;">31.09.2004</td>
                                     </tr>
                                     <tr>
                                         <td>Wg Cdr TKS Peiris</td>
-                                        <td>01.10.2004 - 10.07.2005</td>
+                                        <td style="text-align:center;">01.10.2004</td>
+                                        <td style="text-align:center;">10.07.2005</td>
                                     </tr>
                                     <tr>
                                         <td>Wg Cdr WPAK Wijesinghe</td>
-                                        <td>11.07.2005 - 09.08.2005</td>
+                                        <td style="text-align:center;">11.07.2005</td>
+                                        <td style="text-align:center;">09.08.2005</td>
                                     </tr>
                                     <tr>
                                         <td>Gp Cpt EPB Liyanage</td>
-                                        <td>10.08.2005 - 10.02.2006</td>
+                                        <td style="text-align:center;">10.08.2005</td>
+                                        <td style="text-align:center;">10.02.2006</td>
                                     </tr>
                                     <tr>
                                         <td>Gp Cpt BLW Balasuriya</td>
-                                        <td>11.02.2006 - 31.12.2006</td>
+                                        <td style="text-align:center;">11.02.2006</td>
+                                        <td style="text-align:center;">31.12.2006</td>
                                     </tr>
                                     <tr>
                                         <td>Air Cdre BLW Balasuriya</td>
-                                        <td>01.01.2007 - 02.04.2007</td>
+                                        <td style="text-align:center;">01.01.2007</td>
+                                        <td style="text-align:center;">02.04.2007</td>
                                     </tr>
                                     <tr>
                                         <td>Gp Cpt PDJ Kumarasiri</td>
-                                        <td>03.04.2007 - 10.09.2008</td>
+                                        <td style="text-align:center;">03.04.2007</td>
+                                        <td style="text-align:center;">10.09.2008</td>
                                     </tr>
                                     <tr>
                                         <td>Air Cdre PDJ Kumarasiri</td>
-                                        <td>11.09.2008 - 31.12.2009</td>
+                                        <td style="text-align:center;">11.09.2008</td>
+                                        <td style="text-align:center;">31.12.2009</td>
                                     </tr>
                                     <tr>
                                         <td>AVM PDJ Kumarasiri</td>
-                                        <td>01.01.2010 - 24.07.2011</td>
+                                        <td style="text-align:center;">01.01.2010</td>
+                                        <td style="text-align:center;">24.07.2011</td>
                                     </tr>
                                     <tr>
                                         <td>Gp Cpt AH Wijesiri</td>
-                                        <td>25.07.2011 - 26.08.2012</td>
+                                        <td style="text-align:center;">25.07.2011</td>
+                                        <td style="text-align:center;">26.08.2012</td>
                                     </tr>
                                     <tr>
                                         <td>Gp Cpt AWE Wijesuriya</td>
-                                        <td>27.08.2012 - 31.12.2012</td>
+                                        <td style="text-align:center;">27.08.2012</td>
+                                        <td style="text-align:center;">31.12.2012</td>
                                     </tr>
                                     <tr>
                                         <td>Air Cdre AWE Wijesuriya</td>
-                                        <td>01.01.2013 - 12.08.2013</td>
+                                        <td style="text-align:center;">01.01.2013</td>
+                                        <td style="text-align:center;">12.08.2013</td>
                                     </tr>
                                     <tr>
                                         <td>Gp Cpt AH Wijesiri</td>
-                                        <td>13.08.2013 - 31.12.2013</td>
+                                        <td style="text-align:center;">13.08.2013</td>
+                                        <td style="text-align:center;">31.12.2013</td>
                                     </tr>
                                     <tr>
                                         <td>Air Cdre AH Wijesiri</td>
-                                        <td>01.01.2014 - 18.01.2015</td>
+                                        <td style="text-align:center;">01.01.2014</td>
+                                        <td style="text-align:center;">18.01.2015</td>
                                     </tr>
                                     <tr>
                                         <td>Air Cdre MD Rathnayake</td>
-                                        <td>19.01.2015 - 25.07.2016</td>
+                                        <td style="text-align:center;">19.01.2015</td>
+                                        <td style="text-align:center;">25.07.2016</td>
                                     </tr>
                                     <tr>
                                         <td>Air Cdre RHKP Ranasinghe</td>
-                                        <td>26.07.2016 - 10.01.2017</td>
+                                        <td style="text-align:center;">26.07.2016</td>
+                                        <td style="text-align:center;">10.01.2017</td>
                                     </tr>
                                     <tr>
                                         <td>Air Cdre TADR Senanayake</td>
-                                        <td>11.01.2017 - 30.06.2019</td>
+                                        <td style="text-align:center;">11.01.2017</td>
+                                        <td style="text-align:center;">30.06.2019</td>
                                     </tr>
                                     <tr>
                                         <td>Air Cdre LMSK Leelaratne</td>
-                                        <td>01.07.2019 - 20.03.2022</td>
+                                        <td style="text-align:center;">01.07.2019</td>
+                                        <td style="text-align:center;">20.03.2022</td>
                                     </tr>
                                     <tr>
                                         <td>Gp Capt LMCB Nissanka</td>
-                                        <td>21.03.2022 – 18.09.2022</td>
+                                        <td style="text-align:center;">21.03.2022</td>
+                                        <td style="text-align:center;">18.09.2022</td>
                                     </tr>
                                     <tr>
                                         <td>Air Cdre MPA Mahawattage</td>
-                                        <td>19.09.2022 – 04.07.2023</td>
+                                        <td style="text-align:center;">19.09.2022</td>
+                                        <td style="text-align:center;">04.07.2023</td>
                                     </tr>
                                     <tr>
-                                        <td colspan="2" style="text-align:center; font-weight:bold;">DIRECTOR QUALITY ASSURANCE</td>
+                                        <td colspan="3" style="height: 15px;"></td>
+                                    </tr>
+                                    <tr style="margin-top: 10px;">
+                                        <td colspan="3" style="text-align:center; font-weight:bold;">DIRECTOR QUALITY ASSURANCE</td>
                                     </tr>
                                     <tr>
                                         <td>Air Cdre SPS Martino</td>
-                                        <td>05-07-2023 – 08-08-2024</td>
+                                        <td style="text-align:center;">05.07.2023</td>
+                                        <td style="text-align:center;">08.08.2024</td>
                                     </tr>
                                     <tr>
                                         <td>Air Cdre CJ Hettiarachchi</td>
-                                        <td>08-08-2024 - 27-05-2025</td>
+                                        <td style="text-align:center;">08.08.2024</td>
+                                        <td style="text-align:center;">27.05.2025</td>
                                     </tr>
                                     <tr>
                                         <td>Air Cdre MF Jansen</td>
-                                        <td>27-07-2025 - </td>
+                                        <td style="text-align:center;">27.07.2025</td>
+                                        <td style="text-align:center;">-</td>
                                     </tr>
                                 </tbody>
                             </table>
+
                         </center>
 
 
@@ -353,76 +406,60 @@
                                         </div>
                                     </div>
                                 </div>
-
-
                                 <div class="col-md-3 mb-4">
                                     <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
                                             <h5 class="card-title">2014 WINNER </h5>
-                                            <img width="200" height="250" src="assets/img/achievements/Inter Departmental category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
-                                            <p><strong>Nationa Productivity Award</strong></p> <br>
-                                            <!-- <p><strong>Inter Departmental category Organized by national productivity secretariat</strong></p> -->
-
+                                            <img width="200" height="250" src="assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2"><br>
+                                            <p><strong>Inter Departmental category Organized by national productivity secretariat</strong></p>
                                         </div>
                                     </div>
                                 </div>
-
-
                                 <div class="col-md-3 mb-4">
                                     <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
                                             <h5 class="card-title">2008 WINNER</h5>
-                                            <img width="200" height="250" src="assets/img/achievements/Public sector and Inter Departmental category Organized by national productivity secretariat 2008.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                            <img width="200" height="250" src="assets/img/achievements/Public sector and Inter Departmental category Organized by national productivity secretariat 2008.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2" data-index="0">
                                             <p><strong>Nationa Productivity Award - First Place</strong>
-
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="col-md-3 mb-4">
                                     <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
                                             <h5 class="card-title">2008 WINNER</h5>
-                                            <img width="200" height="250" src="assets/img/achievements/Inter Departmental category Organized by national productivity secretariat 2008.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                            <img width="200" height="250" src="assets/img/achievements/Inter Departmental category Organized by national productivity secretariat 2008.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2" data-index="1">
                                             <p><strong>Provincial Productivity Award - First Place</strong>
-
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="col-md-3 mb-4">
                                     <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
                                             <h5 class="card-title">2003 WINNER</h5>
                                             <img width="200" height="250" src="assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                             <p><strong>Nationa Productivity Award </strong>
-
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="col-md-3 mb-4">
                                     <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
                                             <h5 class="card-title">1996 WINNER</h5>
                                             <img width="200" height="250" src="assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                             <p><strong>Excellence in Quality</strong>
-
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="col-md-3 mb-4">
                                     <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
                                             <h5 class="card-title">1996 Merit Award</h5>
                                             <img width="200" height="250" src="assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
-                                            <p><strong><span style="font-size: 0.6rem;">Successful Quality Management Strategies and activities</span></strong>
-
+                                            <p><strong> Quality Management Strategies and activities</strong></p>
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -447,7 +484,52 @@
             }
         });
     </script>
+    <script>
+        let swiperInstance = null;
+        const overlay = document.getElementById('swiperOverlay');
+        const closeBtn = document.getElementById('closeSwiper');
 
+        function openSwiper() {
+            overlay.style.display = 'flex';
+            swiperInstance = new Swiper(".mySwiper", {
+                zoom: true,
+                loop: false,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                }
+            });
+        }
+
+        function closeSwiperOverlay() {
+            overlay.style.display = 'none';
+            if (swiperInstance) {
+                swiperInstance.destroy(true, true);
+                swiperInstance = null;
+            }
+        }
+
+        // Open on image click
+        document.getElementById('orgImage').addEventListener('click', openSwiper);
+
+        // Close on close button
+        closeBtn.addEventListener('click', closeSwiperOverlay);
+
+        // Close when clicking outside image
+        overlay.addEventListener('click', function(e) {
+            // Close if click is outside zoom container
+            if (!e.target.closest('.swiper-zoom-container') && !e.target.closest('.swiper-button-next') && !e.target.closest('.swiper-button-prev')) {
+                closeSwiperOverlay();
+            }
+        });
+
+        // Close on ESC key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === "Escape") {
+                closeSwiperOverlay();
+            }
+        });
+    </script>
 </body>
 
 </html>

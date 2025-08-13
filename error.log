@@ -932,3 +932,53 @@ Stack trace:
 [05-Aug-2025 12:26:22 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 93
 [05-Aug-2025 12:26:22 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 96
 [05-Aug-2025 12:26:22 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\cqai-intra\admin\services-docs.php on line 100
+[11-Aug-2025 06:05:03 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 09:20:50 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:20:55 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:21:35 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:21:39 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:23:08 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:26:47 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:26:47 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:26:51 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:26:51 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:27:00 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:27:00 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:28:03 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:28:03 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:28:20 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:28:20 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:28:41 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:28:41 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:28:44 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:28:44 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:30:56 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:30:56 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:33:11 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:33:11 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:33:16 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 12:33:19 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 12:33:19 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 13:16:47 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 13:16:47 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
+[12-Aug-2025 13:16:56 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in C:\xampp\htdocs\cqai-intra\includes\config.php on line 59
+[12-Aug-2025 13:16:56 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\cqai-intra\template\footer.php on line 2
