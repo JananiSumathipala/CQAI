@@ -1190,3 +1190,74 @@ Stack trace:
 [13-Aug-2025 12:36:03 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
 [13-Aug-2025 12:38:34 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
 [13-Aug-2025 12:38:38 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 07:12:10 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 07:12:14 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 07:12:14 Europe/Berlin] PHP Warning:  Undefined array key "branch_name" in D:\xampp\program\htdocs\CQAI\services-latitude.php on line 77
+[14-Aug-2025 07:12:14 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-latitude.php on line 77
+[14-Aug-2025 07:12:14 Europe/Berlin] PHP Warning:  Undefined array key "category" in D:\xampp\program\htdocs\CQAI\services-latitude.php on line 78
+[14-Aug-2025 07:12:14 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-latitude.php on line 78
+[14-Aug-2025 07:12:14 Europe/Berlin] PHP Warning:  Undefined array key "uploaded_by" in D:\xampp\program\htdocs\CQAI\services-latitude.php on line 79
+[14-Aug-2025 07:12:14 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-latitude.php on line 79
+[14-Aug-2025 07:12:35 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 07:12:35 Europe/Berlin] PHP Warning:  Undefined array key "branch_name" in D:\xampp\program\htdocs\CQAI\services-check.php on line 77
+[14-Aug-2025 07:12:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-check.php on line 77
+[14-Aug-2025 07:12:35 Europe/Berlin] PHP Warning:  Undefined array key "category" in D:\xampp\program\htdocs\CQAI\services-check.php on line 78
+[14-Aug-2025 07:12:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-check.php on line 78
+[14-Aug-2025 07:12:35 Europe/Berlin] PHP Warning:  Undefined array key "uploaded_by" in D:\xampp\program\htdocs\CQAI\services-check.php on line 79
+[14-Aug-2025 07:12:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-check.php on line 79
+[14-Aug-2025 07:12:35 Europe/Berlin] PHP Warning:  Undefined array key "branch_name" in D:\xampp\program\htdocs\CQAI\services-check.php on line 77
+[14-Aug-2025 07:12:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-check.php on line 77
+[14-Aug-2025 07:12:35 Europe/Berlin] PHP Warning:  Undefined array key "category" in D:\xampp\program\htdocs\CQAI\services-check.php on line 78
+[14-Aug-2025 07:12:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-check.php on line 78
+[14-Aug-2025 07:12:35 Europe/Berlin] PHP Warning:  Undefined array key "uploaded_by" in D:\xampp\program\htdocs\CQAI\services-check.php on line 79
+[14-Aug-2025 07:12:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-check.php on line 79
+[14-Aug-2025 07:12:39 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 07:12:44 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 07:12:44 Europe/Berlin] PHP Warning:  Undefined array key "branch_name" in D:\xampp\program\htdocs\CQAI\services-feedback.php on line 77
+[14-Aug-2025 07:12:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-feedback.php on line 77
+[14-Aug-2025 07:12:44 Europe/Berlin] PHP Warning:  Undefined array key "category" in D:\xampp\program\htdocs\CQAI\services-feedback.php on line 78
+[14-Aug-2025 07:12:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-feedback.php on line 78
+[14-Aug-2025 07:12:44 Europe/Berlin] PHP Warning:  Undefined array key "uploaded_by" in D:\xampp\program\htdocs\CQAI\services-feedback.php on line 79
+[14-Aug-2025 07:12:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-feedback.php on line 79
+[14-Aug-2025 07:12:49 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 07:12:53 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 07:12:53 Europe/Berlin] PHP Warning:  Undefined array key "branch_name" in D:\xampp\program\htdocs\CQAI\services-r&dproject.php on line 78
+[14-Aug-2025 07:12:53 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-r&dproject.php on line 78
+[14-Aug-2025 07:12:53 Europe/Berlin] PHP Warning:  Undefined array key "category" in D:\xampp\program\htdocs\CQAI\services-r&dproject.php on line 79
+[14-Aug-2025 07:12:53 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-r&dproject.php on line 79
+[14-Aug-2025 07:12:53 Europe/Berlin] PHP Warning:  Undefined array key "uploaded_by" in D:\xampp\program\htdocs\CQAI\services-r&dproject.php on line 80
+[14-Aug-2025 07:12:53 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-r&dproject.php on line 80
+[14-Aug-2025 07:12:57 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 07:12:57 Europe/Berlin] PHP Warning:  Undefined array key "branch_name" in D:\xampp\program\htdocs\CQAI\services-latitude.php on line 77
+[14-Aug-2025 07:12:57 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-latitude.php on line 77
+[14-Aug-2025 07:12:57 Europe/Berlin] PHP Warning:  Undefined array key "category" in D:\xampp\program\htdocs\CQAI\services-latitude.php on line 78
+[14-Aug-2025 07:12:57 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-latitude.php on line 78
+[14-Aug-2025 07:12:57 Europe/Berlin] PHP Warning:  Undefined array key "uploaded_by" in D:\xampp\program\htdocs\CQAI\services-latitude.php on line 79
+[14-Aug-2025 07:12:57 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-latitude.php on line 79
+[14-Aug-2025 07:13:02 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 07:13:08 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 07:42:25 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 07:42:55 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 08:41:41 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 08:41:41 Europe/Berlin] PHP Warning:  Undefined array key "branch_name" in D:\xampp\program\htdocs\CQAI\services-r&dproject.php on line 78
+[14-Aug-2025 08:41:41 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-r&dproject.php on line 78
+[14-Aug-2025 08:41:41 Europe/Berlin] PHP Warning:  Undefined array key "category" in D:\xampp\program\htdocs\CQAI\services-r&dproject.php on line 79
+[14-Aug-2025 08:41:41 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-r&dproject.php on line 79
+[14-Aug-2025 08:41:41 Europe/Berlin] PHP Warning:  Undefined array key "uploaded_by" in D:\xampp\program\htdocs\CQAI\services-r&dproject.php on line 80
+[14-Aug-2025 08:41:41 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-r&dproject.php on line 80
+[14-Aug-2025 08:41:45 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 08:41:50 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 08:41:50 Europe/Berlin] PHP Warning:  Undefined array key "branch_name" in D:\xampp\program\htdocs\CQAI\services-feedback.php on line 77
+[14-Aug-2025 08:41:50 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-feedback.php on line 77
+[14-Aug-2025 08:41:50 Europe/Berlin] PHP Warning:  Undefined array key "category" in D:\xampp\program\htdocs\CQAI\services-feedback.php on line 78
+[14-Aug-2025 08:41:50 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-feedback.php on line 78
+[14-Aug-2025 08:41:50 Europe/Berlin] PHP Warning:  Undefined array key "uploaded_by" in D:\xampp\program\htdocs\CQAI\services-feedback.php on line 79
+[14-Aug-2025 08:41:50 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-feedback.php on line 79
+[14-Aug-2025 08:41:54 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 08:42:10 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in D:\xampp\program\htdocs\CQAI\includes\config.php on line 59
+[14-Aug-2025 08:42:10 Europe/Berlin] PHP Warning:  Undefined array key "branch_name" in D:\xampp\program\htdocs\CQAI\services-check.php on line 77
+[14-Aug-2025 08:42:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-check.php on line 77
+[14-Aug-2025 08:42:10 Europe/Berlin] PHP Warning:  Undefined array key "category" in D:\xampp\program\htdocs\CQAI\services-check.php on line 78
+[14-Aug-2025 08:42:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-check.php on line 78
+[14-Aug-2025 08:42:10 Europe/Berlin] PHP Warning:  Undefined array key "uploaded_by" in D:\xampp\program\htdocs\CQAI\services-check.php on line 79
+[14-Aug-2025 08:42:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\program\htdocs\CQAI\services-check.php on line 79
