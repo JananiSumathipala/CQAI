@@ -340,15 +340,125 @@
             </div>
 
             <div class="col-lg-10">
+                <!-- Tab 4 Content -->
+                <div class="tab-content" id="inspectorateTabsContent">
+
+                <!-- Tab R & D-->
+                <div class="tab-pane fade" id="rd-project" role="tabpanel">
+
+                      <div class="row g-4">
+                            <!-- AE Card -->
+                            <div class="col-md-3 mb-4">
+                                <a href="services-r&dproject.php?section=AE" class="card-link text-decoration-none">
+
+                                    <div class="card hover-effect border border-2 border-blue bg-white">
+                                        <div class="card-body text-center p-4">
+                                            <i class="bi bi-building fs-3 text-blue mb-3"></i>
+                                            <h6 class="mb-0 text-dark fw-semibold">AE</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <!-- AO Card -->
+
+                            <div class="col-md-3 mb-4">
+                                <a href="services-r&dproject.php?section=AO" class="card-link text-decoration-none">
+
+                                    <div class="card hover-effect border border-2 border-teal bg-white">
+                                        <div class="card-body text-center p-4">
+                                            <i class="bi bi-people fs-3 text-teal mb-3"></i>
+                                            <h6 class="mb-0 text-dark fw-semibold">AO</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <!-- AA Card -->
+
+                            <div class="col-md-3 mb-4">
+                                <a href="services-r&dproject.php?section=AA" class="card-link text-decoration-none">
+
+                                    <div class="card hover-effect border border-2 border-purple bg-white">
+                                        <div class="card-body text-center p-4">
+                                            <i class="bi bi-journal-text fs-3 text-purple mb-3"></i>
+                                            <h6 class="mb-0 text-dark fw-semibold">AA</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            <div class="col-md-3 mb-4">
+                                <a href="services-r&dproject.php?section=GE" class="card-link text-decoration-none">
+
+                                    <div class="card hover-effect border border-2 border-pink bg-white">
+                                        <div class="card-body text-center p-4">
+                                            <i class="bi bi-calendar-event fs-3 text-pink mb-3"></i>
+                                            <h6 class="mb-0 text-dark fw-semibold">GE</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div> 
+                        
+                        <div class="row text-center">
+                            <!-- EE Card -->
+
+                            <div class="col-md-3 mb-4">
+                                <a href="services-r&dproject.php?section=EE" class="card-link text-decoration-none">
+
+                                    <div class="card hover-effect border border-2 border-orange bg-white">
+                                        <div class="card-body text-center p-4">
+                                            <i class="bi bi-building fs-3 text-orange mb-3"></i>
+                                            <h6 class="mb-0 text-dark fw-semibold">EE</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <!-- BE Card -->
+
+                            <div class="col-md-3 mb-4">
+                                <a href="services-r&dproject.php?section=BE" class="card-link text-decoration-none">
+
+                                    <div class="card hover-effect border border-2 border-green bg-white">
+                                        <div class="card-body text-center p-4">
+                                            <i class="bi bi-people fs-3 text-green mb-3"></i>
+                                            <h6 class="mb-0 text-dark fw-semibold">BE</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <!-- CE Card -->
+
+                            <div class="col-md-3 mb-4">
+                                <a href="services-r&dproject.php?section=CE" class="card-link text-decoration-none">
+
+                                    <div class="card hover-effect border border-2 border-red bg-white">
+                                        <div class="card-body text-center p-4">
+                                            <i class="bi bi-calendar-event fs-3 text-red mb-3"></i>
+                                            <h6 class="mb-0 text-dark fw-semibold">CE</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+
+            <div class="col-lg-10">
                 <!-- Tab Content -->
                 <div class="tab-content" id="inspectorateTabsContent">
-                <!-- Tab 4 -->
+                <!-- Tab 5 latitude -->
                     <div class="tab-pane fade" id="responsibilities" role="tabpanel">
 
                         <div class="row text-center">
                             <!-- AE Card -->
                             <div class="col-md-3 mb-4">
-                                <a href="services-checklist-ae.php" class="card-link text-decoration-none">
+                                <a href="services-latitude.php?section=AE" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-blue bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-building fs-3 text-blue mb-3"></i>
@@ -360,7 +470,7 @@
                             
                             <!-- AO Card -->
                             <div class="col-md-3 mb-4">
-                                <a href="services-checklist-ao.php" class="card-link text-decoration-none">
+                                <a href="services-latitude.php?section=AO" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-teal bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-people fs-3 text-teal mb-3"></i>
@@ -372,7 +482,7 @@
                             
                             <!-- AA Card -->
                             <div class="col-md-3 mb-4">
-                                <a href="services-checklist-aa.php" class="card-link text-decoration-none">
+                                <a href="services-latitude.php?section=AA" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-purple bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-journal-text fs-3 text-purple mb-3"></i>
@@ -384,7 +494,7 @@
                             
                             <!-- GE Card -->
                             <div class="col-md-3 mb-4">
-                                <a href="services-checklist-ge.php" class="card-link text-decoration-none">
+                                <a href="services-latitude.php?section=GE" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-pink bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-calendar-event fs-3 text-pink mb-3"></i>
@@ -398,7 +508,7 @@
                         <div class="row text-center">
                             <!-- EE Card -->
                             <div class="col-md-3 mb-4">
-                                <a href="services-checklist-ee.php" class="card-link text-decoration-none">
+                                <a href="services-latitude.php?section=EE" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-orange bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-building fs-3 text-orange mb-3"></i>
@@ -410,7 +520,7 @@
                             
                             <!-- BE Card -->
                             <div class="col-md-3 mb-4">
-                                <a href="services-checklist-be.php" class="card-link text-decoration-none">
+                                <a href="services-latitude.php?section=BE" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-green bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-people fs-3 text-green mb-3"></i>
@@ -422,7 +532,7 @@
                             
                             <!-- CE Card -->
                             <div class="col-md-3 mb-4">
-                                <a href="services-checklist-ce.php" class="card-link text-decoration-none">
+                                <a href="services-latitude.php?section=CE" class="card-link text-decoration-none">
                                     <div class="card hover-effect border border-2 border-red bg-white">
                                         <div class="card-body text-center p-4">
                                             <i class="bi bi-calendar-event fs-3 text-red mb-3"></i>
@@ -537,116 +647,6 @@
 
             </div>
 
-            <div class="col-lg-10">
-                <!-- Tab Content -->
-                <div class="tab-content" id="inspectorateTabsContent">
-
-                <!-- Tab 4 -->
-                <div class="tab-pane fade" id="rd-project" role="tabpanel">
-
-                      <div class="row g-4">
-                            <!-- AE Card -->
-                            <div class="col-md-3 mb-4">
-                                <a href="services-r&dproject.php?section=AE" class="card-link text-decoration-none">
-
-                                    <div class="card hover-effect border border-2 border-blue bg-white">
-                                        <div class="card-body text-center p-4">
-                                            <i class="bi bi-building fs-3 text-blue mb-3"></i>
-                                            <h6 class="mb-0 text-dark fw-semibold">AE</h6>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            
-                            <!-- AO Card -->
-
-                            <div class="col-md-3 mb-4">
-                                <a href="services-r&dproject.php?section=AO" class="card-link text-decoration-none">
-
-                                    <div class="card hover-effect border border-2 border-teal bg-white">
-                                        <div class="card-body text-center p-4">
-                                            <i class="bi bi-people fs-3 text-teal mb-3"></i>
-                                            <h6 class="mb-0 text-dark fw-semibold">AO</h6>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            
-                            <!-- AA Card -->
-
-                            <div class="col-md-3 mb-4">
-                                <a href="services-r&dproject.php?section=AA" class="card-link text-decoration-none">
-
-                                    <div class="card hover-effect border border-2 border-purple bg-white">
-                                        <div class="card-body text-center p-4">
-                                            <i class="bi bi-journal-text fs-3 text-purple mb-3"></i>
-                                            <h6 class="mb-0 text-dark fw-semibold">AA</h6>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            
-
-                            <div class="col-md-3 mb-4">
-                                <a href="services-r&dproject.php?section=GE" class="card-link text-decoration-none">
-
-                                    <div class="card hover-effect border border-2 border-pink bg-white">
-                                        <div class="card-body text-center p-4">
-                                            <i class="bi bi-calendar-event fs-3 text-pink mb-3"></i>
-                                            <h6 class="mb-0 text-dark fw-semibold">GE</h6>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div> 
-                        
-                        <div class="row text-center">
-                            <!-- EE Card -->
-
-                            <div class="col-md-3 mb-4">
-                                <a href="services-r&dproject.php?section=EE" class="card-link text-decoration-none">
-
-                                    <div class="card hover-effect border border-2 border-orange bg-white">
-                                        <div class="card-body text-center p-4">
-                                            <i class="bi bi-building fs-3 text-orange mb-3"></i>
-                                            <h6 class="mb-0 text-dark fw-semibold">EE</h6>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            
-                            <!-- BE Card -->
-
-                            <div class="col-md-3 mb-4">
-                                <a href="services-r&dproject.php?section=BE" class="card-link text-decoration-none">
-
-                                    <div class="card hover-effect border border-2 border-green bg-white">
-                                        <div class="card-body text-center p-4">
-                                            <i class="bi bi-people fs-3 text-green mb-3"></i>
-                                            <h6 class="mb-0 text-dark fw-semibold">BE</h6>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            
-                            <!-- CE Card -->
-
-                            <div class="col-md-3 mb-4">
-                                <a href="services-r&dproject.php?section=CE" class="card-link text-decoration-none">
-
-                                    <div class="card hover-effect border border-2 border-red bg-white">
-                                        <div class="card-body text-center p-4">
-                                            <i class="bi bi-calendar-event fs-3 text-red mb-3"></i>
-                                            <h6 class="mb-0 text-dark fw-semibold">CE</h6>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-
-            </div>
         </div>
 
         <hr>
