@@ -50,8 +50,9 @@ $result = $stmt->get_result();
                 <!-- Nav Tabs -->
                 <ul class="nav flex-column nav-pills" id="inspectorateTabs" role="tablist" aria-orientation="vertical">
                     <li class="nav-item">
+
                         <a class="nav-link active" id="org-tab" data-bs-toggle="pill" href="#org" role="tab">R & D project Reports</a>
-                    </li>
+      </li>
                     
                 </ul>
             </div>

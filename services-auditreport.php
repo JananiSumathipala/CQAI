@@ -25,7 +25,7 @@ $branch_id = $sections[$selected] ?? 6;
 // Fetch feedback documents for selected section
 $stmt = $db->prepare("SELECT d.title, d.description, d.uploaded_at, d.file_path 
     FROM documents d
-    WHERE d.category_id = 6 AND d.is_active = 1 AND d.branch_id = ?
+    WHERE d.category_id = 16 AND d.is_active = 1 AND d.branch_id = ?
     ORDER BY d.uploaded_at DESC");
 $stmt->bind_param("i", $branch_id);
 $stmt->execute();
@@ -50,7 +50,7 @@ $result = $stmt->get_result();
                 <!-- Nav Tabs -->
                 <ul class="nav flex-column nav-pills" id="inspectorateTabs" role="tablist" aria-orientation="vertical">
                     <li class="nav-item">
-                        <a class="nav-link active" id="org-tab" data-bs-toggle="pill" href="#org" role="tab">Audit Reports</a>
+                        <a class="nav-link active" id="org-tab" data-bs-toggle="pill" href="#org" role="tab">Audit Report</a>
                     </li>
                     
                 </ul>
