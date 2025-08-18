@@ -5,7 +5,6 @@ require_once '../../includes/config.php';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Database connection
 
-
     // Get form data
     $title = trim($_POST['title']);
     $description = trim($_POST['description']);
@@ -28,8 +27,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             die("Invalid file type. Allowed types: PDF, DOCX, XLSX.");
         }
 
-
-
         $target_dir = "uploads/publication";
 
         // Step 1: Upload temporary unique file
@@ -37,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $temp_path = $target_dir . $temp_name;
         if (move_uploaded_file($file_tmp, $temp_path)) {
             // Step 2: Insert into DB with temporary path
-            $stmt = $db->prepare("INSERT INTO documents (title, description, category_id, file_path, uploaded_by, is_active,branch_id,section) VALUES (?, ?, ?, ?, ?, ?,?,?)");
+            $stmt = $db->prepare("INSERT INTO publication_documents (title, description, category_id, file_path, uploaded_by, is_active,branch_id,section) VALUES (?, ?, ?, ?, ?, ?,?,?)");
             $stmt->bind_param("ssisiiis", $title, $description, $category_id, $temp_path, $uploaded_by, $is_active, $branch_id, $main);
             if ($stmt->execute()) {
                 $last_id = $stmt->insert_id;
@@ -48,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 if (rename($temp_path, $new_path)) {
                     // Step 4: Update DB with new file path
-                    $update_stmt = $db->prepare("UPDATE documents SET file_path = ? WHERE id = ?");
+                    $update_stmt = $db->prepare("UPDATE publication_documents SET file_path = ? WHERE id = ?");
                     $update_stmt->bind_param("si", $new_path, $last_id);
                     $update_stmt->execute();
                     $update_stmt->close();
