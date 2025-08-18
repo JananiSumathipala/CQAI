@@ -36,10 +36,6 @@ include "template/head.php";
 					include "section/mainbox.php";
 					?>
 
-
-
-
-
 				</div>
 			</div>
 		</div>

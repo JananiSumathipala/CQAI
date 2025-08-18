@@ -20,9 +20,9 @@
 							<span class="nav-text">Services</span>
 						</a>
 					</li>
-					<li><a  href=".\dashboard.php" aria-expanded="false">
+					<li><a  href="publications-docs.php" aria-expanded="false">
 							<i class="flaticon-381-newspaper"></i>
-							<span class="nav-text">publications</span>
+							<span class="nav-text">Publications</span>
 						</a>
 					</li>
 					<li><a  href=".\table-datatable-basic.php.php" aria-expanded="false">
