@@ -17,7 +17,7 @@
       <h3>Services</h3>
       <p>Support and logistics for air force operations.</p>
     </a>
-    <a href="publications.php" class="nav-card">
+    <a href="publication.php" class="nav-card">
       <h3>Publications</h3>
       <p>Access official documents, manuals, and updates.</p>
     </a>
