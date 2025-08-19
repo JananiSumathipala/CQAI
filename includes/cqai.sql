@@ -134,7 +134,7 @@ CREATE TABLE IF NOT EXISTS `publication_categories` (
 ) ENG
 /*Data for the table `Publication categories` */
 
-insert  into `publication_categories`(`id`,`name`,`created_at`) values 
+insert  into `publication_categories`(`id`,`name`) values 
 (13,'Publication Update'),
 (14,'Master Copies'),
 (15,'Publication Index'),
@@ -163,3 +163,79 @@ CREATE TABLE `publication_documents` (
   CONSTRAINT `fk_publication_document_category` FOREIGN KEY (`category_id`) REFERENCES `publication_categories` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
 ) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+/*Table structure for table `Training categories` */
+
+CREATE TABLE IF NOT EXISTS `training_categories` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE KEY `name` (`name`) USING BTREE
+) ENG
+/*Data for the table `Training categories` */
+
+insert  into `training_categories`(`id`,`name`) values 
+(19,'Competency Training'),
+(20,'CPD'),
+(21,'PIPD'),
+(22,'Outside Training');
+
+/*Table structure for table `Training documents` */
+
+CREATE TABLE `training_documents` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `description` text CHARACTER SET latin1 COLLATE latin1_swedish_ci,
+  `category_id` int DEFAULT NULL,
+  `uploaded_by` int DEFAULT NULL,
+  `file_path` varchar(255) NOT NULL,
+  `uploaded_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `is_active` tinyint(1) DEFAULT '1',
+  `branch_id` int DEFAULT NULL,
+  `section` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  KEY `uploaded_by` (`uploaded_by`) USING BTREE,
+  KEY `fk_training_document_category` (`category_id`) USING BTREE,
+  CONSTRAINT `training_documents_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `training_categories` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
+  CONSTRAINT `training_documents_ibfk_2` FOREIGN KEY (`uploaded_by`) REFERENCES `admins` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
+  CONSTRAINT `fk_training_document_category` FOREIGN KEY (`category_id`) REFERENCES `training_categories` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+/*Table structure for table `productivity categories` */
+
+CREATE TABLE IF NOT EXISTS `productivity_categories` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE KEY `name` (`name`) USING BTREE
+) ENG;
+
+/*Data for the table `productivity categories` */
+
+insert  into `productivity_categories`(`id`,`name`) values 
+(23,'OSH'),
+(24,'Eventment'),
+(25,'PUB'),
+(26,'QCC');
+
+/*Table structure for table `productivity documents` */
+
+CREATE TABLE `productivity_documents` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `description` text CHARACTER SET latin1 COLLATE latin1_swedish_ci,
+  `category_id` int DEFAULT NULL,
+  `uploaded_by` int DEFAULT NULL,
+  `file_path` varchar(255) NOT NULL,
+  `uploaded_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `is_active` tinyint(1) DEFAULT '1',
+  `branch_id` int DEFAULT NULL,
+  `section` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  KEY `uploaded_by` (`uploaded_by`) USING BTREE,
+  KEY `fk_productivity_document_category` (`category_id`) USING BTREE,
+  CONSTRAINT `productivity_documents_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `productivity_categories` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
+  CONSTRAINT `productivity_documents_ibfk_2` FOREIGN KEY (`uploaded_by`) REFERENCES `admins` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
+  CONSTRAINT `fk_productivity_document_category` FOREIGN KEY (`category_id`) REFERENCES `productivity_categories` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

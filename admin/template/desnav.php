@@ -22,15 +22,15 @@
 					</li>
 					<li><a  href="publications-docs.php" aria-expanded="false">
 							<i class="flaticon-381-newspaper"></i>
-							<span class="nav-text">Publications</span>
+							<span class="nav-text">Publication</span>
 						</a>
 					</li>
-					<li><a  href=".\table-datatable-basic.php.php" aria-expanded="false">
+					<li><a  href="training-docs.php" aria-expanded="false">
 							<i class="flaticon-381-networking"></i>
 							<span class="nav-text">Training</span>
 						</a>
 					</li>
-					<li><a  href=".\table-datatable-basic.php.php" aria-expanded="false">
+					<li><a  href="productivity-docs.php" aria-expanded="false">
 							<i class="flaticon-381-networking"></i>
 							<span class="nav-text">Productivity</span>
 						</a>
