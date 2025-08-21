@@ -5,7 +5,7 @@
 include "template/head.php";
 require_once '../includes/config.php';
 
-$categories = $db->query("SELECT id, name FROM categories ORDER BY name")->fetch_all(MYSQLI_ASSOC);
+$publication_categories = $db->query("SELECT id, name FROM publication_categories ORDER BY name")->fetch_all(MYSQLI_ASSOC);
 $branches = $db->query("SELECT id, name FROM branches ORDER BY name")->fetch_all(MYSQLI_ASSOC);
 ?>
 
@@ -60,11 +60,11 @@ $branches = $db->query("SELECT id, name FROM branches ORDER BY name")->fetch_all
                             <label for="category_id">Category*</label>
                             <select name="category_id" class="form-control input-default" id="category_id" required>
                                 <option value="">Select a category</option>
-                                <?php foreach ($categories as $cat): ?>
-                                    <option value="<?= $cat['id'] ?>" <?=
-                                                                        (isset($_POST['category_id']) && $_POST['category_id'] == $cat['id']) ? 'selected' : ''
+                                <?php foreach ($publication_categories as $pub_cat): ?>
+                                    <option value="<?= $pub_cat['id'] ?>" <?=
+                                                                        (isset($_POST['category_id']) && $_POST['category_id'] == $pub_cat['id']) ? 'selected' : ''
                                                                         ?>>
-                                        <?= htmlspecialchars($cat['name']) ?>
+                                        <?= htmlspecialchars($pub_cat['name']) ?>
                                     </option>
                                 <?php endforeach; ?>
 

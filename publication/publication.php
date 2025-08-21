@@ -1,16 +1,16 @@
-<?php include 'template/head.php'; ?>
+<?php include '../template/head.php'; ?>
 <head>
-    <link rel="stylesheet" href="assets/css/audit_card.css">
+    <link rel="stylesheet" href="../assets/css/audit_card.css">
 </head>
 <body>
-    <?php include 'template/header.php'; ?>
+    <?php include '../template/header.php'; ?>
     
     <!-- Main Content -->
     <main class="container my-5 pt-5">
         <div class="page-header mb-4">
-            <h3 class="colour-defult">Services <i class="fa fa-tasks"></i>
+            <h3 class="colour-defult">Publications <i class="fa fa-book"></i>
                 <div class="float-end">
-                    <a href="index.php" class="btn btn-info me-2"><i class="fa fa-home"></i> Home</a>
+                    <a href="../index.php" class="btn btn-info me-2"><i class="fa fa-home"></i> Home</a>
                     <a href="javascript:history.back()" class="btn btn-secondary"><i class="fa fa-arrow-left"></i> Back</a>
                 </div>
             </h3>
@@ -21,25 +21,22 @@
             <div class="col-lg-2">
                 <ul class="nav flex-column nav-pills" id="inspectorateTabs" role="tablist" aria-orientation="vertical">
                     <li class="nav-item">
-                        <a class="nav-link active" id="checklist-tab" data-bs-toggle="pill" href="#checklist" role="tab">Check List</a>
+                        <a class="nav-link active" id="publication_update-tab" data-bs-toggle="pill" href="#publication_update" role="tab">Publication Update</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="auditreport-tab" data-bs-toggle="pill" href="#auditreport" role="tab">Audit Report</a>
+                        <a class="nav-link" id="master_copies-tab" data-bs-toggle="pill" href="#master_copies" role="tab">Master Copies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="feedback-tab" data-bs-toggle="pill" href="#feedback" role="tab">Feedback Report</a>
+                        <a class="nav-link" id="publication_index-tab" data-bs-toggle="pill" href="#publication_index" role="tab">Publication Index</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="rdproject-tab" data-bs-toggle="pill" href="#rdproject" role="tab">R&D Project Proposal</a>
+                        <a class="nav-link" id="worksheet-tab" data-bs-toggle="pill" href="#worksheet" role="tab">Worksheets</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="latitude-tab" data-bs-toggle="pill" href="#latitude" role="tab">Latitude</a>
+                        <a class="nav-link" id="service_shedule-tab" data-bs-toggle="pill" href="#service_shedule" role="tab">Service Shedule</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="leaflet-tab" data-bs-toggle="pill" href="#leaflet" role="tab">Modification Leaflet</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="confidency-tab" data-bs-toggle="pill" href="#confidency" role="tab">Confidency</a>
+                        <a class="nav-link" id="ad_bulleting-tab" data-bs-toggle="pill" href="#ad_bulleting" role="tab">AD & Bulletings</a>
                     </li>
                 </ul>
             </div>
@@ -48,41 +45,36 @@
             <div class="col-lg-10">
                 <div class="tab-content" id="inspectorateTabsContent">
                     
-                    <!-- Tab 1: Check List -->
-                    <div class="tab-pane fade show active" id="checklist" role="tabpanel">
-                        <?php echo generateServiceCards('services-check.php'); ?>
+                    <!-- Tab 1: Publication Update -->
+                    <div class="tab-pane fade show active" id="publication_update" role="tabpanel">
+                        <?php echo generateServiceCards('publications-publication_update.php'); ?>
                     </div>
                     
-                    <!-- Tab 2: Audit Report -->
-                    <div class="tab-pane fade" id="auditreport" role="tabpanel">
-                        <?php echo generateServiceCards('services-auditreport.php'); ?>
+                    <!-- Tab 2: Master Copies -->
+                    <div class="tab-pane fade" id="master_copies" role="tabpanel">
+                        <?php echo generateServiceCards('publications-master_copies.php'); ?>
                     </div>
                     
-                    <!-- Tab 3: Feedback Report -->
-                    <div class="tab-pane fade" id="feedback" role="tabpanel">
-                        <?php echo generateServiceCards('services-feedback.php'); ?>
+                    <!-- Tab 3: Publication Index -->
+                    <div class="tab-pane fade" id="publication_index" role="tabpanel">
+                        <?php echo generateServiceCards('publications-publication_index.php'); ?>
                     </div>
                     
-                    <!-- Tab 4: R&D Project Proposal -->
-                    <div class="tab-pane fade" id="rdproject" role="tabpanel">
-                        <?php echo generateServiceCards('services-r&dproject.php'); ?>
+                    <!-- Tab 4: Worksheets -->
+                    <div class="tab-pane fade" id="worksheet" role="tabpanel">
+                        <?php echo generateServiceCards('publications-worksheet.php'); ?>
                     </div>
                     
-                    <!-- Tab 5: Latitude -->
-                    <div class="tab-pane fade" id="latitude" role="tabpanel">
-                        <?php echo generateServiceCards('services-latitude.php'); ?>
+                    <!-- Tab 5: Service Shedule  -->
+                    <div class="tab-pane fade" id="service_shedule" role="tabpanel">
+                        <?php echo generateServiceCards('publications-service_shedule.php'); ?>
                     </div>
                     
-                    <!-- Tab 6: Modification Leaflet -->
-                    <div class="tab-pane fade" id="leaflet" role="tabpanel">
-                        <?php echo generateServiceCards('services-leaflet.php'); ?>
+                    <!-- Tab 6: AD & Bulletings -->
+                    <div class="tab-pane fade" id="ad_bulleting" role="tabpanel">
+                        <?php echo generateServiceCards('publications-ad_bulleting.php'); ?>
                     </div>
-                    
-                    <!-- Tab 7: Confidency -->
-                    <div class="tab-pane fade" id="confidency" role="tabpanel">
-                        <?php echo generateServiceCards('services-confidency.php'); ?>
-                    </div>
-                    
+                                        
                 </div>
             </div>
         </div>
@@ -90,8 +82,8 @@
     </main>
 
     <?php
-    include 'template/footer.php';
-    include 'template/foot.php';
+    include '../template/footer.php';
+    include '../template/foot.php';
     
     // Function to generate service cards
     function generateServiceCards($baseUrl) {
