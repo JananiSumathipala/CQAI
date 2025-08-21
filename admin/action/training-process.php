@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 if (rename($temp_path, $new_path)) {
                     // Step 4: Update DB with new file path
-                    $update_stmt = $db->prepare("UPDATE publication_documents SET file_path = ? WHERE id = ?");
+                    $update_stmt = $db->prepare("UPDATE training_documents SET file_path = ? WHERE id = ?");
                     $update_stmt->bind_param("si", $new_path, $last_id);
                     $update_stmt->execute();
                     $update_stmt->close();

@@ -1,16 +1,16 @@
-<?php include 'template/head.php'; ?>
+<?php include '../template/head.php'; ?>
 
 <body>
 
     <?php
-    include 'template/header.php';
+    include '../template/header.php';
     ?>
     <!-- Main Content -->
     <main class="container my-5 pt-5">
         <div class="page-header mb-4">
             <h3 class="colour-defult">The Inspectorate <i class="fa fa-bullhorn"></i>
                 <div class="float-end">
-                    <a href="index.php" class="btn btn-info me-2"><i class="fa fa-home"></i> Home</a>
+                    <a href="../index.php" class="btn btn-info me-2"><i class="fa fa-home"></i> Home</a>
                     <a href="javascript:history.back()" class="btn btn-secondary"><i class="fa fa-arrow-left"></i> Back</a>
                 </div>
             </h3>
@@ -77,7 +77,7 @@
                         <img class="img-fluid" src="assets/img/about/org.jpg" width="1800" height="1800" alt="Organization Chart">
                     </div> -->
                     <div class="tab-pane fade" id="structure" role="tabpanel">
-                        <img id="orgImage" class="img-fluid" src="assets/img/about/org.jpg" width="1800" height="1800" alt="Organization Chart" style="cursor: zoom-in;">
+                        <img id="orgImage" class="img-fluid" src="../assets/img/about/org.jpg" width="1800" height="1800" alt="Organization Chart" style="cursor: zoom-in;">
                     </div>
 
                     <!-- Fullscreen Swiper -->
@@ -86,7 +86,8 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="swiper-zoom-container">
-                                        <img src="assets/img/about/org.jpg" alt="Organization Chart">
+                                        <img src="../
+                                        assets/img/about/org.jpg" alt="Organization Chart">
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +105,7 @@
                         <div class="card mx-auto my-4" style="max-width: 250px;  box-shadow: 1px 1px 3px 1px;">
                             <div class="card-body text-center">
                                 <h5 class="card-title text-center">DIRECTOR QUALITY ASSURANCE</h5>
-                                <img width="200" height="250" src="assets/img/staff/01.png" alt="DIRECTOR QUALITY ASSURANCE">
+                                <img width="200" height="250" src="../assets/img/staff/01.png" alt="DIRECTOR QUALITY ASSURANCE">
                                 <br>
                                 <p style="margin: 0;"><strong>Rank:</strong> Air Cdr</p>
                                 <p style="margin: 0;"><strong>Name:</strong> MF Jansen</p>
@@ -123,7 +124,7 @@
                                     <div class="card h-100 text-center" style="max-width: 250px;box-shadow: 1px 1px 3px 1px;">
                                         <div class="card-body">
                                             <h5 class="card-title">SOQA(AERO ENG-FW/RW)</h5>
-                                            <img width="200" height="250" src="assets/img/staff/officer1.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                            <img width="200" height="250" src="../assets/img/staff/officer1.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                             <p style="margin: 0;"><strong>Rank:</strong> Wg Cdr</p>
                                             <p style="margin: 0;"><strong>Name:</strong> WNI Yalagama</p>
                                             <p style="margin: 0;"><strong>Ext:</strong> 11115</p>
@@ -136,7 +137,7 @@
                                     <div class="card h-100 text-center" style="max-width: 250px;  box-shadow: 1px 1px 3px 1px;">
                                         <div class="card-body">
                                             <h5 class="card-title">SOQA(E/E&T ENG)</h5>
-                                            <img width="200" height="250" src="assets/img/staff/officer2.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                            <img width="200" height="250" src="../assets/img/staff/officer2.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                             <p style="margin: 0;"><strong>Rank:</strong> Gp Capt</p>
                                             <p style="margin: 0;"><strong>Name:</strong> I Chandratilleke</p>
                                             <p style="margin: 0;"><strong>Ext:</strong> 11116</p>
@@ -149,7 +150,7 @@
                                     <div class="card h-100 text-center" style="max-width: 250px;  box-shadow: 1px 1px 3px 1px;">
                                         <div class="card-body">
                                             <h5 class="card-title">SOQA(GE)</h5>
-                                            <img width="200" height="250" src="assets/img/staff/officer3.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                            <img width="200" height="250" src="../assets/img/staff/officer3.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                             <p style="margin: 0;"><strong>Rank:</strong> Sqn Ldr</p>
                                             <p style="margin: 0;"><strong>Name:</strong> THDM Hettige</p>
                                             <p style="margin: 0;"><strong>Ext:</strong> 11117</p>
@@ -162,7 +163,7 @@
                                     <div class="card h-100 text-center" style="max-width: 250px;  box-shadow: 1px 1px 3px 1px;">
                                         <div class="card-body">
                                             <h5 class="card-title">SOQA(TRG & PUG)</h5>
-                                            <img width="200" height="250" src="assets/img/staff/officer5.png" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                            <img width="200" height="250" src="../assets/img/staff/officer5.png" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                             <p style="margin: 0;"><strong>Rank:</strong> Sqn Ldr</p>
                                             <p style="margin: 0;"><strong>Name:</strong> MMDC MORAYAS</p>
                                             <p style="margin: 0;"><strong>Ext:</strong> 11119</p>
@@ -181,7 +182,7 @@
                                             <div class="card h-100 text-center" style="max-width: 250px;  box-shadow: 1px 1px 3px 1px;">
                                                 <div class="card-body">
                                                     <h5 class="card-title">WO I/C</h5>
-                                                    <img width="200" height="250" src="assets/img/staff/wo1.png" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                                    <img width="200" height="250" src="../assets/img/staff/wo1.png" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                                     <p style="margin: 0;"><strong>Rank:</strong> MWO</p>
                                                     <p style="margin: 0;"><strong>Name:</strong> RGD ARIYARATHNA</p>
                                                     <p style="margin: 0;"><strong>Ext:</strong> 11151</p>
@@ -401,7 +402,7 @@
                                     <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
                                             <h5 class="card-title">2015 WINNER </h5>
-                                            <img width="200" height="250" src="assets/img/achievements/National Productivity Award 2015 - Gold Award.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2"><br>
+                                            <img width="200" height="250" src="../assets/img/achievements/National Productivity Award 2015 - Gold Award.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2"><br>
                                             <p><strong>National Productivity Award 2015 - Gold Award</strong></p>
                                         </div>
                                     </div>
@@ -410,7 +411,7 @@
                                     <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
                                             <h5 class="card-title">2014 WINNER </h5>
-                                            <img width="200" height="250" src="assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2"><br>
+                                            <img width="200" height="250" src="../assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2"><br>
                                             <p><strong>Inter Departmental category Organized by national productivity secretariat</strong></p>
                                         </div>
                                     </div>
@@ -419,7 +420,7 @@
                                     <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
                                             <h5 class="card-title">2008 WINNER</h5>
-                                            <img width="200" height="250" src="assets/img/achievements/Public sector and Inter Departmental category Organized by national productivity secretariat 2008.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2" data-index="0">
+                                            <img width="200" height="250" src="../assets/img/achievements/Public sector and Inter Departmental category Organized by national productivity secretariat 2008.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2" data-index="0">
                                             <p><strong>Nationa Productivity Award - First Place</strong>
                                         </div>
                                     </div>
@@ -428,7 +429,7 @@
                                     <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
                                             <h5 class="card-title">2008 WINNER</h5>
-                                            <img width="200" height="250" src="assets/img/achievements/Inter Departmental category Organized by national productivity secretariat 2008.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2" data-index="1">
+                                            <img width="200" height="250" src="../assets/img/achievements/Inter Departmental category Organized by national productivity secretariat 2008.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2" data-index="1">
                                             <p><strong>Provincial Productivity Award - First Place</strong>
                                         </div>
                                     </div>
@@ -437,7 +438,7 @@
                                     <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
                                             <h5 class="card-title">2003 WINNER</h5>
-                                            <img width="200" height="250" src="assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                            <img width="200" height="250" src="../assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                             <p><strong>Nationa Productivity Award </strong>
                                         </div>
                                     </div>
@@ -446,7 +447,7 @@
                                     <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
                                             <h5 class="card-title">1996 WINNER</h5>
-                                            <img width="200" height="250" src="assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                            <img width="200" height="250" src="../assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                             <p><strong>Excellence in Quality</strong>
                                         </div>
                                     </div>
@@ -455,7 +456,7 @@
                                     <div class="card h-90 text-center shadow-card">
                                         <div class="card-body">
                                             <h5 class="card-title">1996 Merit Award</h5>
-                                            <img width="200" height="250" src="assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
+                                            <img width="200" height="250" src="../assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
                                             <p><strong> Quality Management Strategies and activities</strong></p>
                                         </div>
                                     </div>
@@ -469,8 +470,8 @@
         <hr>
     </main>
     <?php
-    include 'template/footer.php';
-    include 'template/foot.php';
+    include '../template/footer.php';
+    include '../template/foot.php';
     ?>
     <script>
         document.addEventListener("DOMContentLoaded", function() {

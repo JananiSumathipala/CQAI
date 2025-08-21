@@ -1,18 +1,18 @@
-<?php include 'template/head.php'; ?>
+<?php include '../template/head.php'; ?>
 <head>
-    <link rel="stylesheet" href="assets/css/audit_card.css">
+    <link rel="stylesheet" href="../assets/css/audit_card.css">
 </head>
 <body>
 
     <?php
-    include 'template/header.php';
+    include '../template/header.php';
     ?>
     <!-- Main Content -->
     <main class="container my-5 pt-5">
         <div class="page-header mb-4">
             <h3 class="colour-defult">Productivity <i class="fa fa-tasks"></i>
                 <div class="float-end">
-                    <a href="index.php" class="btn btn-info me-2"><i class="fa fa-home"></i> Home</a>
+                    <a href="../index.php" class="btn btn-info me-2"><i class="fa fa-home"></i> Home</a>
                     <a href="javascript:history.back()" class="btn btn-secondary"><i class="fa fa-arrow-left"></i> Back</a>
                 </div>
             </h3>
@@ -74,8 +74,8 @@
     </main>
 
     <?php
-    include 'template/footer.php';
-    include 'template/foot.php';
+    include '../template/footer.php';
+    include '../template/foot.php';
     
     // Function to generate service cards
     function generateServiceCards($baseUrl) {

@@ -1,9 +1,9 @@
-<?php include 'template/head.php'; ?>
+<?php include '../template/head.php'; ?>
 <head>
-    <link rel="stylesheet" href="assets/css/audit_card.css">
+    <link rel="stylesheet" href="../assets/css/audit_card.css">
 </head>
 <body>
-    <?php include 'template/header.php'; ?>
+    <?php include '../template/header.php'; ?>
     
     <!-- Main Content -->
     <main class="container my-5 pt-5">
@@ -90,8 +90,8 @@
     </main>
 
     <?php
-    include 'template/footer.php';
-    include 'template/foot.php';
+    include '../template/footer.php';
+    include '../template/foot.php';
     
     // Function to generate service cards
     function generateServiceCards($baseUrl) {

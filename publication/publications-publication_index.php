@@ -4,8 +4,8 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-include 'template/head.php';
-require_once "includes/config.php";
+include '../template/head.php';
+require_once "../includes/config.php";
 
 // Section mapping (update branch_id values as per your DB)
 $sections = [
@@ -24,8 +24,8 @@ $branch_id = $sections[$selected] ?? 6;
 
 // Fetch feedback documents for selected section
 $stmt = $db->prepare("SELECT d.title, d.description, d.uploaded_at, d.file_path 
-    FROM productivity_documents d
-    WHERE d.category_id = 24 AND d.is_active = 1 AND d.branch_id = ?
+    FROM publication_documents d
+    WHERE d.category_id = 15 AND d.is_active = 1 AND d.branch_id = ?
     ORDER BY d.uploaded_at DESC");
 $stmt->bind_param("i", $branch_id);
 $stmt->execute();
@@ -33,13 +33,13 @@ $result = $stmt->get_result();
 ?>
 
 <body>
-<?php include 'template/header.php'; ?>
+<?php include '../template/header.php'; ?>
 
 <main class="container my-5 pt-5">
         <div class="page-header mb-4">
-            <h3 class="colour-defult">Productivity <i class="fa fa-book"></i>
+            <h3 class="colour-defult">Publications <i class="fa fa-book"></i>
                 <div class="float-end">
-                    <a href="index.php" class="btn btn-info me-2"><i class="fa fa-home"></i> Home</a>
+                    <a href="../index.php" class="btn btn-info me-2"><i class="fa fa-home"></i> Home</a>
                     <a href="javascript:history.back()" class="btn btn-secondary"><i class="fa fa-arrow-left"></i> Back</a>
                 </div>
             </h3>
@@ -50,7 +50,7 @@ $result = $stmt->get_result();
                 <!-- Nav Tabs -->
                 <ul class="nav flex-column nav-pills" id="inspectorateTabs" role="tablist" aria-orientation="vertical">
                     <li class="nav-item">
-                        <a class="nav-link active" id="org-tab" data-bs-toggle="pill" href="#eventment" role="tab">Eventment</a>
+                        <a class="nav-link active" id="org-tab" data-bs-toggle="pill" href="#publication_index" role="tab">Publication Index</a>
                     </li>
                     
                 </ul>
@@ -79,7 +79,7 @@ $result = $stmt->get_result();
                                     <!-- <td><?= htmlspecialchars($row['uploaded_by']) ?></td> -->
                                     <td><?= htmlspecialchars($row['uploaded_at']) ?></td>
                                     <td>
-                                        <a href="admin/action/<?= htmlspecialchars($row['file_path']) ?>" target="_blank" class="btn btn-sm btn-primary">View</a>
+                                        <a href="../admin/action/<?= htmlspecialchars($row['file_path']) ?>" target="_blank" class="btn btn-sm btn-primary">View</a>
                                     </td>
                                 </tr>
                             <?php endwhile; ?>
@@ -97,7 +97,7 @@ $result = $stmt->get_result();
 </main>
 <?php
 //include 'template/footer.php';
-include 'template/foot.php';
+include '../template/foot.php';
 ?>
 </body>
 </html>
