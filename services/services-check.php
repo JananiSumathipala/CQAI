@@ -78,9 +78,12 @@ $result = $stmt->get_result();
                                     <!-- <td><?= htmlspecialchars($row['category']) ?></td> -->
                                     <!-- <td><?= htmlspecialchars($row['uploaded_by']) ?></td> -->
                                     <td><?= htmlspecialchars($row['uploaded_at']) ?></td>
-                                    <td>
-                                        <a href="../admin/action/<?= htmlspecialchars($row['file_path']) ?>" target="_blank" class="btn btn-sm btn-primary">View</a>
-                                    </td>
+                                        <td>
+                                            <a href="../view_document.php?file=<?= urlencode($row['file_path']) ?>" 
+                                             class="btn btn-primary">
+                                            View
+                                            </a>
+                                        </td>
                                 </tr>
                             <?php endwhile; ?>
                         <?php else: ?>
