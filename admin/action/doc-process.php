@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
 
-        $target_dir = "uploads/";
+        $target_dir = "uploads/services/";
 
         // Step 1: Upload temporary unique file
         $temp_name = uniqid('temp_') . '.' . $file_ext;

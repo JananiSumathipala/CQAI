@@ -89,12 +89,12 @@
     function generateServiceCards($baseUrl) {
         $sections = [
             'AE' => ['color' => 'blue', 'icon' => 'building'],
-            'AO' => ['color' => 'teal', 'icon' => 'people'],
-            'AA' => ['color' => 'purple', 'icon' => 'journal-text'],
-            'GE' => ['color' => 'pink', 'icon' => 'calendar-event'],
-            'EE' => ['color' => 'orange', 'icon' => 'building'],
-            'BE' => ['color' => 'green', 'icon' => 'people'],
-            'CE' => ['color' => 'red', 'icon' => 'calendar-event']
+            'AO' => ['color' => 'blue', 'icon' => 'people'],
+            'AA' => ['color' => 'blue', 'icon' => 'journal-text'],
+            'GE' => ['color' => 'blue', 'icon' => 'calendar-event'],
+            'EE' => ['color' => 'blue', 'icon' => 'building'],
+            'BE' => ['color' => 'blue', 'icon' => 'people'],
+            'CE' => ['color' => 'blue', 'icon' => 'calendar-event']
         ];
         
         $html = '<div class="row text-center">';

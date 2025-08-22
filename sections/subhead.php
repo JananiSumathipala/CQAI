@@ -4,12 +4,12 @@
             <div class="subhead-column">
                 <h4 class="subhead-title">Inspectorate</h4>
                 <ul class="subhead-list">
-                    <li><a href="inspectorate.php#org" style="text-decoration: none; color: var(--dark-color);"> About</a> </li>
-                    <li><a href="inspectorate.php#functions" style="text-decoration: none; color: var(--dark-color);">Policy</a></li>
-                    <li><a href="inspectorate.php#structure" style="text-decoration: none; color: var(--dark-color);">Structure</a></li>
-                    <li><a href="inspectorate.php#responsibilities" style="text-decoration: none; color: var(--dark-color);">Staff</a></li>
-                    <li><a href="inspectorate.php#history" style="text-decoration: none; color: var(--dark-color);">History</a></li>
-                    <li><a href="inspectorate.php#achievements" style="text-decoration: none; color: var(--dark-color);">Achievement</a></li>
+                    <li><a href="qai/inspectorate.php#org" style="text-decoration: none; color: var(--dark-color);"> About</a> </li>
+                    <li><a href="qai/inspectorate.php#functions" style="text-decoration: none; color: var(--dark-color);">Policy</a></li>
+                    <li><a href="qai/inspectorate.php#structure" style="text-decoration: none; color: var(--dark-color);">Structure</a></li>
+                    <li><a href="qai/inspectorate.php#responsibilities" style="text-decoration: none; color: var(--dark-color);">Staff</a></li>
+                    <li><a href="qai/inspectorate.php#history" style="text-decoration: none; color: var(--dark-color);">History</a></li>
+                    <li><a href="qai/inspectorate.php#achievements" style="text-decoration: none; color: var(--dark-color);">Achievement</a></li>
                     <!-- <li>Risk Assessment</li> -->
                 </ul>
             </div>
