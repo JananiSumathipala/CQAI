@@ -1,10 +1,232 @@
-<?php include '../template/head.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Command Quality Assurance Inspectorate</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <style>
+        :root {
+            --primary-color: #1a4f72;
+            --secondary-color: #ffcc00;
+            --light-bg: #f8f9fa;
+            --dark-bg: #343a40;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--light-bg);
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .colour-defult {
+            color: var(--primary-color) !important;
+        }
+        
+        .page-header {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .nav-pills .nav-link {
+            color: #495057;
+            border-radius: 0;
+            padding: 12px 20px;
+            margin-bottom: 8px;
+            transition: all 0.3s;
+            border-left: 3px solid transparent;
+        }
+        
+        .nav-pills .nav-link.active, 
+        .nav-pills .nav-link:hover {
+            background-color: rgba(26, 79, 114, 0.1);
+            color: var(--primary-color);
+            border-left: 3px solid var(--primary-color);
+        }
+        
+        .tab-content {
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card {
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .shadow-card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .staff-card {
+            height: 100%;
+        }
+        
+        .staff-card img {
+            border-radius: 5px;
+            object-fit: cover;
+        }
+        
+        .achievement-card {
+            height: 100%;
+        }
+        
+        .achievement-card img {
+            height: 200px;
+            object-fit: cover;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        
+        .history-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .history-table th {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        .history-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .history-table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        .history-table tr:hover {
+            background-color: rgba(26, 79, 114, 0.05);
+        }
+        
+        .alert-info {
+            background-color: rgba(26, 79, 114, 0.1);
+            border-color: rgba(26, 79, 114, 0.2);
+            color: var(--primary-color);
+        }
+        
+        .policy-statement {
+            font-style: italic;
+            text-align: center;
+            padding: 30px;
+            background-color: rgba(26, 79, 114, 0.05);
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        #orgImage {
+            cursor: zoom-in;
+            transition: transform 0.3s;
+        }
+        
+        #orgImage:hover {
+            transform: scale(1.02);
+        }
+        
+        #swiperOverlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 9999;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .mySwiper {
+            width: 90%;
+            height: 90%;
+        }
+        
+        #closeSwiper {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 40px;
+            color: white;
+            cursor: pointer;
+            z-index: 10000;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 992px) {
+            .nav-pills {
+                flex-direction: row !important;
+                overflow-x: auto;
+                white-space: nowrap;
+                padding-bottom: 10px;
+            }
+            
+            .nav-pills .nav-item {
+                display: inline-block;
+                float: none;
+            }
+            
+            .nav-pills .nav-link {
+                border-left: none;
+                border-bottom: 3px solid transparent;
+                margin-bottom: 0;
+                margin-right: 5px;
+            }
+            
+            .nav-pills .nav-link.active, 
+            .nav-pills .nav-link:hover {
+                border-left: none;
+                border-bottom: 3px solid var(--primary-color);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .page-header h3 {
+                font-size: 1.5rem;
+            }
+            
+            .policy-statement {
+                padding: 20px;
+            }
+            
+            .history-table {
+                font-size: 0.9rem;
+            }
+            
+            .history-table th, 
+            .history-table td {
+                padding: 8px 10px;
+            }
+        }
+    </style>
+</head>
 
 <body>
+    <!-- Header -->
+    <?php include '../template/head.php'; ?>
 
-    <?php
-    include '../template/header.php';
-    ?>
+    <?php include '../template/header.php'; ?>
+
     <!-- Main Content -->
     <main class="container my-5 pt-5">
         <div class="page-header mb-4">
@@ -17,448 +239,286 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-2">
-                <!-- Nav Tabs -->
-                <ul class="nav flex-column nav-pills" id="inspectorateTabs" role="tablist" aria-orientation="vertical">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="org-tab" data-bs-toggle="pill" href="#org" role="tab">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="functions-tab" data-bs-toggle="pill" href="#functions" role="tab">Policy</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">Structure</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="responsibilities-tab" data-bs-toggle="pill" href="#responsibilities" role="tab">Staff</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="History-tab" data-bs-toggle="pill" href="#history" role="tab">History</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="achievements-tab" data-bs-toggle="pill" href="#achievements" role="tab">Achievements</a>
-                    </li>
-                </ul>
+            <!-- Navigation Tabs -->
+            <div class="col-lg-3 col-xl-2 mb-4">
+                <div class="nav flex-column nav-pills" id="inspectorateTabs" role="tablist">
+                    <a class="nav-link active" id="org-tab" data-bs-toggle="pill" href="#org" role="tab">About us</a>
+                    <a class="nav-link" id="functions-tab" data-bs-toggle="pill" href="#functions" role="tab">Policy</a>
+                    <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">Structure</a>
+                    <a class="nav-link" id="responsibilities-tab" data-bs-toggle="pill" href="#responsibilities" role="tab">Staff</a>
+                    <a class="nav-link" id="History-tab" data-bs-toggle="pill" href="#history" role="tab">History</a>
+                    <a class="nav-link" id="achievements-tab" data-bs-toggle="pill" href="#achievements" role="tab">Achievements</a>
+                </div>
             </div>
 
-            <div class="col-lg-10">
-                <!-- Tab Content -->
+            <!-- Tab Content -->
+            <div class="col-lg-9 col-xl-10">
                 <div class="tab-content" id="inspectorateTabsContent">
-                    <!-- Tab 1 -->
+                    <!-- About Us -->
                     <div class="tab-pane fade show active" id="org" role="tabpanel">
-                        <!-- <div >
-                            <h5><strong>ABOUT US</strong></h5>
-                        </div> -->
-                        <p style="font-family:DMSans;">The Sri Lanka Air Force (SLAF), in its commitment to fulfil the aspirations of the Nation by achieving excellence in the field of aviation and in all associated functions, is continually striving to enhance customer satisfaction by exceeding stake holders’ expectations whilst endeavouring to be efficient, reliable and socially responsible.<br>
-                            Towards this end, the Quality Assurance Inspectorate (QAI) was established to perform Quality Assurance Functions within the SLAF. The QAI functions under supervision of the Chief of Staff of the Sri Lanka Air Force and is headed by the Director Quality Assurance (DQA) who is primarily tasked to provide advice on the Quality Assurance Services (QAS) matters such as Policy, Organization and Administration. <br>
-                            As such the main functions of the QAI are as follows; <br>
-                        </p>
-                        <section>
-                            <ul>
-                                <li>Administration of the Quality Assurance Services (QAS) in the SLAF</li>
-                                <li>Provide an organization to assess the quality of material, processors and workmanship for the SLAF</li>
-                                <li>Ensure that the service operates efficiently and economically to assist the completion of the task in accordance with the policy directives</li>
-                                <li>Provision of adequate facilities for the quality assurance activities and ensure that inspection facilities under QAS control are properly authorized, operated and maintained</li>
-                                <li>Ensure that SLAF personnel employed on quality assurance duties are trained</li>
-                                <li>Conduct awareness training on quality to all SLAF personnel within the organization scope and with assistance of outside organization</li>
-                                <li>Control of technical publication management system</li>
-                            </ul>
-                        </section>
-                    </div>
-                    <!-- Tab 2 -->
-                    <div class="tab-pane fade" id="functions" role="tabpanel">
-                        <!-- <div class="alert alert-info">
-                            <h5><strong> POLICY</strong></h5>
-                        </div> -->
-                        <p style="text-align: center;">"The Sri Lanka Air Force is committed to fulfil the aspirations of the Nation by achieving excellence in the field of aviation and in all associated functions through enhanced customer satisfaction and by exceeding stake holders’ expectations, whilst endeavouring to be an efficient, reliable and socially responsible Air Force"</p>
-                    </div>
-                    <!-- Tab 3 -->
-                    <!-- <div class="tab-pane fade" id="structure" role="tabpanel">
-                        <img class="img-fluid" src="assets/img/about/org.jpg" width="1800" height="1800" alt="Organization Chart">
-                    </div> -->
-                    <div class="tab-pane fade" id="structure" role="tabpanel">
-                        <img id="orgImage" class="img-fluid" src="../assets/img/about/org.jpg" width="1800" height="1800" alt="Organization Chart" style="cursor: zoom-in;">
+                        <p>The Sri Lanka Air Force (SLAF), in its commitment to fulfil the aspirations of the Nation by achieving excellence in the field of aviation and in all associated functions, is continually striving to enhance customer satisfaction by exceeding stake holders' expectations whilst endeavouring to be efficient, reliable and socially responsible.</p>
+                        <p>Towards this end, the Quality Assurance Inspectorate (QAI) was established to perform Quality Assurance Functions within the SLAF. The QAI functions under supervision of the Chief of Staff of the Sri Lanka Air Force and is headed by the Director Quality Assurance (DQA) who is primarily tasked to provide advice on the Quality Assurance Services (QAS) matters such as Policy, Organization and Administration.</p>
+                        
+                        <h5 class="mt-4 mb-3">Main Functions</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Administration of the Quality Assurance Services (QAS) in the SLAF</li>
+                            <li class="list-group-item">Provide an organization to assess the quality of material, processors and workmanship for the SLAF</li>
+                            <li class="list-group-item">Ensure that the service operates efficiently and economically to assist the completion of the task in accordance with the policy directives</li>
+                            <li class="list-group-item">Provision of adequate facilities for the quality assurance activities and ensure that inspection facilities under QAS control are properly authorized, operated and maintained</li>
+                            <li class="list-group-item">Ensure that SLAF personnel employed on quality assurance duties are trained</li>
+                            <li class="list-group-item">Conduct awareness training on quality to all SLAF personnel within the organization scope and with assistance of outside organization</li>
+                            <li class="list-group-item">Control of technical publication management system</li>
+                        </ul>
                     </div>
 
-                    <!-- Fullscreen Swiper -->
-                    <div id="swiperOverlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:9999; justify-content: center; align-items: center;">
-                        <div class="swiper mySwiper" style="width:80%; height:80%;">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="swiper-zoom-container">
-                                        <img src="../
-                                        assets/img/about/org.jpg" alt="Organization Chart">
+                    <!-- Policy -->
+                    <div class="tab-pane fade" id="functions" role="tabpanel">
+                        <div class="policy-statement">
+                            <p class="lead">"The Sri Lanka Air Force is committed to fulfil the aspirations of the Nation by achieving excellence in the field of aviation and in all associated functions through enhanced customer satisfaction and by exceeding stake holders' expectations, whilst endeavouring to be an efficient, reliable and socially responsible Air Force"</p>
+                        </div>
+                    </div>
+
+                    <!-- Structure -->
+                    <div class="tab-pane fade" id="structure" role="tabpanel">
+                        <div class="text-center">
+                            <img id="orgImage" class="img-fluid rounded shadow" src="../assets/img/about/org.jpg" alt="Organization Chart">
+                            <p class="text-muted mt-2">Click on the image to zoom</p>
+                        </div>
+
+                        <!-- Fullscreen Swiper -->
+                        <div id="swiperOverlay">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="swiper-zoom-container">
+                                            <img src="../assets/img/about/org.jpg" alt="Organization Chart">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div id="closeSwiper" style="position:absolute; top:20px; right:30px; font-size:40px; color:black; cursor:pointer;">&times;</div>
+                            <div id="closeSwiper">&times;</div>
                         </div>
                     </div>
 
-
-
-                    <!-- Tab 4 -->
+                    <!-- Staff -->
                     <div class="tab-pane fade" id="responsibilities" role="tabpanel">
-                        <!-- <div class="alert alert-info">
-                            <h5><strong>DIRECTOR QUALITY ASSURANCE</strong></h5>
-                        </div> -->
-                        <div class="card mx-auto my-4" style="max-width: 250px;  box-shadow: 1px 1px 3px 1px;">
-                            <div class="card-body text-center">
-                                <h5 class="card-title text-center">DIRECTOR QUALITY ASSURANCE</h5>
-                                <img width="200" height="250" src="../assets/img/staff/01.png" alt="DIRECTOR QUALITY ASSURANCE">
-                                <br>
-                                <p style="margin: 0;"><strong>Rank:</strong> Air Cdr</p>
-                                <p style="margin: 0;"><strong>Name:</strong> MF Jansen</p>
-                                <p style="margin: 0;"><strong>Ext:</strong> 11100</p>
-                                <p style="margin: 0;"><strong>Mobile:</strong> 077-2229145</p>
+                        <!-- Director -->
+                        <div class="mb-5">
+                            <div class="alert alert-info">
+                                <h5 class="text-center mb-0">DIRECTOR QUALITY ASSURANCE</h5>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card staff-card text-center">
+                                        <div class="card-body">
+                                            <img width="200" height="250" src="../assets/img/staff/01.png" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-3">
+                                            <h5 class="card-title">Director Quality Assurance</h5>
+                                            <p class="mb-1"><strong>Rank:</strong> Air Cdr</p>
+                                            <p class="mb-1"><strong>Name:</strong> MF Jansen</p>
+                                            <p class="mb-1"><strong>Ext:</strong> 11100</p>
+                                            <p class="mb-0"><strong>Mobile:</strong> 077-2229145</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="alert alert-info sm-padding">
-                            <h5 class="text-center"><strong>QUALITY ASSURANCE STAFF OFFICERS</strong></h5>
-                        </div>
-                        <div class="container my-5">
-                            <div class="row justify-content-center">
-
-                                <div class="col-md-4 mb-4">
-                                    <div class="card h-100 text-center" style="max-width: 250px;box-shadow: 1px 1px 3px 1px;">
+                        <!-- Quality Assurance Staff -->
+                        <div class="mb-5">
+                            <div class="alert alert-info">
+                                <h5 class="text-center mb-0">QUALITY ASSURANCE STAFF</h5>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-lg-4 mb-4">
+                                    <div class="card staff-card text-center">
                                         <div class="card-body">
                                             <h5 class="card-title">SOQA(AERO ENG-FW/RW)</h5>
-                                            <img width="200" height="250" src="../assets/img/staff/officer1.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
-                                            <p style="margin: 0;"><strong>Rank:</strong> Wg Cdr</p>
-                                            <p style="margin: 0;"><strong>Name:</strong> WNI Yalagama</p>
-                                            <p style="margin: 0;"><strong>Ext:</strong> 11115</p>
-                                            <p style="margin: 0;"><strong>Mobile:</strong> 077-2229145</p>
+                                            <img width="200" height="250" src="../assets/img/staff/officer1.jpg" alt="SOQA(AERO ENG-FW/RW)" class="img-fluid mb-3">
+                                            <p class="mb-1"><strong>Rank:</strong> Wg Cdr</p>
+                                            <p class="mb-1"><strong>Name:</strong> WNI Yalagama</p>
+                                            <p class="mb-1"><strong>Ext:</strong> 11115</p>
+                                            <p class="mb-0"><strong>Mobile:</strong> 077-2229145</p>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-md-4 mb-4">
-                                    <div class="card h-100 text-center" style="max-width: 250px;  box-shadow: 1px 1px 3px 1px;">
+                                <div class="col-md-6 col-lg-4 mb-4">
+                                    <div class="card staff-card text-center">
                                         <div class="card-body">
                                             <h5 class="card-title">SOQA(E/E&T ENG)</h5>
-                                            <img width="200" height="250" src="../assets/img/staff/officer2.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
-                                            <p style="margin: 0;"><strong>Rank:</strong> Gp Capt</p>
-                                            <p style="margin: 0;"><strong>Name:</strong> I Chandratilleke</p>
-                                            <p style="margin: 0;"><strong>Ext:</strong> 11116</p>
-                                            <p style="margin: 0;"><strong>Mobile:</strong> 077-2229142</p>
+                                            <img width="200" height="250" src="../assets/img/staff/officer2.jpg" alt="SOQA(E/E&T ENG)" class="img-fluid mb-3">
+                                            <p class="mb-1"><strong>Rank:</strong> Gp Capt</p>
+                                            <p class="mb-1"><strong>Name:</strong> I Chandratilleke</p>
+                                            <p class="mb-1"><strong>Ext:</strong> 11116</p>
+                                            <p class="mb-0"><strong>Mobile:</strong> 077-2229142</p>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-md-4 mb-4">
-                                    <div class="card h-100 text-center" style="max-width: 250px;  box-shadow: 1px 1px 3px 1px;">
+                                <div class="col-md-6 col-lg-4 mb-4">
+                                    <div class="card staff-card text-center">
                                         <div class="card-body">
                                             <h5 class="card-title">SOQA(GE)</h5>
-                                            <img width="200" height="250" src="../assets/img/staff/officer3.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
-                                            <p style="margin: 0;"><strong>Rank:</strong> Sqn Ldr</p>
-                                            <p style="margin: 0;"><strong>Name:</strong> THDM Hettige</p>
-                                            <p style="margin: 0;"><strong>Ext:</strong> 11117</p>
-                                            <p style="margin: 0;"><strong>Mobile:</strong> 077-2229165</p>
+                                            <img width="200" height="250" src="../assets/img/staff/officer3.jpg" alt="SOQA(GE)" class="img-fluid mb-3">
+                                            <p class="mb-1"><strong>Rank:</strong> Sqn Ldr</p>
+                                            <p class="mb-1"><strong>Name:</strong> THDM Hettige</p>
+                                            <p class="mb-1"><strong>Ext:</strong> 11117</p>
+                                            <p class="mb-0"><strong>Mobile:</strong> 077-2229165</p>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-md-4 mb-4">
-                                    <div class="card h-100 text-center" style="max-width: 250px;  box-shadow: 1px 1px 3px 1px;">
+                                <div class="col-md-6 col-lg-4 mb-4 mx-auto">
+                                    <div class="card staff-card text-center">
                                         <div class="card-body">
                                             <h5 class="card-title">SOQA(TRG & PUG)</h5>
-                                            <img width="200" height="250" src="../assets/img/staff/officer5.png" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
-                                            <p style="margin: 0;"><strong>Rank:</strong> Sqn Ldr</p>
-                                            <p style="margin: 0;"><strong>Name:</strong> MMDC MORAYAS</p>
-                                            <p style="margin: 0;"><strong>Ext:</strong> 11119</p>
-                                            <p style="margin: 0;"><strong>Mobile:</strong> 0778829671</p>
+                                            <img width="200" height="250" src="../assets/img/staff/officer5.png" alt="SOQA(TRG & PUG)" class="img-fluid mb-3">
+                                            <p class="mb-1"><strong>Rank:</strong> Sqn Ldr</p>
+                                            <p class="mb-1"><strong>Name:</strong> MMDC MORAYAS</p>
+                                            <p class="mb-1"><strong>Ext:</strong> 11119</p>
+                                            <p class="mb-0"><strong>Mobile:</strong> 0778829671</p>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
 
-                                <div class="alert alert-info sm-padding">
-                                    <h5 class="text-center"><strong>QUALITY ASSURANCE WO I/C</strong></h5>
-                                </div>
-                                <div class="container my-5">
-                                    <div class="row justify-content-center">
-
-                                        <div class="col-md-4 mb-4">
-                                            <div class="card h-100 text-center" style="max-width: 250px;  box-shadow: 1px 1px 3px 1px;">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">WO I/C</h5>
-                                                    <img width="200" height="250" src="../assets/img/staff/wo1.png" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
-                                                    <p style="margin: 0;"><strong>Rank:</strong> MWO</p>
-                                                    <p style="margin: 0;"><strong>Name:</strong> RGD ARIYARATHNA</p>
-                                                    <p style="margin: 0;"><strong>Ext:</strong> 11151</p>
-                                                    <p style="margin: 0;"><strong>Mobile:</strong> 0707909422</p>
-                                                </div>
-                                            </div>
+                        <!-- Quality Assurance WO I/C -->
+                        <div>
+                            <div class="alert alert-info">
+                                <h5 class="text-center mb-0">QUALITY ASSURANCE WO I/C</h5>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card staff-card text-center">
+                                        <div class="card-body">
+                                            <h5 class="card-title">WO I/C</h5>
+                                            <img width="200" height="250" src="../assets/img/staff/wo1.png" alt="QUALITY ASSURANCE WO I/C" class="img-fluid mb-3">
+                                            <p class="mb-1"><strong>Rank:</strong> MWO</p>
+                                            <p class="mb-1"><strong>Name:</strong> RGD ARIYARATHNA</p>
+                                            <p class="mb-1"><strong>Ext:</strong> 11151</p>
+                                            <p class="mb-0"><strong>Mobile:</strong> 0707909422</p>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-
-
+                    <!-- History -->
                     <div class="tab-pane fade" id="history" role="tabpanel">
-                        <!-- <div class="alert alert-info">
-                            <h5><strong>Histoty</strong></h5>
-                        </div> -->
-                        <p>The Quality Assurance Inspectorate (QAI) was first established at SLAF Base Rma as the Command Quality Assurance Inspectorate (CQAI) in year 1988 under the command of Wg Cdr GY De Silva on the aim of leading/guiding SLAF on Quality and Productivity.
-                            <br> Subsequently the Inspectorate was shifted to the Air Force Headquarters to facilitate its effective operations throughout the full spectrum of SLAF operations and since then the QAI has been commanded by 22 Command Quality Assurance Officers (CQAOs).
-                        </p><br>
-                        <h6 style="text-align: center;"><b> COMMAND QUALITY ASSURANCE OFFICERS </b></h6>
-
-                        <center>
-
-                            <table border="0" cellpadding="4" cellspacing="0" style="border-collapse:collapse; width:100%;">
+                        <p>The Quality Assurance Inspectorate (QAI) was first established at SLAF Base Rma as the Command Quality Assurance Inspectorate (CQAI) in year 1988 under the command of Wg Cdr GY De Silva on the aim of leading/guiding SLAF on Quality and Productivity.</p>
+                        <p>Subsequently the Inspectorate was shifted to the Air Force Headquarters to facilitate its effective operations throughout the full spectrum of SLAF operations and since then the QAI has been commanded by 22 Command Quality Assurance Officers (CQAOs).</p>
+                        
+                        <h5 class="text-center my-4">COMMAND QUALITY ASSURANCE OFFICERS</h5>
+                        
+                        <div class="table-responsive">
+                            <table class="table table-hover history-table">
                                 <thead>
                                     <tr>
-                                        <th width="30%">Name</th>
-                                        <th width="10%" style="text-align:center;">From</th>
-                                        <th width="10%" style="text-align:center;">To</th>
+                                        <th width="40%">Name</th>
+                                        <th width="30%" class="text-center">From</th>
+                                        <th width="30%" class="text-center">To</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>Wg Cdr GY De Silva</td>
-                                        <td style="text-align:center;">09.03.1988</td>
-                                        <td style="text-align:center;">31.12.1990</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Sqn Ldr PDJ Kumarasiri</td>
-                                        <td style="text-align:center;">01.01.1991</td>
-                                        <td style="text-align:center;">31.12.1991</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Sqn Ldr SAH Satharasinghe</td>
-                                        <td style="text-align:center;">01.01.1992</td>
-                                        <td style="text-align:center;">14.03.1993</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Sqn Ldr PDJ Kumarasiri</td>
-                                        <td style="text-align:center;">15.03.1993</td>
-                                        <td style="text-align:center;">08.07.1996</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Wg Cdr PDJ Kumarasiri</td>
-                                        <td style="text-align:center;">09.07.1996</td>
-                                        <td style="text-align:center;">31.12.1997</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Sqn Ldr DS Edirisinghe</td>
-                                        <td style="text-align:center;">01.01.1998</td>
-                                        <td style="text-align:center;">01.03.1998</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Wg Cdr KDU Chandrathilala</td>
-                                        <td style="text-align:center;">02.03.1998</td>
-                                        <td style="text-align:center;">01.12.2001</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Gp Cpt EPB Liyanage</td>
-                                        <td style="text-align:center;">02.12.2001</td>
-                                        <td style="text-align:center;">14.01.2003</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Gp Cpt EGJP De Silva</td>
-                                        <td style="text-align:center;">15.01.2003</td>
-                                        <td style="text-align:center;">31.09.2004</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Wg Cdr TKS Peiris</td>
-                                        <td style="text-align:center;">01.10.2004</td>
-                                        <td style="text-align:center;">10.07.2005</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Wg Cdr WPAK Wijesinghe</td>
-                                        <td style="text-align:center;">11.07.2005</td>
-                                        <td style="text-align:center;">09.08.2005</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Gp Cpt EPB Liyanage</td>
-                                        <td style="text-align:center;">10.08.2005</td>
-                                        <td style="text-align:center;">10.02.2006</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Gp Cpt BLW Balasuriya</td>
-                                        <td style="text-align:center;">11.02.2006</td>
-                                        <td style="text-align:center;">31.12.2006</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Air Cdre BLW Balasuriya</td>
-                                        <td style="text-align:center;">01.01.2007</td>
-                                        <td style="text-align:center;">02.04.2007</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Gp Cpt PDJ Kumarasiri</td>
-                                        <td style="text-align:center;">03.04.2007</td>
-                                        <td style="text-align:center;">10.09.2008</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Air Cdre PDJ Kumarasiri</td>
-                                        <td style="text-align:center;">11.09.2008</td>
-                                        <td style="text-align:center;">31.12.2009</td>
-                                    </tr>
-                                    <tr>
-                                        <td>AVM PDJ Kumarasiri</td>
-                                        <td style="text-align:center;">01.01.2010</td>
-                                        <td style="text-align:center;">24.07.2011</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Gp Cpt AH Wijesiri</td>
-                                        <td style="text-align:center;">25.07.2011</td>
-                                        <td style="text-align:center;">26.08.2012</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Gp Cpt AWE Wijesuriya</td>
-                                        <td style="text-align:center;">27.08.2012</td>
-                                        <td style="text-align:center;">31.12.2012</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Air Cdre AWE Wijesuriya</td>
-                                        <td style="text-align:center;">01.01.2013</td>
-                                        <td style="text-align:center;">12.08.2013</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Gp Cpt AH Wijesiri</td>
-                                        <td style="text-align:center;">13.08.2013</td>
-                                        <td style="text-align:center;">31.12.2013</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Air Cdre AH Wijesiri</td>
-                                        <td style="text-align:center;">01.01.2014</td>
-                                        <td style="text-align:center;">18.01.2015</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Air Cdre MD Rathnayake</td>
-                                        <td style="text-align:center;">19.01.2015</td>
-                                        <td style="text-align:center;">25.07.2016</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Air Cdre RHKP Ranasinghe</td>
-                                        <td style="text-align:center;">26.07.2016</td>
-                                        <td style="text-align:center;">10.01.2017</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Air Cdre TADR Senanayake</td>
-                                        <td style="text-align:center;">11.01.2017</td>
-                                        <td style="text-align:center;">30.06.2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Air Cdre LMSK Leelaratne</td>
-                                        <td style="text-align:center;">01.07.2019</td>
-                                        <td style="text-align:center;">20.03.2022</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Gp Capt LMCB Nissanka</td>
-                                        <td style="text-align:center;">21.03.2022</td>
-                                        <td style="text-align:center;">18.09.2022</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Air Cdre MPA Mahawattage</td>
-                                        <td style="text-align:center;">19.09.2022</td>
-                                        <td style="text-align:center;">04.07.2023</td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="3" style="height: 15px;"></td>
-                                    </tr>
-                                    <tr style="margin-top: 10px;">
-                                        <td colspan="3" style="text-align:center; font-weight:bold;">DIRECTOR QUALITY ASSURANCE</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Air Cdre SPS Martino</td>
-                                        <td style="text-align:center;">05.07.2023</td>
-                                        <td style="text-align:center;">08.08.2024</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Air Cdre CJ Hettiarachchi</td>
-                                        <td style="text-align:center;">08.08.2024</td>
-                                        <td style="text-align:center;">27.05.2025</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Air Cdre MF Jansen</td>
-                                        <td style="text-align:center;">27.07.2025</td>
-                                        <td style="text-align:center;">-</td>
-                                    </tr>
+                                    <tr><td>Wg Cdr GY De Silva</td><td class="text-center">09.03.1988</td><td class="text-center">31.12.1990</td></tr>
+                                    <tr><td>Sqn Ldr PDJ Kumarasiri</td><td class="text-center">01.01.1991</td><td class="text-center">31.12.1991</td></tr>
+                                    <tr><td>Sqn Ldr SAH Satharasinghe</td><td class="text-center">01.01.1992</td><td class="text-center">14.03.1993</td></tr>
+                                    <tr><td>Sqn Ldr PDJ Kumarasiri</td><td class="text-center">15.03.1993</td><td class="text-center">08.07.1996</td></tr>
+                                    <tr><td>Wg Cdr PDJ Kumarasiri</td><td class="text-center">09.07.1996</td><td class="text-center">31.12.1997</td></tr>
+                                    <tr><td>Sqn Ldr DS Edirisinghe</td><td class="text-center">01.01.1998</td><td class="text-center">01.03.1998</td></tr>
+                                    <tr><td>Wg Cdr KDU Chandrathilala</td><td class="text-center">02.03.1998</td><td class="text-center">01.12.2001</td></tr>
+                                    <tr><td>Gp Cpt EPB Liyanage</td><td class="text-center">02.12.2001</td><td class="text-center">14.01.2003</td></tr>
+                                    <tr><td>Gp Cpt EGJP De Silva</td><td class="text-center">15.01.2003</td><td class="text-center">31.09.2004</td></tr>
+                                    <tr><td>Wg Cdr TKS Peiris</td><td class="text-center">01.10.2004</td><td class="text-center">10.07.2005</td></tr>
+                                    <tr><td>Wg Cdr WPAK Wijesinghe</td><td class="text-center">11.07.2005</td><td class="text-center">09.08.2005</td></tr>
+                                    <tr><td>Gp Cpt EPB Liyanage</td><td class="text-center">10.08.2005</td><td class="text-center">10.02.2006</td></tr>
+                                    <tr><td>Gp Cpt BLW Balasuriya</td><td class="text-center">11.02.2006</td><td class="text-center">31.12.2006</td></tr>
+                                    <tr><td>Air Cdre BLW Balasuriya</td><td class="text-center">01.01.2007</td><td class="text-center">02.04.2007</td></tr>
+                                    <tr><td>Gp Cpt PDJ Kumarasiri</td><td class="text-center">03.04.2007</td><td class="text-center">10.09.2008</td></tr>
+                                    <tr><td>Air Cdre PDJ Kumarasiri</td><td class="text-center">11.09.2008</td><td class="text-center">31.12.2009</td></tr>
+                                    <tr><td>AVM PDJ Kumarasiri</td><td class="text-center">01.01.2010</td><td class="text-center">24.07.2011</td></tr>
+                                    <tr><td>Gp Cpt AH Wijesiri</td><td class="text-center">25.07.2011</td><td class="text-center">26.08.2012</td></tr>
+                                    <tr><td>Gp Cpt AWE Wijesuriya</td><td class="text-center">27.08.2012</td><td class="text-center">31.12.2012</td></tr>
+                                    <tr><td>Air Cdre AWE Wijesuriya</td><td class="text-center">01.01.2013</td><td class="text-center">12.08.2013</td></tr>
+                                    <tr><td>Gp Cpt AH Wijesiri</td><td class="text-center">13.08.2013</td><td class="text-center">31.12.2013</td></tr>
+                                    <tr><td>Air Cdre AH Wijesiri</td><td class="text-center">01.01.2014</td><td class="text-center">18.01.2015</td></tr>
+                                    <tr><td>Air Cdre MD Rathnayake</td><td class="text-center">19.01.2015</td><td class="text-center">25.07.2016</td></tr>
+                                    <tr><td>Air Cdre RHKP Ranasinghe</td><td class="text-center">26.07.2016</td><td class="text-center">10.01.2017</td></tr>
+                                    <tr><td>Air Cdre TADR Senanayake</td><td class="text-center">11.01.2017</td><td class="text-center">30.06.2019</td></tr>
+                                    <tr><td>Air Cdre LMSK Leelaratne</td><td class="text-center">01.07.2019</td><td class="text-center">20.03.2022</td></tr>
+                                    <tr><td>Gp Capt LMCB Nissanka</td><td class="text-center">21.03.2022</td><td class="text-center">18.09.2022</td></tr>
+                                    <tr><td>Air Cdre MPA Mahawattage</td><td class="text-center">19.09.2022</td><td class="text-center">04.07.2023</td></tr>
+                                    <tr class="table-primary"><td colspan="3" class="text-center fw-bold py-2">DIRECTOR QUALITY ASSURANCE</td></tr>
+                                    <tr><td>Air Cdre SPS Martino</td><td class="text-center">05.07.2023</td><td class="text-center">08.08.2024</td></tr>
+                                    <tr><td>Air Cdre CJ Hettiarachchi</td><td class="text-center">08.08.2024</td><td class="text-center">27.05.2025</td></tr>
+                                    <tr><td>Air Cdre MF Jansen</td><td class="text-center">27.07.2025</td><td class="text-center">-</td></tr>
                                 </tbody>
                             </table>
-
-                        </center>
-
-
-
-
+                        </div>
                     </div>
 
-
+                    <!-- Achievements -->
                     <div class="tab-pane fade" id="achievements" role="tabpanel">
-                        <!-- <div class="alert alert-info">
-                            <h5><strong>Achievements</strong></h5>
-                        </div> -->
-                        <div class="container my-5">
-                            <div class="row justify-content-center">
-
-                                <div class="col-md-3 mb-4">
-                                    <div class="card h-90 text-center shadow-card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">2015 WINNER </h5>
-                                            <img width="200" height="250" src="../assets/img/achievements/National Productivity Award 2015 - Gold Award.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2"><br>
-                                            <p><strong>National Productivity Award 2015 - Gold Award</strong></p>
-                                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                                <div class="card achievement-card">
+                                    <img src="../assets/img/achievements/National Productivity Award 2015 - Gold Award.jpg" class="card-img-top" alt="2015 WINNER">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">2015 WINNER</h5>
+                                        <p class="card-text"><strong>National Productivity Award 2015 - Gold Award</strong></p>
                                     </div>
                                 </div>
-                                <div class="col-md-3 mb-4">
-                                    <div class="card h-90 text-center shadow-card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">2014 WINNER </h5>
-                                            <img width="200" height="250" src="../assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2"><br>
-                                            <p><strong>Inter Departmental category Organized by national productivity secretariat</strong></p>
-                                        </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                                <div class="card achievement-card">
+                                    <img src="../assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" class="card-img-top" alt="2014 WINNER">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">2014 WINNER</h5>
+                                        <p class="card-text"><strong>Inter Departmental category Organized by national productivity secretariat</strong></p>
                                     </div>
                                 </div>
-                                <div class="col-md-3 mb-4">
-                                    <div class="card h-90 text-center shadow-card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">2008 WINNER</h5>
-                                            <img width="200" height="250" src="../assets/img/achievements/Public sector and Inter Departmental category Organized by national productivity secretariat 2008.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2" data-index="0">
-                                            <p><strong>Nationa Productivity Award - First Place</strong>
-                                        </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                                <div class="card achievement-card">
+                                    <img src="../assets/img/achievements/Public sector and Inter Departmental category Organized by national productivity secretariat 2008.jpg" class="card-img-top" alt="2008 WINNER">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">2008 WINNER</h5>
+                                        <p class="card-text"><strong>National Productivity Award - First Place</strong></p>
                                     </div>
                                 </div>
-                                <div class="col-md-3 mb-4">
-                                    <div class="card h-90 text-center shadow-card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">2008 WINNER</h5>
-                                            <img width="200" height="250" src="../assets/img/achievements/Inter Departmental category Organized by national productivity secretariat 2008.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2" data-index="1">
-                                            <p><strong>Provincial Productivity Award - First Place</strong>
-                                        </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                                <div class="card achievement-card">
+                                    <img src="../assets/img/achievements/Inter Departmental category Organized by national productivity secretariat 2008.jpg" class="card-img-top" alt="2008 WINNER">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">2008 WINNER</h5>
+                                        <p class="card-text"><strong>Provincial Productivity Award - First Place</strong></p>
                                     </div>
                                 </div>
-                                <div class="col-md-3 mb-4">
-                                    <div class="card h-90 text-center shadow-card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">2003 WINNER</h5>
-                                            <img width="200" height="250" src="../assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
-                                            <p><strong>Nationa Productivity Award </strong>
-                                        </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                                <div class="card achievement-card">
+                                    <img src="../assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" class="card-img-top" alt="2003 WINNER">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">2003 WINNER</h5>
+                                        <p class="card-text"><strong>National Productivity Award</strong></p>
                                     </div>
                                 </div>
-                                <div class="col-md-3 mb-4">
-                                    <div class="card h-90 text-center shadow-card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">1996 WINNER</h5>
-                                            <img width="200" height="250" src="../assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
-                                            <p><strong>Excellence in Quality</strong>
-                                        </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                                <div class="card achievement-card">
+                                    <img src="../assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" class="card-img-top" alt="1996 WINNER">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">1996 WINNER</h5>
+                                        <p class="card-text"><strong>Excellence in Quality</strong></p>
                                     </div>
                                 </div>
-                                <div class="col-md-3 mb-4">
-                                    <div class="card h-90 text-center shadow-card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">1996 Merit Award</h5>
-                                            <img width="200" height="250" src="../assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" alt="DIRECTOR QUALITY ASSURANCE" class="img-fluid mb-2">
-                                            <p><strong> Quality Management Strategies and activities</strong></p>
-                                        </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                                <div class="card achievement-card">
+                                    <img src="../assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" class="card-img-top" alt="1996 Merit Award">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">1996 Merit Award</h5>
+                                        <p class="card-text"><strong>Quality Management Strategies and activities</strong></p>
                                     </div>
                                 </div>
                             </div>
@@ -467,13 +527,21 @@
                 </div>
             </div>
         </div>
-        <hr>
     </main>
+
+    <!-- Footer -->
     <?php
     include '../template/footer.php';
     include '../template/foot.php';
     ?>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
     <script>
+        // Handle URL hash for direct tab access
         document.addEventListener("DOMContentLoaded", function() {
             var hash = window.location.hash;
             if (hash) {
@@ -483,9 +551,17 @@
                     tab.show();
                 }
             }
+            
+            // Update URL hash when tabs are shown
+            var tabEls = document.querySelectorAll('a[data-bs-toggle="pill"]');
+            tabEls.forEach(function(tabEl) {
+                tabEl.addEventListener('shown.bs.tab', function (e) {
+                    history.replaceState(null, null, e.target.getAttribute('href'));
+                });
+            });
         });
-    </script>
-    <script>
+
+        // Swiper functionality for image zoom
         let swiperInstance = null;
         const overlay = document.getElementById('swiperOverlay');
         const closeBtn = document.getElementById('closeSwiper');
@@ -494,11 +570,7 @@
             overlay.style.display = 'flex';
             swiperInstance = new Swiper(".mySwiper", {
                 zoom: true,
-                loop: false,
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                }
+                loop: false
             });
         }
 
@@ -518,8 +590,7 @@
 
         // Close when clicking outside image
         overlay.addEventListener('click', function(e) {
-            // Close if click is outside zoom container
-            if (!e.target.closest('.swiper-zoom-container') && !e.target.closest('.swiper-button-next') && !e.target.closest('.swiper-button-prev')) {
+            if (!e.target.closest('.swiper-zoom-container')) {
                 closeSwiperOverlay();
             }
         });
@@ -532,5 +603,4 @@
         });
     </script>
 </body>
-
 </html>
