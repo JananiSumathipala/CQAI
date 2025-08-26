@@ -132,7 +132,6 @@
             padding: 30px;
             background-color: rgba(26, 79, 114, 0.05);
             border-radius: 8px;
-            border-left: 4px solid var(--primary-color);
         }
         
         #orgImage {
@@ -170,6 +169,10 @@
             color: white;
             cursor: pointer;
             z-index: 10000;
+        }
+
+        .td{
+            color: #1a4f72;
         }
         
         /* Responsive adjustments */
@@ -261,13 +264,13 @@
                         
                         <h5 class="mt-4 mb-3">Main Functions</h5>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Administration of the Quality Assurance Services (QAS) in the SLAF</li>
-                            <li class="list-group-item">Provide an organization to assess the quality of material, processors and workmanship for the SLAF</li>
-                            <li class="list-group-item">Ensure that the service operates efficiently and economically to assist the completion of the task in accordance with the policy directives</li>
-                            <li class="list-group-item">Provision of adequate facilities for the quality assurance activities and ensure that inspection facilities under QAS control are properly authorized, operated and maintained</li>
-                            <li class="list-group-item">Ensure that SLAF personnel employed on quality assurance duties are trained</li>
-                            <li class="list-group-item">Conduct awareness training on quality to all SLAF personnel within the organization scope and with assistance of outside organization</li>
-                            <li class="list-group-item">Control of technical publication management system</li>
+                            <li class="list-group-item" style="color:#1a4f72;">Administration of the Quality Assurance Services (QAS) in the SLAF</li>
+                            <li class="list-group-item" style="color:#1a4f72;">Provide an organization to assess the quality of material, processors and workmanship for the SLAF</li>
+                            <li class="list-group-item" style="color:#1a4f72;">Ensure that the service operates efficiently and economically to assist the completion of the task in accordance with the policy directives</li>
+                            <li class="list-group-item" style="color:#1a4f72;">Provision of adequate facilities for the quality assurance activities and ensure that inspection facilities under QAS control are properly authorized, operated and maintained</li>
+                            <li class="list-group-item" style="color:#1a4f72;">Ensure that SLAF personnel employed on quality assurance duties are trained</li>
+                            <li class="list-group-item" style="color:#1a4f72;">Conduct awareness training on quality to all SLAF personnel within the organization scope and with assistance of outside organization</li>
+                            <li class="list-group-item" style="color:#1a4f72;">Control of technical publication management system</li>
                         </ul>
                     </div>
 
@@ -413,44 +416,44 @@
                             <table class="table table-hover history-table">
                                 <thead>
                                     <tr>
-                                        <th width="40%">Name</th>
-                                        <th width="30%" class="text-center">From</th>
-                                        <th width="30%" class="text-center">To</th>
+                                        <th width="40%" style="color:#1a4f72;">Name</th>
+                                        <th width="30%" class="text-center" style="color:#1a4f72;">From</th>
+                                        <th width="30%" class="text-center" style="color:#1a4f72;">To</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr><td>Wg Cdr GY De Silva</td><td class="text-center">09.03.1988</td><td class="text-center">31.12.1990</td></tr>
-                                    <tr><td>Sqn Ldr PDJ Kumarasiri</td><td class="text-center">01.01.1991</td><td class="text-center">31.12.1991</td></tr>
-                                    <tr><td>Sqn Ldr SAH Satharasinghe</td><td class="text-center">01.01.1992</td><td class="text-center">14.03.1993</td></tr>
-                                    <tr><td>Sqn Ldr PDJ Kumarasiri</td><td class="text-center">15.03.1993</td><td class="text-center">08.07.1996</td></tr>
-                                    <tr><td>Wg Cdr PDJ Kumarasiri</td><td class="text-center">09.07.1996</td><td class="text-center">31.12.1997</td></tr>
-                                    <tr><td>Sqn Ldr DS Edirisinghe</td><td class="text-center">01.01.1998</td><td class="text-center">01.03.1998</td></tr>
-                                    <tr><td>Wg Cdr KDU Chandrathilala</td><td class="text-center">02.03.1998</td><td class="text-center">01.12.2001</td></tr>
-                                    <tr><td>Gp Cpt EPB Liyanage</td><td class="text-center">02.12.2001</td><td class="text-center">14.01.2003</td></tr>
-                                    <tr><td>Gp Cpt EGJP De Silva</td><td class="text-center">15.01.2003</td><td class="text-center">31.09.2004</td></tr>
-                                    <tr><td>Wg Cdr TKS Peiris</td><td class="text-center">01.10.2004</td><td class="text-center">10.07.2005</td></tr>
-                                    <tr><td>Wg Cdr WPAK Wijesinghe</td><td class="text-center">11.07.2005</td><td class="text-center">09.08.2005</td></tr>
-                                    <tr><td>Gp Cpt EPB Liyanage</td><td class="text-center">10.08.2005</td><td class="text-center">10.02.2006</td></tr>
-                                    <tr><td>Gp Cpt BLW Balasuriya</td><td class="text-center">11.02.2006</td><td class="text-center">31.12.2006</td></tr>
-                                    <tr><td>Air Cdre BLW Balasuriya</td><td class="text-center">01.01.2007</td><td class="text-center">02.04.2007</td></tr>
-                                    <tr><td>Gp Cpt PDJ Kumarasiri</td><td class="text-center">03.04.2007</td><td class="text-center">10.09.2008</td></tr>
-                                    <tr><td>Air Cdre PDJ Kumarasiri</td><td class="text-center">11.09.2008</td><td class="text-center">31.12.2009</td></tr>
-                                    <tr><td>AVM PDJ Kumarasiri</td><td class="text-center">01.01.2010</td><td class="text-center">24.07.2011</td></tr>
-                                    <tr><td>Gp Cpt AH Wijesiri</td><td class="text-center">25.07.2011</td><td class="text-center">26.08.2012</td></tr>
-                                    <tr><td>Gp Cpt AWE Wijesuriya</td><td class="text-center">27.08.2012</td><td class="text-center">31.12.2012</td></tr>
-                                    <tr><td>Air Cdre AWE Wijesuriya</td><td class="text-center">01.01.2013</td><td class="text-center">12.08.2013</td></tr>
-                                    <tr><td>Gp Cpt AH Wijesiri</td><td class="text-center">13.08.2013</td><td class="text-center">31.12.2013</td></tr>
-                                    <tr><td>Air Cdre AH Wijesiri</td><td class="text-center">01.01.2014</td><td class="text-center">18.01.2015</td></tr>
-                                    <tr><td>Air Cdre MD Rathnayake</td><td class="text-center">19.01.2015</td><td class="text-center">25.07.2016</td></tr>
-                                    <tr><td>Air Cdre RHKP Ranasinghe</td><td class="text-center">26.07.2016</td><td class="text-center">10.01.2017</td></tr>
-                                    <tr><td>Air Cdre TADR Senanayake</td><td class="text-center">11.01.2017</td><td class="text-center">30.06.2019</td></tr>
-                                    <tr><td>Air Cdre LMSK Leelaratne</td><td class="text-center">01.07.2019</td><td class="text-center">20.03.2022</td></tr>
-                                    <tr><td>Gp Capt LMCB Nissanka</td><td class="text-center">21.03.2022</td><td class="text-center">18.09.2022</td></tr>
-                                    <tr><td>Air Cdre MPA Mahawattage</td><td class="text-center">19.09.2022</td><td class="text-center">04.07.2023</td></tr>
-                                    <tr class="table-primary"><td colspan="3" class="text-center fw-bold py-2">DIRECTOR QUALITY ASSURANCE</td></tr>
-                                    <tr><td>Air Cdre SPS Martino</td><td class="text-center">05.07.2023</td><td class="text-center">08.08.2024</td></tr>
-                                    <tr><td>Air Cdre CJ Hettiarachchi</td><td class="text-center">08.08.2024</td><td class="text-center">27.05.2025</td></tr>
-                                    <tr><td>Air Cdre MF Jansen</td><td class="text-center">27.07.2025</td><td class="text-center">-</td></tr>
+                                    <tr><td style="color:#1a4f72;">Wg Cdr GY De Silva</td><td style="color:#1a4f72;"class="text-center">09.03.1988</td><td style="color:#1a4f72;"class="text-center">31.12.1990</td></tr>
+                                    <tr><td style="color:#1a4f72;">Sqn Ldr PDJ Kumarasiri</td><td style="color:#1a4f72;"class="text-center">01.01.1991</td><td style="color:#1a4f72;"class="text-center">31.12.1991</td></tr>
+                                    <tr><td style="color:#1a4f72;">Sqn Ldr SAH Satharasinghe</td><td style="color:#1a4f72;"class="text-center">01.01.1992</td><td style="color:#1a4f72;"class="text-center">14.03.1993</td></tr>
+                                    <tr><td style="color:#1a4f72;">Sqn Ldr PDJ Kumarasiri</td><td style="color:#1a4f72;"class="text-center">15.03.1993</td><td style="color:#1a4f72;"class="text-center">08.07.1996</td></tr>
+                                    <tr><td style="color:#1a4f72;">Wg Cdr PDJ Kumarasiri</td><td style="color:#1a4f72;"class="text-center">09.07.1996</td><td style="color:#1a4f72;"class="text-center">31.12.1997</td></tr>
+                                    <tr><td style="color:#1a4f72;">Sqn Ldr DS Edirisinghe</td><td style="color:#1a4f72;"class="text-center">01.01.1998</td><td style="color:#1a4f72;"class="text-center">01.03.1998</td></tr>
+                                    <tr><td style="color:#1a4f72;">Wg Cdr KDU Chandrathilala</td><td style="color:#1a4f72;"class="text-center">02.03.1998</td><td style="color:#1a4f72;"class="text-center">01.12.2001</td></tr>
+                                    <tr><td style="color:#1a4f72;">Gp Cpt EPB Liyanage</td><td style="color:#1a4f72;"class="text-center">02.12.2001</td><td style="color:#1a4f72;"class="text-center">14.01.2003</td></tr>
+                                    <tr><td style="color:#1a4f72;">Gp Cpt EGJP De Silva</td><td style="color:#1a4f72;"class="text-center">15.01.2003</td><td style="color:#1a4f72;"class="text-center">31.09.2004</td></tr>
+                                    <tr><td style="color:#1a4f72;">Wg Cdr TKS Peiris</td><td style="color:#1a4f72;"class="text-center">01.10.2004</td><td style="color:#1a4f72;"class="text-center">10.07.2005</td></tr>
+                                    <tr><td style="color:#1a4f72;">Wg Cdr WPAK Wijesinghe</td><td style="color:#1a4f72;"class="text-center">11.07.2005</td><td style="color:#1a4f72;"class="text-center">09.08.2005</td></tr>
+                                    <tr><td style="color:#1a4f72;">Gp Cpt EPB Liyanage</td><td style="color:#1a4f72;"class="text-center">10.08.2005</td><td style="color:#1a4f72;"class="text-center">10.02.2006</td></tr>
+                                    <tr><td style="color:#1a4f72;">Gp Cpt BLW Balasuriya</td><td style="color:#1a4f72;"class="text-center">11.02.2006</td><td style="color:#1a4f72;"class="text-center">31.12.2006</td></tr>
+                                    <tr><td style="color:#1a4f72;">Air Cdre BLW Balasuriya</td><td style="color:#1a4f72;"class="text-center">01.01.2007</td><td style="color:#1a4f72;"class="text-center">02.04.2007</td></tr>
+                                    <tr><td style="color:#1a4f72;">Gp Cpt PDJ Kumarasiri</td><td style="color:#1a4f72;"class="text-center">03.04.2007</td><td style="color:#1a4f72;"class="text-center">10.09.2008</td></tr>
+                                    <tr><td style="color:#1a4f72;">Air Cdre PDJ Kumarasiri</td><td style="color:#1a4f72;"class="text-center">11.09.2008</td><td style="color:#1a4f72;"class="text-center">31.12.2009</td></tr>
+                                    <tr><td style="color:#1a4f72;">AVM PDJ Kumarasiri</td><td style="color:#1a4f72;"class="text-center">01.01.2010</td><td style="color:#1a4f72;"class="text-center">24.07.2011</td></tr>
+                                    <tr><td style="color:#1a4f72;">Gp Cpt AH Wijesiri</td><td style="color:#1a4f72;"class="text-center">25.07.2011</td><td style="color:#1a4f72;"class="text-center">26.08.2012</td></tr>
+                                    <tr><td style="color:#1a4f72;">Gp Cpt AWE Wijesuriya</td><td style="color:#1a4f72;"class="text-center">27.08.2012</td><td style="color:#1a4f72;"class="text-center">31.12.2012</td></tr>
+                                    <tr><td style="color:#1a4f72;">Air Cdre AWE Wijesuriya</td><td style="color:#1a4f72;"class="text-center">01.01.2013</td><td style="color:#1a4f72;"class="text-center">12.08.2013</td></tr>
+                                    <tr><td style="color:#1a4f72;">Gp Cpt AH Wijesiri</td><td style="color:#1a4f72;"class="text-center">13.08.2013</td><td style="color:#1a4f72;"class="text-center">31.12.2013</td></tr>
+                                    <tr><td style="color:#1a4f72;">Air Cdre AH Wijesiri</td><td style="color:#1a4f72;"class="text-center">01.01.2014</td><td style="color:#1a4f72;"class="text-center">18.01.2015</td></tr>
+                                    <tr><td style="color:#1a4f72;">Air Cdre MD Rathnayake</td><td style="color:#1a4f72;"class="text-center">19.01.2015</td><td style="color:#1a4f72;"class="text-center">25.07.2016</td></tr>
+                                    <tr><td style="color:#1a4f72;">Air Cdre RHKP Ranasinghe</td><td style="color:#1a4f72;"class="text-center">26.07.2016</td><td style="color:#1a4f72;"class="text-center">10.01.2017</td></tr>
+                                    <tr><td style="color:#1a4f72;">Air Cdre TADR Senanayake</td><td style="color:#1a4f72;"class="text-center">11.01.2017</td><td style="color:#1a4f72;"class="text-center">30.06.2019</td></tr>
+                                    <tr><td style="color:#1a4f72;">Air Cdre LMSK Leelaratne</td><td style="color:#1a4f72;"class="text-center">01.07.2019</td><td style="color:#1a4f72;"class="text-center">20.03.2022</td></tr>
+                                    <tr><td style="color:#1a4f72;">Gp Capt LMCB Nissanka</td><td style="color:#1a4f72;"class="text-center">21.03.2022</td><td style="color:#1a4f72;"class="text-center">18.09.2022</td></tr>
+                                    <tr><td style="color:#1a4f72;">Air Cdre MPA Mahawattage</td><td style="color:#1a4f72;"class="text-center">19.09.2022</td><td style="color:#1a4f72;"class="text-center">04.07.2023</td></tr>
+                                    <tr class="table-primary"><td style="color:#1a4f72;"colspan="3" class="text-center fw-bold py-2">DIRECTOR QUALITY ASSURANCE</td></tr>
+                                    <tr><td style="color:#1a4f72;">Air Cdre SPS Martino</td><td style="color:#1a4f72;"class="text-center">05.07.2023</td><td style="color:#1a4f72;"class="text-center">08.08.2024</td></tr>
+                                    <tr><td style="color:#1a4f72;">Air Cdre CJ Hettiarachchi</td><td style="color:#1a4f72;"class="text-center">08.08.2024</td><td style="color:#1a4f72;"class="text-center">27.05.2025</td></tr>
+                                    <tr><td style="color:#1a4f72;">Air Cdre MF Jansen</td><td style="color:#1a4f72;"class="text-center">27.07.2025</td><td style="color:#1a4f72;"class="text-center">-</td></tr>
                                 </tbody>
                             </table>
                         </div>
