@@ -204,15 +204,15 @@
                <a href="index.php"> <img src="assets/img/logo/QAI_NEW_LOG.png" alt="Command Quality Assurance Inspectorate Logo" class="logo">
             </div>
     <div class="position-relative" style="margin-top: -6rem;">   
-        <div class="swiper-container" style="width: 100%; height: 580px; object-fit: cover;">  
-            <div class="swiper-slide" style="width: 100%; height: 580px; object-fit: cover;">
-                <div class="swiper-slide" style="width: 100%; height: 580px; object-fit: cover;">
-                    <img src="assets/img/slider/cqai-6.jpg" alt="Quality Inspection" style="width: 100%; height: 580px; object-fit: cover;">
+        <div class="swiper-container" style=" height: 580px; object-fit: cover;">  
+            <div class="swiper-slide" style=" height: 580px; object-fit: cover;">
+                <div class="swiper-slide" style="height: 580px; object-fit: cover;">
+                    <img src="assets/img/slider/cqai-06.jpg" alt="Quality Inspection" style="height: 580px; object-fit: cover;">
                         <div class="slide-caption">
                             <h5>Ensuring Excellence in Every Operation</h5>
                         </div>
                 </div>
-                <div class="swiper-slide" style="width: 100%; height: 580px; object-fit: cover;">
+               <!-- <div class="swiper-slide" style="width: 100%; height: 580px; object-fit: cover;">
                     <img src="assets/img/slider/cqai-6.jpg" alt="Our Team" style="width: 100%; height: 580px; object-fit: cover;">
                         <div class="slide-caption">
                             <h5>Dedicated Team of Quality Professionals</h5>
@@ -223,7 +223,7 @@
                         <div class="slide-caption">
                             <h5>Innovative Solutions for Quality Assurance</h5>
                         </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
@@ -286,15 +286,11 @@
                         <div class="subhead-column">
                             <h4 class="subhead-title">Services</h4>
                             <ul class="subhead-list">
-                                <li><a href="services.php#org" style="text-decoration: none;color: var(--dark-color);">Check list</a></li>
-                                <li>Audit report</li>
-                                <li>Feedback report</li>
-                                <li>R&D Project Poposal</li>
-                                <li>Latitude</li>
-                                <li>Modification Leaflet</li>
-                                <!-- <li>Confidency</li> -->
-                                <!-- <li>Supplier Evaluations</li> -->
-                                <!-- <li>Risk Assessment</li> -->
+                                <li><a href="services.php#org" style="text-decoration: none;color: var(--dark-color);">Quality Assurance Audits </a></li>
+                                <li>Aircraft Competency </li>
+                                <li>Latitudes and extensions </li>
+                                <li>Modifications / R&D Project</li>
+                                <li>Vehicle Emission Test </li>
                             </ul>
                         </div>
                     </div>
@@ -302,14 +298,10 @@
                         <div class="subhead-column">
                             <h4 class="subhead-title">Publication</h4>
                             <ul class="subhead-list">
-                                <li>Publication Update</li>
-                                <li>Master Copies</li>
-                                <li>Publication Index</li>
-                                <li>Worksheets</li>
-                                <li>Service Shedule</li>
-                                <li>Safety Notice</li>
-                                <li>AD & Bulletings</li>
-
+                                <li>Airworthiness Directives and Bulletins</li>
+                                <li>QAI Safety Newsletters</li>
+                                <li>Maintenance Programme </li>
+                                <li>Technical library </li>
                             </ul>
                         </div>
                     </div>
@@ -317,12 +309,10 @@
                         <div class="subhead-column">
                             <h4 class="subhead-title">Training</h4>
                             <ul class="subhead-list">
-                                <li>Competency Details</li>
                                 <li>Approved Training Syllabus</li>
-                                <li>CPD</li>
-                                <li>PIPD</li>
+                                <li>Continues Professional Development </li>
+                                <li>Productivity Improvement Professional Development</li>
                                 <li>Outside Training</li>
-                                <!-- <li>Risk Assessment</li> -->
                             </ul>
                         </div>
                     </div>
@@ -330,13 +320,10 @@
                         <div class="subhead-column">
                             <h4 class="subhead-title">Productivity</h4>
                             <ul class="subhead-list">
-                                <li>OSH</li>
-                                <li>Eventment</li>
-                                <li>Pub</li>
-                                <!-- <li>Tool & Technique</li> -->
-                                <li>QCC</li>
-                                <!-- <li>FAQ</li> -->
-                                <!-- <li>Feedback Portal</li> -->
+                                <li>Occupational Safety & Health</li>
+                                <li>Environment </li>
+                                <li>Quality Control Circles</li>
+                                <li>Awards </li>
                             </ul>
                         </div>
                     </div>
