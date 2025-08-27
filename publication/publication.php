@@ -1,6 +1,101 @@
 <?php include '../template/head.php'; ?>
 <head>
     <link rel="stylesheet" href="../assets/css/audit_card.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <style>
+        :root {
+            --primary-color: #1a4f72;
+            --secondary-color: #ffcc00;
+            --light-bg: #f8f9fa;
+            --dark-bg: #343a40;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--light-bg);
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .colour-defult {
+            color: var(--primary-color) !important;
+        }
+        
+        .page-header {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .nav-pills .nav-link {
+            color: #495057;
+            border-radius: 0;
+            padding: 12px 20px;
+            margin-bottom: 8px;
+            transition: all 0.3s;
+            border-left: 3px solid transparent;
+        }
+        
+        .nav-pills .nav-link.active, 
+        .nav-pills .nav-link:hover {
+            background-color: rgba(26, 79, 114, 0.1);
+            color: var(--primary-color);
+            border-left: 3px solid var(--primary-color);
+        }
+        
+        .tab-content {
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card {
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 992px) {
+            .nav-pills {
+                flex-direction: row !important;
+                overflow-x: auto;
+                white-space: nowrap;
+                padding-bottom: 10px;
+            }
+            
+            .nav-pills .nav-item {
+                display: inline-block;
+                float: none;
+            }
+            
+            .nav-pills .nav-link {
+                border-left: none;
+                border-bottom: 3px solid transparent;
+                margin-bottom: 0;
+                margin-right: 5px;
+            }
+            
+            .nav-pills .nav-link.active, 
+            .nav-pills .nav-link:hover {
+                border-left: none;
+                border-bottom: 3px solid var(--primary-color);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .page-header h3 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <?php include '../template/header.php'; ?>
@@ -18,63 +113,45 @@
         
         <div class="row">
             <!-- Left Side Navigation -->
-            <div class="col-lg-2">
-                <ul class="nav flex-column nav-pills" id="inspectorateTabs" role="tablist" aria-orientation="vertical">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="publication_update-tab" data-bs-toggle="pill" href="#publication_update" role="tab">Publication Update</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="master_copies-tab" data-bs-toggle="pill" href="#master_copies" role="tab">Master Copies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="publication_index-tab" data-bs-toggle="pill" href="#publication_index" role="tab">Publication Index</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="worksheet-tab" data-bs-toggle="pill" href="#worksheet" role="tab">Worksheets</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="service_shedule-tab" data-bs-toggle="pill" href="#service_shedule" role="tab">Service Shedule</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="ad_bulleting-tab" data-bs-toggle="pill" href="#ad_bulleting" role="tab">AD & Bulletings</a>
-                    </li>
-                </ul>
+            <div class="col-lg-3 col-xl-2 mb-4">
+                <div class="nav flex-column nav-pills" id="inspectorateTabs" role="tablist">
+                    <a class="nav-link active" id="publication_update-tab" data-bs-toggle="pill" href="#publication_update" role="tab">Online Subscription</a>
+                    <a class="nav-link" id="ad_bulleting-tab" data-bs-toggle="pill" href="#ad_bulleting" role="tab">Airworthiness Directives & Bulletins</a>
+                    <a class="nav-link" id="master_copies-tab" data-bs-toggle="pill" href="#master_copies" role="tab">QAI Safety Newsletters</a>
+                    <a class="nav-link" id="publication_index-tab" data-bs-toggle="pill" href="#publication_index" role="tab">Maintenance Programme</a>
+                    <a class="nav-link" id="worksheet-tab" data-bs-toggle="pill" href="#worksheet" role="tab">Technical Library</a>
+                </div>
             </div>
 
             <!-- Right Side Content -->
-            <div class="col-lg-10">
+            <div class="col-lg-9 col-xl-10">
                 <div class="tab-content" id="inspectorateTabsContent">
                     
-                    <!-- Tab 1: Publication Update -->
+                    <!-- Tab 1: Online Subscription -->
                     <div class="tab-pane fade show active" id="publication_update" role="tabpanel">
                         <?php echo generateServiceCards('publications-publication_update.php'); ?>
                     </div>
+
+                    <!-- Tab 2: AD & Bulletins -->
+                    <div class="tab-pane fade" id="ad_bulleting" role="tabpanel">
+                        <?php echo generateServiceCards('publications-ad_bulleting.php'); ?>
+                    </div>
                     
-                    <!-- Tab 2: Master Copies -->
+                    <!-- Tab 3: QAI Safety Newsletters -->
                     <div class="tab-pane fade" id="master_copies" role="tabpanel">
                         <?php echo generateServiceCards('publications-master_copies.php'); ?>
                     </div>
                     
-                    <!-- Tab 3: Publication Index -->
+                    <!-- Tab 4: Maintenance Programme -->
                     <div class="tab-pane fade" id="publication_index" role="tabpanel">
                         <?php echo generateServiceCards('publications-publication_index.php'); ?>
                     </div>
                     
-                    <!-- Tab 4: Worksheets -->
+                    <!-- Tab 5: Technical Library -->
                     <div class="tab-pane fade" id="worksheet" role="tabpanel">
                         <?php echo generateServiceCards('publications-worksheet.php'); ?>
                     </div>
-                    
-                    <!-- Tab 5: Service Shedule  -->
-                    <div class="tab-pane fade" id="service_shedule" role="tabpanel">
-                        <?php echo generateServiceCards('publications-service_shedule.php'); ?>
-                    </div>
-                    
-                    <!-- Tab 6: AD & Bulletings -->
-                    <div class="tab-pane fade" id="ad_bulleting" role="tabpanel">
-                        <?php echo generateServiceCards('publications-ad_bulleting.php'); ?>
-                    </div>
-                                        
+                                                            
                 </div>
             </div>
         </div>
@@ -82,30 +159,27 @@
     </main>
 
     <?php
-    include '../template/footer.php';
-    include '../template/foot.php';
-    
-    // Function to generate service cards
     function generateServiceCards($baseUrl) {
         $sections = [
-            'AE' => ['color' => 'blue', 'icon' => 'building'],
-            'AO' => ['color' => 'blue', 'icon' => 'people'],
-            'AA' => ['color' => 'blue', 'icon' => 'journal-text'],
-            'GE' => ['color' => 'blue', 'icon' => 'calendar-event'],
-            'EE' => ['color' => 'blue', 'icon' => 'building'],
-            'BE' => ['color' => 'blue', 'icon' => 'people'],
-            'CE' => ['color' => 'blue', 'icon' => 'calendar-event']
+            'Aeronautical Engineering' => ['img' => 'AE.png'],
+            'Air Operations' => ['img' => 'AO.png'],
+            'Construction Engineering' => ['img' => 'CE.png'],
+            'Electrical Engineering' => ['img' => 'EE.png'],
+            'General Engineering' => ['img' => 'GE.png'],
+            'Ground Operations' => ['img' => 'GO.png'],
+            'Productivity Management' => ['img' => 'PEM.png'],        
+            'Training' => ['img' => 'training.png'],
         ];
         
         $html = '<div class="row text-center">';
         
         foreach ($sections as $section => $data) {
             $html .= '
-            <div class="col-md-3 mb-3">
-                <a href="'.$baseUrl.'?section='.$section.'" class="card-link text-decoration-none">
-                    <div class="card hover-effect border border-2 border-'.$data['color'].' bg-white">
+            <div class="col-md-3 mb-4">
+                <a href="'.$baseUrl.'?section='.urlencode($section).'" class="card-link text-decoration-none">
+                    <div class="card hover-effect border border-2 border-primary bg-white">
                         <div class="card-body text-center p-4">
-                            <i class="bi bi-'.$data['icon'].' fs-3 text-'.$data['color'].' mb-3"></i>
+                            <img src="../assets/img/icons/'.$data['img'].'" alt="'.$section.'" style="width:60px;height:60px;" class="mb-3"/>
                             <h6 class="mb-0 text-dark fw-semibold">'.$section.'</h6>
                         </div>
                     </div>
@@ -117,7 +191,34 @@
         
         return $html;
     }
+    
+    include '../template/footer.php';
+    include '../template/foot.php';
     ?>
     
-    </body>
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Handle URL hash for direct tab access
+        document.addEventListener("DOMContentLoaded", function() {
+            var hash = window.location.hash;
+            if (hash) {
+                var tabTrigger = document.querySelector('a[href="' + hash + '"]');
+                if (tabTrigger) {
+                    var tab = new bootstrap.Tab(tabTrigger);
+                    tab.show();
+                }
+            }
+            
+            // Update URL hash when tabs are shown
+            var tabEls = document.querySelectorAll('a[data-bs-toggle="pill"]');
+            tabEls.forEach(function(tabEl) {
+                tabEl.addEventListener('shown.bs.tab', function (e) {
+                    history.replaceState(null, null, e.target.getAttribute('href'));
+                });
+            });
+        });
+    </script>
+</body>
 </html>

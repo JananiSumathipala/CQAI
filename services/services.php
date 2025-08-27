@@ -1,6 +1,7 @@
 <?php include '../template/head.php'; ?>
 <head>
     <link rel="stylesheet" href="../assets/css/audit_card.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 <body>
     <?php include '../template/header.php'; ?>
@@ -16,75 +17,72 @@
             </h3>
         </div>
         
-        <div class="row">
-            <!-- Left Side Navigation -->
-            <div class="col-lg-2">
-                <ul class="nav flex-column nav-pills" id="inspectorateTabs" role="tablist" aria-orientation="vertical">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="checklist-tab" data-bs-toggle="pill" href="#checklist" role="tab">Check List</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="auditreport-tab" data-bs-toggle="pill" href="#auditreport" role="tab">Audit Report</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="feedback-tab" data-bs-toggle="pill" href="#feedback" role="tab">Feedback Report</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="rdproject-tab" data-bs-toggle="pill" href="#rdproject" role="tab">R&D Project Proposal</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="latitude-tab" data-bs-toggle="pill" href="#latitude" role="tab">Latitude</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="leaflet-tab" data-bs-toggle="pill" href="#leaflet" role="tab">Modification Leaflet</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="confidency-tab" data-bs-toggle="pill" href="#confidency" role="tab">Confidency</a>
-                    </li>
-                </ul>
+        <div class="row text-center">
+            <!-- Quality Assurance Audits Card -->
+            <div class="col-md-4 mb-4">
+                <a href="qa_audit_categories.php" class="card-link text-decoration-none">
+                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 210px;">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-clipboard-check fs-1 text-primary mb-3"></i>
+                            <h5 class="mb-2 text-dark fw-semibold">Quality Assurance Audits</h5>
+                            <p class="text-muted">Comprehensive audit services for quality assurance</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Aircraft Competency Card -->
+            <div class="col-md-4 mb-4">
+                <a href="competency.php" class="card-link text-decoration-none">
+                    <div class="card hover-effect border border-2 border-success bg-white" style="height: 210px;">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-airplane fs-1 text-success mb-3"></i>
+                            <h5 class="mb-2 text-dark fw-semibold">Aircraft Competency</h5>
+                            <p class="text-muted">Aircraft certification and competency evaluation</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Latitudes and Extensions Card -->
+            <div class="col-md-4 mb-4">
+                <a href="latitude.php" class="card-link text-decoration-none">
+                    <div class="card hover-effect border border-2 border-warning bg-white" style="height: 210px;">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-geo-alt fs-1 text-warning mb-3"></i>
+                            <h5 class="mb-2 text-dark fw-semibold">Latitudes and Extensions</h5>
+                            <p class="text-muted">Regulatory latitude and extension services</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Modifications / R&D Projects Card -->
+            <div class="col-md-4 mb-4">
+                <a href="modification.php" class="card-link text-decoration-none">
+                    <div class="card hover-effect border border-2 border-info bg-white" style="height: 210px;">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-tools fs-1 text-info mb-3"></i>
+                            <h5 class="mb-2 text-dark fw-semibold">Modifications / R&D Projects</h5>
+                            <p class="text-muted">Modification approvals and research projects</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Vehicle Emission Test Card -->
+            <div class="col-md-4 mb-4">
+                <a href="vehicle_emission.php" class="card-link text-decoration-none">
+                    <div class="card hover-effect border border-2 border-danger bg-white" style="height: 210px;">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-car-front fs-1 text-danger mb-3"></i>
+                            <h5 class="mb-2 text-dark fw-semibold">Vehicle Emission Test</h5>
+                            <p class="text-muted">Vehicle emission testing and certification</p>
+                        </div>
+                    </div>
+                </a>
             </div>
 
-            <!-- Right Side Content -->
-            <div class="col-lg-10">
-                <div class="tab-content" id="inspectorateTabsContent">
-                    
-                    <!-- Tab 1: Check List -->
-                    <div class="tab-pane fade show active" id="checklist" role="tabpanel">
-                        <?php echo generateServiceCards('services-check.php'); ?>
-                    </div>
-                    
-                    <!-- Tab 2: Audit Report -->
-                    <div class="tab-pane fade" id="auditreport" role="tabpanel">
-                        <?php echo generateServiceCards('services-auditreport.php'); ?>
-                    </div>
-                    
-                    <!-- Tab 3: Feedback Report -->
-                    <div class="tab-pane fade" id="feedback" role="tabpanel">
-                        <?php echo generateServiceCards('services-feedback.php'); ?>
-                    </div>
-                    
-                    <!-- Tab 4: R&D Project Proposal -->
-                    <div class="tab-pane fade" id="rdproject" role="tabpanel">
-                        <?php echo generateServiceCards('services-r&dproject.php'); ?>
-                    </div>
-                    
-                    <!-- Tab 5: Latitude -->
-                    <div class="tab-pane fade" id="latitude" role="tabpanel">
-                        <?php echo generateServiceCards('services-latitude.php'); ?>
-                    </div>
-                    
-                    <!-- Tab 6: Modification Leaflet -->
-                    <div class="tab-pane fade" id="leaflet" role="tabpanel">
-                        <?php echo generateServiceCards('services-leaflet.php'); ?>
-                    </div>
-                    
-                    <!-- Tab 7: Confidency -->
-                    <div class="tab-pane fade" id="confidency" role="tabpanel">
-                        <?php echo generateServiceCards('services-confidency.php'); ?>
-                    </div>
-                    
-                </div>
-            </div>
         </div>
         <hr>
     </main>
@@ -92,40 +90,6 @@
     <?php
     include '../template/footer.php';
     include '../template/foot.php';
-    
-    // Function to generate service cards
-    function generateServiceCards($baseUrl) {
-        $sections = [
-            'AE' => ['color' => 'blue', 'icon' => 'building'],
-            'AO' => ['color' => 'blue', 'icon' => 'people'],
-            'AA' => ['color' => 'blue', 'icon' => 'journal-text'],
-            'GE' => ['color' => 'blue', 'icon' => 'calendar-event'],
-            'EE' => ['color' => 'blue', 'icon' => 'building'],
-            'BE' => ['color' => 'blue', 'icon' => 'people'],
-            'CE' => ['color' => 'blue', 'icon' => 'calendar-event']
-        ];
-        
-        $html = '<div class="row text-center">';
-        
-        foreach ($sections as $section => $data) {
-            $html .= '
-            <div class="col-md-3 mb-3">
-                <a href="'.$baseUrl.'?section='.$section.'" class="card-link text-decoration-none">
-                    <div class="card hover-effect border border-2 border-'.$data['color'].' bg-white">
-                        <div class="card-body text-center p-4">
-                            <i class="bi bi-'.$data['icon'].' fs-3 text-'.$data['color'].' mb-3"></i>
-                            <h6 class="mb-0 text-dark fw-semibold">'.$section.'</h6>
-                        </div>
-                    </div>
-                </a>
-            </div>';
-        }
-        
-        $html .= '</div>';
-        
-        return $html;
-    }
     ?>
-    
-    </body>
+</body>
 </html>
