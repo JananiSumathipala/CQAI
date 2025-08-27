@@ -1,6 +1,4 @@
-<?php 
-    include '../template/head.php';
-?>
+<?php include '../template/head.php'; ?>
 <head>
     <link rel="stylesheet" href="../assets/css/audit_card.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
@@ -100,55 +98,49 @@
     </style>
 </head>
 <body>
-    <?php
-    include '../template/header.php';
-    ?>
+    <?php include '../template/header.php'; ?>
+    
     <!-- Main Content -->
     <main class="container my-5 pt-5">
         <div class="page-header mb-4">
-            <h3 class="colour-defult">Trainings <i class="fa fa-tasks"></i>
+            <h3 class="colour-defult">Environment<i class="fa fa-tasks"></i>
                 <div class="float-end">
                     <a href="../index.php" class="btn btn-info me-2"><i class="fa fa-home"></i> Home</a>
                     <a href="javascript:history.back()" class="btn btn-secondary"><i class="fa fa-arrow-left"></i> Back</a>
                 </div>
             </h3>
         </div>
-
+        
         <div class="row">
             <!-- Left Side Navigation -->
             <div class="col-lg-3 col-xl-2 mb-4">
                 <div class="nav flex-column nav-pills" id="inspectorateTabs" role="tablist">
-                    <a class="nav-link active" id="competency_training-tab" data-bs-toggle="pill" href="#competency_training" role="tab">Approved Training Syllabus</a>
-                    <a class="nav-link" id="cpd-tab" data-bs-toggle="pill" href="#cpd" role="tab">Continues Professional Development</a>
-                    <a class="nav-link" id="pipd-tab" data-bs-toggle="pill" href="#pipd" role="tab">Productivity Improvement Professional Development</a>
-                    <a class="nav-link" id="outside_training-tab" data-bs-toggle="pill" href="#outside_training" role="tab">Outside Training</a>
+                    <a class="nav-link active" id="checklist-tab" data-bs-toggle="pill" href="#checklist" role="tab">Audit Check list</a>
+                    <a class="nav-link" id="auditreport-tab" data-bs-toggle="pill" href="#auditreport" role="tab">Audit Reports</a>
+                    <a class="nav-link" id="feedback-tab" data-bs-toggle="pill" href="#feedback" role="tab">Audit Plans</a>
                 </div>
             </div>
 
-             <!-- Right Side Content -->
+            <!-- Right Side Content -->
             <div class="col-lg-9 col-xl-10">
                 <div class="tab-content" id="inspectorateTabsContent">
-                    
-                    <!-- Tab 1: Competency Training -->
-                    <div class="tab-pane fade show active" id="competency_training" role="tabpanel">
-                        <?php echo generateServiceCards('training-competency_training.php'); ?>
+
+
+                    <!-- Tab 1: Audit Plan -->
+                    <div class="tab-pane fade show active" id="checklist" role="tabpanel">
+                        <?php echo generateServiceCards('services-check.php'); ?>
                     </div>
                     
-                    <!-- Tab 2: CPD -->
-                    <div class="tab-pane fade" id="cpd" role="tabpanel">
-                        <?php echo generateServiceCards('training-cpd.php'); ?>
+                    <!-- Tab 2: Audit Check list -->
+                    <div class="tab-pane fade" id="auditreport" role="tabpanel">
+                        <?php echo generateServiceCards('services-auditreport.php'); ?>
                     </div>
                     
-                    <!-- Tab 3: PIPD Report -->
-                    <div class="tab-pane fade" id="pipd" role="tabpanel">
-                        <?php echo generateServiceCards('training-pipd.php'); ?>
+                    <!-- Tab 3: Audit Reports -->
+                    <div class="tab-pane fade" id="feedback" role="tabpanel">
+                        <?php echo generateServiceCards('services-feedback.php'); ?>
                     </div>
-                    
-                    <!-- Tab 4: Outside Training -->
-                    <div class="tab-pane fade" id="outside_training" role="tabpanel">
-                        <?php echo generateServiceCards('training-outside_training.php'); ?>
-                    </div>
-                   
+ 
                 </div>
             </div>
         </div>

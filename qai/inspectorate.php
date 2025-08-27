@@ -1,3 +1,4 @@
+<?php include '../template/head.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -226,7 +227,7 @@
 
 <body>
     <!-- Header -->
-    <?php include '../template/head.php'; ?>
+
 
     <?php include '../template/header.php'; ?>
 
@@ -258,7 +259,7 @@
             <div class="col-lg-9 col-xl-10">
                 <div class="tab-content" id="inspectorateTabsContent">
                     <!-- About Us -->
-                    <div class="tab-pane fade show active" id="org" role="tabpanel">
+                    <div class="tab-pane fade show active" id="org" role="tabpanel" style="color:#1a4f72;">
                         <p>The Sri Lanka Air Force (SLAF), in its commitment to fulfil the aspirations of the Nation by achieving excellence in the field of aviation and in all associated functions, is continually striving to enhance customer satisfaction by exceeding stake holders' expectations whilst endeavouring to be efficient, reliable and socially responsible.</p>
                         <p>Towards this end, the Quality Assurance Inspectorate (QAI) was established to perform Quality Assurance Functions within the SLAF. The QAI functions under supervision of the Chief of Staff of the Sri Lanka Air Force and is headed by the Director Quality Assurance (DQA) who is primarily tasked to provide advice on the Quality Assurance Services (QAS) matters such as Policy, Organization and Administration.</p>
                         
@@ -393,7 +394,7 @@
                                     <div class="card staff-card text-center">
                                         <div class="card-body">
                                             <h5 class="card-title">WO I/C</h5>
-                                            <img width="200" height="250" src="../assets/img/staff/wo1.png" alt="QUALITY ASSURANCE WO I/C" class="img-fluid mb-3">
+                                            <img width="200" height="250" src="../assets/img/staff/wo.png" alt="QUALITY ASSURANCE WO I/C" class="img-fluid mb-3">
                                             <p class="mb-1"><strong>Rank:</strong> MWO</p>
                                             <p class="mb-1"><strong>Name:</strong> RGD ARIYARATHNA</p>
                                             <p class="mb-1"><strong>Ext:</strong> 11151</p>
@@ -406,7 +407,7 @@
                     </div>
 
                     <!-- History -->
-                    <div class="tab-pane fade" id="history" role="tabpanel">
+                    <div class="tab-pane fade" id="history" role="tabpanel" style="color:#1a4f72;">
                         <p>The Quality Assurance Inspectorate (QAI) was first established at SLAF Base Rma as the Command Quality Assurance Inspectorate (CQAI) in year 1988 under the command of Wg Cdr GY De Silva on the aim of leading/guiding SLAF on Quality and Productivity.</p>
                         <p>Subsequently the Inspectorate was shifted to the Air Force Headquarters to facilitate its effective operations throughout the full spectrum of SLAF operations and since then the QAI has been commanded by 22 Command Quality Assurance Officers (CQAOs).</p>
                         
@@ -416,9 +417,9 @@
                             <table class="table table-hover history-table">
                                 <thead>
                                     <tr>
-                                        <th width="40%" style="color:#1a4f72;">Name</th>
-                                        <th width="30%" class="text-center" style="color:#1a4f72;">From</th>
-                                        <th width="30%" class="text-center" style="color:#1a4f72;">To</th>
+                                        <th width="40%">Name</th>
+                                        <th width="30%" class="text-center" >From</th>
+                                        <th width="30%" class="text-center">To</th>
                                     </tr>
                                 </thead>
                                 <tbody>

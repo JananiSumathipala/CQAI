@@ -1,74 +1,75 @@
 <?php include '../template/head.php'; ?>
 <head>
     <link rel="stylesheet" href="../assets/css/audit_card.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 <body>
-
-    <?php
-    include '../template/header.php';
-    ?>
+    <?php include '../template/header.php'; ?>
+    
     <!-- Main Content -->
     <main class="container my-5 pt-5">
         <div class="page-header mb-4">
-            <h3 class="colour-defult">Productivity <i class="fa fa-tasks"></i>
+            <h3 class="colour-defult">Productivity<i class="fa fa-tasks"></i>
                 <div class="float-end">
                     <a href="../index.php" class="btn btn-info me-2"><i class="fa fa-home"></i> Home</a>
                     <a href="javascript:history.back()" class="btn btn-secondary"><i class="fa fa-arrow-left"></i> Back</a>
                 </div>
             </h3>
         </div>
-
-        <div class="row">
-            <div class="col-lg-2">
-                <!-- Nav Tabs -->
-                <ul class="nav flex-column nav-pills" id="inspectorateTabs" role="tablist" aria-orientation="vertical">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="org-tab" data-bs-toggle="pill" href="#osh" role="tab">OSH</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="functions-tab" data-bs-toggle="pill" href="#eventment" role="tab">Eventment</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#pub" role="tab">Pub</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#structure" role="tab">Tool & Technique </a>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" id="structure-tab" data-bs-toggle="pill" href="#qcc" role="tab">QCC </a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" id="responsibilities-tab" data-bs-toggle="pill" href="#responsibilities" role="tab">RESPONSIBILITIES</a>
-                    </li> -->
-                </ul>
+        
+        <div class="row text-center">
+            <!-- Occupational Safety & Health Card -->
+            <div class="col-md-4 mb-4">
+                <a href="osh_categories.php" class="card-link text-decoration-none">
+                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 210px;">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-shield-check fs-1 text-primary mb-3"></i>
+                            <h5 class="mb-2 text-dark fw-semibold">Occupational Safety & Health</h5>
+                            <p class="text-muted">Workplace safety standards and health regulations</p>
+                        </div>
+                    </div>
+                </a>
             </div>
-
-            <!-- Right Side Content -->
-            <div class="col-lg-10">
-                <div class="tab-content" id="inspectorateTabsContent">
-                    
-                    <!-- Tab 1: OSH -->
-                    <div class="tab-pane fade show active" id="osh" role="tabpanel">
-                        <?php echo generateServiceCards('productivity-osh.php'); ?>
+            
+            <!-- Environment Card -->
+            <div class="col-md-4 mb-4">
+                <a href="environment_categories.php" class="card-link text-decoration-none">
+                    <div class="card hover-effect border border-2 border-success bg-white" style="height: 210px;">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-tree fs-1 text-success mb-3"></i>
+                            <h5 class="mb-2 text-dark fw-semibold">Environment</h5>
+                            <p class="text-muted">Environmental protection and sustainability initiatives</p>
+                        </div>
                     </div>
-                    
-                    <!-- Tab 2: Eventment -->
-                    <div class="tab-pane fade" id="eventment" role="tabpanel">
-                        <?php echo generateServiceCards('productivity-eventment.php'); ?>
-                    </div>
-                    
-                    <!-- Tab 3: PUB -->
-                    <div class="tab-pane fade" id="pub" role="tabpanel">
-                        <?php echo generateServiceCards('productivity-pub.php'); ?>
-                    </div>
-                    
-                    <!-- Tab 4: QCC -->
-                    <div class="tab-pane fade" id="qcc" role="tabpanel">
-                        <?php echo generateServiceCards('productivity-qcc.php'); ?>
-                    </div>
-                   
-                </div>
+                </a>
             </div>
+            
+            <!-- Quality Control Circles Card -->
+            <div class="col-md-4 mb-4">
+                <a href="qcc.php" class="card-link text-decoration-none">
+                    <div class="card hover-effect border border-2 border-warning bg-white" style="height: 210px;">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-diagram-3 fs-1 text-warning mb-3"></i>
+                            <h5 class="mb-2 text-dark fw-semibold">Quality Control Circles</h5>
+                            <p class="text-muted">Team-based quality improvement and problem-solving</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Awards Card -->
+            <div class="col-md-4 mb-4">
+                <a href="awards.php" class="card-link text-decoration-none">
+                    <div class="card hover-effect border border-2 border-info bg-white" style="height: 210px;">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-trophy fs-1 text-info mb-3"></i>
+                            <h5 class="mb-2 text-dark fw-semibold">Awards</h5>
+                            <p class="text-muted">Recognition programs for excellence and achievement</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
         </div>
         <hr>
     </main>
@@ -76,40 +77,6 @@
     <?php
     include '../template/footer.php';
     include '../template/foot.php';
-    
-    // Function to generate service cards
-    function generateServiceCards($baseUrl) {
-        $sections = [
-            'AE' => ['color' => 'blue', 'icon' => 'building'],
-            'AO' => ['color' => 'blue', 'icon' => 'people'],
-            'AA' => ['color' => 'blue', 'icon' => 'journal-text'],
-            'GE' => ['color' => 'blue', 'icon' => 'calendar-event'],
-            'EE' => ['color' => 'blue', 'icon' => 'building'],
-            'BE' => ['color' => 'blue', 'icon' => 'people'],
-            'CE' => ['color' => 'blue', 'icon' => 'calendar-event']
-        ];
-        
-        $html = '<div class="row text-center">';
-        
-        foreach ($sections as $section => $data) {
-            $html .= '
-            <div class="col-md-3 mb-3">
-                <a href="'.$baseUrl.'?section='.$section.'" class="card-link text-decoration-none">
-                    <div class="card hover-effect border border-2 border-'.$data['color'].' bg-white">
-                        <div class="card-body text-center p-4">
-                            <i class="bi bi-'.$data['icon'].' fs-3 text-'.$data['color'].' mb-3"></i>
-                            <h6 class="mb-0 text-dark fw-semibold">'.$section.'</h6>
-                        </div>
-                    </div>
-                </a>
-            </div>';
-        }
-        
-        $html .= '</div>';
-        
-        return $html;
-    }
     ?>
-    
-    </body>
+</body>
 </html>
