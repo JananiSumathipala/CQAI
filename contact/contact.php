@@ -1,16 +1,16 @@
-<?php include 'template/head.php'; ?>
+<?php include '../template/head.php'; ?>
 
 <body>
     <?php
-    include 'template/header.php';
-    require_once "includes/config.php";
+    include '../template/header.php';
+    require_once "../includes/config.php";
     ?>
     <!-- Main Content -->
     <main class="container my-5 pt-5">
         <div class="page-header mb-4">
             <h3 class="colour-defult">Contacts <i class="fa fa-contact"></i>
                 <div class="float-end">
-                    <a href="index.php" class="btn btn-info me-2"><i class="fa fa-home"></i> Home</a>
+                    <a href="../index.php" class="btn btn-info me-2"><i class="fa fa-home"></i> Home</a>
                     <a href="javascript:history.back()" class="btn btn-secondary"><i class="fa fa-arrow-left"></i> Back</a>
                 </div>
             </h3>
