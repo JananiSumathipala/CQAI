@@ -12,46 +12,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
     <style>
-        :root {
-            --primary-color: #1a4f72;
-            --secondary-color: #ffcc00;
-            --light-bg: #f8f9fa;
-            --dark-bg: #343a40;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--light-bg);
-            color: #333;
-            line-height: 1.6;
-        }
-        
-        .colour-defult {
-            color: var(--primary-color) !important;
-        }
-        
-        .page-header {
-            border-bottom: 2px solid var(--primary-color);
-            padding-bottom: 15px;
-            margin-bottom: 30px;
-        }
-        
-        .nav-pills .nav-link {
-            color: #495057;
-            border-radius: 0;
-            padding: 12px 20px;
-            margin-bottom: 8px;
-            transition: all 0.3s;
-            border-left: 3px solid transparent;
-        }
-        
-        .nav-pills .nav-link.active, 
-        .nav-pills .nav-link:hover {
-            background-color: rgba(26, 79, 114, 0.1);
-            color: var(--primary-color);
-            border-left: 3px solid var(--primary-color);
-        }
         
         .tab-content {
             padding: 20px;
@@ -177,32 +141,6 @@
         }
         
         /* Responsive adjustments */
-        @media (max-width: 992px) {
-            .nav-pills {
-                flex-direction: row !important;
-                overflow-x: auto;
-                white-space: nowrap;
-                padding-bottom: 10px;
-            }
-            
-            .nav-pills .nav-item {
-                display: inline-block;
-                float: none;
-            }
-            
-            .nav-pills .nav-link {
-                border-left: none;
-                border-bottom: 3px solid transparent;
-                margin-bottom: 0;
-                margin-right: 5px;
-            }
-            
-            .nav-pills .nav-link.active, 
-            .nav-pills .nav-link:hover {
-                border-left: none;
-                border-bottom: 3px solid var(--primary-color);
-            }
-        }
         
         @media (max-width: 768px) {
             .page-header h3 {
