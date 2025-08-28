@@ -55,11 +55,26 @@
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s, box-shadow 0.3s;
+            height: 100%; /* Ensure cards take full height of their container */
         }
         
         .card:hover {
             transform: translateY(-5px);
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 200px; /* Set a minimum height for consistency */
+        }
+        
+        /* Ensure all cards are the same height */
+        .card-link {
+            height: 100%;
+            display: block;
         }
         
         /* Responsive adjustments */
@@ -94,6 +109,10 @@
             .page-header h3 {
                 font-size: 1.5rem;
             }
+            
+            .card-body {
+                min-height: 180px; /* Slightly smaller on mobile */
+            }
         }
     </style>
 </head>
@@ -112,9 +131,8 @@
         </div>
         
         <div class="row">
-
             <!-- Right Side Content -->
-            <div class="col-lg- col-2xl-10">
+            <div class="col-12">
                 <div class="tab-content" id="inspectorateTabsContent">
                     
                     <!-- Tab 1: Audit Plan -->
@@ -132,18 +150,17 @@
     function generateServiceCards($baseUrl) {
         $sections = [
             'Aeronautical Engineering' => ['img' => 'AE.png'],
-            'Electronics Engineering' => ['img' => 'EE.png'],
-            'General Engineering' => ['img' => 'GE.png'],
-            'Computer Engineering' => ['img' => 'GO.png']
+            'Electronics & Computer Engineering' => ['img' => 'EE.png'],
+            'General Engineering' => ['img' => 'GE.png']
         ];
         
-        $html = '<div class="row text-center">';
+        $html = '<div class="row text-center justify-content-center">';
         
         foreach ($sections as $section => $data) {
             $html .= '
-            <div class="col-md-3 mb-4">
-                <a href="'.$baseUrl.'?section='.urlencode($section).'" class="card-link text-decoration-none">
-                    <div class="card hover-effect border border-2 border-primary bg-white">
+            <div class="col-md-4 col-sm-6 mb-4 d-flex">
+                <a href="'.$baseUrl.'?section='.urlencode($section).'" class="card-link text-decoration-none w-100">
+                    <div class="card hover-effect border border-2 border-primary bg-white h-100">
                         <div class="card-body text-center p-4">
                             <img src="../assets/img/icons/'.$data['img'].'" alt="'.$section.'" style="width:60px;height:60px;" class="mb-3"/>
                             <h6 class="mb-0 text-dark fw-semibold">'.$section.'</h6>
@@ -186,5 +203,5 @@
             });
         });
     </script>
-</body>
+</body> 
 </html>

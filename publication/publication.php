@@ -22,11 +22,11 @@
             <!-- Left Side Navigation -->
             <div class="col-lg-3 col-xl-2 mb-4">
                 <div class="nav flex-column nav-pills" id="inspectorateTabs" role="tablist">
-                    <a class="nav-link active" id="publication_update-tab" data-bs-toggle="pill" href="#publication_update" role="tab">Online Subscription</a>
+                    <a class="nav-link active" id="online_sub-tab" data-bs-toggle="pill" href="#online_sub" role="tab">Online Subscription</a>
                     <a class="nav-link" id="ad_bulleting-tab" data-bs-toggle="pill" href="#ad_bulleting" role="tab">Airworthiness Directives & Bulletins</a>
-                    <a class="nav-link" id="master_copies-tab" data-bs-toggle="pill" href="#master_copies" role="tab">QAI Safety Newsletters</a>
-                    <a class="nav-link" id="publication_index-tab" data-bs-toggle="pill" href="#publication_index" role="tab">Maintenance Programme</a>
-                    <a class="nav-link" id="worksheet-tab" data-bs-toggle="pill" href="#worksheet" role="tab">Technical Library</a>
+                    <a class="nav-link" id="qai_news-tab" data-bs-toggle="pill" href="#qai_news" role="tab">QAI Safety Newsletters</a>
+                    <a class="nav-link" id="maintenance-tab" data-bs-toggle="pill" href="#maintenance" role="tab">Maintenance Programme</a>
+                    <a class="nav-link" id="tech_lib-tab" data-bs-toggle="pill" href="#tech_lib" role="tab">Technical Library</a>
                 </div>
             </div>
 
@@ -35,8 +35,8 @@
                 <div class="tab-content" id="inspectorateTabsContent">
                     
                     <!-- Tab 1: Online Subscription -->
-                    <div class="tab-pane fade show active" id="publication_update" role="tabpanel">
-                        <?php echo generateServiceCards('publications-publication_update.php'); ?>
+                    <div class="tab-pane fade show active" id="online_sub" role="tabpanel">
+                        <?php echo generateServiceCards('publications-online_sub.php'); ?>
                     </div>
 
                     <!-- Tab 2: AD & Bulletins -->
@@ -45,18 +45,18 @@
                     </div>
                     
                     <!-- Tab 3: QAI Safety Newsletters -->
-                    <div class="tab-pane fade" id="master_copies" role="tabpanel">
-                        <?php echo generateServiceCards('publications-master_copies.php'); ?>
+                    <div class="tab-pane fade" id="qai_news" role="tabpanel">
+                        <?php echo generateServiceCards('publications-qai_news.php'); ?>
                     </div>
                     
                     <!-- Tab 4: Maintenance Programme -->
-                    <div class="tab-pane fade" id="publication_index" role="tabpanel">
-                        <?php echo generateServiceCards('publications-publication_index.php'); ?>
+                    <div class="tab-pane fade" id="maintenance" role="tabpanel">
+                        <?php echo generateServiceCards('publications-maintenance.php'); ?>
                     </div>
                     
                     <!-- Tab 5: Technical Library -->
-                    <div class="tab-pane fade" id="worksheet" role="tabpanel">
-                        <?php echo generateServiceCards('publications-worksheet.php'); ?>
+                    <div class="tab-pane fade" id="tech_lib" role="tabpanel">
+                        <?php echo generateServiceCards('publications-tech_lib.php'); ?>
                     </div>
                                                             
                 </div>
