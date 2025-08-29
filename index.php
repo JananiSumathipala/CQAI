@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Command Quality Assurance Inspectorate</title>
-        <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="assets/css/all.min.css">
@@ -43,6 +42,42 @@
         
         .colour-defult {
             color: var(--primary-color) !important;
+        }
+        
+        /* Slider Styles */
+        .swiper-container {
+            width: 100%;
+            height: 580px;
+        }
+        
+        .swiper-slide {
+            position: relative;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .swiper-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .slide-caption {
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        
+        .slide-caption h5 {
+            margin: 0;
+            font-size: 1.5rem;
         }
           
         /* News Marquee */
@@ -148,11 +183,19 @@
                 width: 150px;
                 height: 150px;
             }
+            
+            .swiper-container, .swiper-slide {
+                height: 400px;
+            }
         }
         
         @media (max-width: 768px) {
-            .swiper-container {
+            .swiper-container, .swiper-slide {
                 height: 300px;
+            }
+            
+            .slide-caption h5 {
+                font-size: 1.2rem;
             }
             
             .nav-card {
@@ -194,141 +237,77 @@
                 max-width: 50%;
                 margin-bottom: 20px;
             }
+            
+            .swiper-container, .swiper-slide {
+                height: 250px;
+            }
+            
+            .slide-caption {
+                bottom: 20px;
+                padding: 8px 15px;
+            }
+            
+            .slide-caption h5 {
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
 <body>
     <!-- header.php content -->
                
-            <div class="position-relative top-8 start-8 p-4 z-3">
-               <a href="index.php"> <img src="assets/img/logo/QAI_NEW_LOG.png" alt="Command Quality Assurance Inspectorate Logo" class="logo">
-            </div>
+    <div class="position-relative top-8 start-8 p-4 z-3">
+        <a href="index.php"> <img src="assets/img/logo/QAI_NEW_LOG.png" alt="Command Quality Assurance Inspectorate Logo" class="logo">
+    </div>
+    
+    <!-- Fixed slider container -->
     <div class="position-relative" style="margin-top: -6rem;">   
-        <div class="swiper-container" style=" height: 580px; object-fit: cover;">  
-            <div class="swiper-slide" style=" height: 580px; object-fit: cover;">
-                <div class="swiper-slide" style="height: 580px; object-fit: cover;">
-                    <img src="assets/img/slider/cqai-06.jpg" alt="Quality Inspection" style="height: 580px; object-fit: cover;">
-                        <div class="slide-caption">
-                            <h5>Ensuring Excellence in Every Operation</h5>
-                        </div>
+        <div class="swiper-container">  
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/img/slider/cqai-06.jpg" alt="Quality Inspection">
+                    <div class="slide-caption">
+                        <h5>Ensuring Excellence in Every Operation</h5>
+                    </div>
                 </div>
-               <!-- <div class="swiper-slide" style="width: 100%; height: 580px; object-fit: cover;">
-                    <img src="assets/img/slider/cqai-6.jpg" alt="Our Team" style="width: 100%; height: 580px; object-fit: cover;">
-                        <div class="slide-caption">
-                            <h5>Dedicated Team of Quality Professionals</h5>
-                        </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/slider/cqai-4.jpg" alt="Our Team">
+                    <div class="slide-caption">
+                        <h5>Dedicated Team of Quality Professionals</h5>
+                    </div>
                 </div>
-                <div class="swiper-slide" style="width: 100%; height: 580px; object-fit: cover;">
-                    <img src="assets/img/slider/cqai-6.jpg" alt="Innovation" style="width: 100%; height: 580px; object-fit: cover;">
-                        <div class="slide-caption">
-                            <h5>Innovative Solutions for Quality Assurance</h5>
-                        </div>
-                </div>-->
+                <div class="swiper-slide">
+                    <img src="assets/img/slider/cqai-5.jpg" alt="Innovation">
+                    <div class="slide-caption">
+                        <h5>Innovative Solutions for Quality Assurance</h5>
+                    </div>
+                </div>
             </div>
+            <!-- Add pagination if needed -->
+            <div class="swiper-pagination"></div>
+            
+            <!-- Add navigation buttons if needed -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </div>
 
     <!-- index.php main content -->
     <main>
         <!-- Circular Navigation Links -->
-            <section class="nav-cards">
-                <div class="card-nav">
-                    <a href="qai/inspectorate.php" class="nav-card">
-                    <h3>QAI</h3>
-                    <p>Ensuring safety, compliance, and operational excellence.</p>
-                    </a>
-                    <a href="services/services.php" class="nav-card">
-                    <h3>Services</h3>
-                    <p>Support and logistics for air force operations.</p>
-                    </a>
-                    <a href="publication/publication.php" class="nav-card">
-                    <h3>Publications</h3>
-                    <p>Access official documents, manuals, and updates.</p>
-                    </a>
-                    <a href="training/training.php" class="nav-card">
-                    <h3>Training</h3>
-                    <p>Skill development and professional training programs.</p>
-                    </a>
-                    <a href="productivity/productivity.php" class="nav-card">
-                    <h3>Productivity</h3>
-                    <p>Tracking performance and continuous improvements.</p>
-                    </a>
-                </div>
-                </section>
+        <?php
+            include 'sections/nav-articles.php';
+        ?>
 
         <!-- News Marquee -->
-        <section class="news-marquee">
-            <div class="marquee-content">
-                <span class="me-5"><i class="fas fa-bullhorn me-2"></i> New quality standards implemented effective June 2023</span>
-                <span class="me-5"><i class="fas fa-bullhorn me-2"></i> Upcoming inspector training workshop - Register now!</span>
-                <span class="me-5"><i class="fas fa-bullhorn me-2"></i> Annual quality assurance report now available</span>
-            </div>
-        </section>
+        <?php
+            include 'sections/news-marquee.php';
+        ?>
 
         <!-- Subhead Columns -->
-            <section class="subhead-columns">
-                <div class="row" id="subhead-row">
-                    <div class="col-md-2 mb-4 mb-md-0">
-                        <div class="subhead-column">
-                            <h4 class="subhead-title">Inspectorate</h4>
-                            <ul class="subhead-list">
-                                <li><a href="qai/inspectorate.php#org" style="text-decoration: none; color: var(--dark-color);"> About</a> </li>
-                                <li><a href="qai/inspectorate.php#functions" style="text-decoration: none; color: var(--dark-color);">Policy</a></li>
-                                <li><a href="qai/inspectorate.php#structure" style="text-decoration: none; color: var(--dark-color);">Structure</a></li>
-                                <li><a href="qai/inspectorate.php#responsibilities" style="text-decoration: none; color: var(--dark-color);">Staff</a></li>
-                                <li><a href="qai/inspectorate.php#history" style="text-decoration: none; color: var(--dark-color);">History</a></li>
-                                <li><a href="qai/inspectorate.php#achievements" style="text-decoration: none; color: var(--dark-color);">Achievement</a></li>
-                                <!-- <li>Risk Assessment</li> -->
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2 mb-4 mb-md-0">
-                        <div class="subhead-column">
-                            <h4 class="subhead-title">Services</h4>
-                            <ul class="subhead-list">
-                                <li><a href="services.php#org" style="text-decoration: none;color: var(--dark-color);">Quality Assurance Audits </a></li>
-                                <li>Aircraft Competency </li>
-                                <li>Latitudes and extensions </li>
-                                <li>Modifications / R&D Project</li>
-                                <li>Vehicle Emission Test </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2 mb-4 mb-md-0">
-                        <div class="subhead-column">
-                            <h4 class="subhead-title">Publication</h4>
-                            <ul class="subhead-list">
-                                <li>Airworthiness Directives and Bulletins</li>
-                                <li>QAI Safety Newsletters</li>
-                                <li>Maintenance Programme </li>
-                                <li>Technical library </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2 mb-4 mb-md-0">
-                        <div class="subhead-column">
-                            <h4 class="subhead-title">Training</h4>
-                            <ul class="subhead-list">
-                                <li>Approved Training Syllabus</li>
-                                <li>Continues Professional Development </li>
-                                <li>Productivity Improvement Professional Development</li>
-                                <li>Outside Training</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="subhead-column">
-                            <h4 class="subhead-title">Productivity</h4>
-                            <ul class="subhead-list">
-                                <li>Occupational Safety & Health</li>
-                                <li>Environment </li>
-                                <li>Quality Control Circles</li>
-                                <li>Awards </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <?php
+            include 'sections/subhead.php';
+        ?>
     </main>
 
     <!-- footer.php content -->
@@ -341,33 +320,28 @@
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
-    <!-- script.js content -->
+    <!-- Fixed Swiper initialization -->
     <script>
-        var swiper = new Swiper('.swiper-container', {
-            direction: 'horizontal',
-            loop: true,
-            autoplay: {
-                delay: 2500,
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-        });
-    </script>
-    <script>
-        // Slider functionality
         document.addEventListener('DOMContentLoaded', function() {
-            const slider = document.getElementById('mainSlider');
-            const slides = document.querySelectorAll('.slide');
-            let currentSlide = 0;
-            const slideCount = slides.length;
-            
-            // Auto slide every 5 seconds
-            setInterval(() => {
-                currentSlide = (currentSlide + 1) % slideCount;
-                slider.style.transform = `translateX(-${currentSlide * 100}%)`;
-            }, 5000);
+            var swiper = new Swiper('.swiper-container', {
+                direction: 'horizontal',
+                loop: true,
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                // Optional effect parameters
+                effect: 'slide', // You can try 'fade', 'cube', 'coverflow', etc.
+                speed: 800,
+            });
             
             // Add hover effects to all links
             const links = document.querySelectorAll('a');
@@ -379,13 +353,15 @@
             
             // Marquee animation pause on hover
             const marquee = document.querySelector('.marquee-content');
-            marquee.addEventListener('mouseenter', function() {
-                this.style.animationPlayState = 'paused';
-            });
-            
-            marquee.addEventListener('mouseleave', function() {
-                this.style.animationPlayState = 'running';
-            });
+            if (marquee) {
+                marquee.addEventListener('mouseenter', function() {
+                    this.style.animationPlayState = 'paused';
+                });
+                
+                marquee.addEventListener('mouseleave', function() {
+                    this.style.animationPlayState = 'running';
+                });
+            }
         });
     </script>
 </body>

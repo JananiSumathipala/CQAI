@@ -4,8 +4,8 @@
 <?php
 require_once '../includes/config.php';
 $documents = $db->query("SELECT d.title, d.uploaded_by, d.uploaded_at, c.name AS category_name, b.name AS branch_name, a.username AS uploaded_by
-    FROM documents d
-    JOIN categories c ON d.category_id = c.id
+    FROM services_documents d
+    JOIN services_categories c ON d.category_id = c.id
     JOIN branches b ON d.branch_id = b.id
     JOIN admins a ON d.uploaded_by = a.id")->fetch_all(MYSQLI_ASSOC);
 
