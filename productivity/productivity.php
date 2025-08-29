@@ -34,9 +34,9 @@
             <!-- Environment Card -->
             <div class="col-md-4 mb-4">
                 <a href="environment_categories.php" class="card-link text-decoration-none">
-                    <div class="card hover-effect border border-2 border-success bg-white" style="height: 210px;">
+                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 210px;">
                         <div class="card-body text-center p-4">
-                            <i class="bi bi-tree fs-1 text-success mb-3"></i>
+                            <i class="bi bi-tree fs-1 text-primary mb-3"></i>
                             <h5 class="mb-2 text-dark fw-semibold">Environment</h5>
                             <p class="text-muted">Environmental protection and sustainability initiatives</p>
                         </div>
@@ -47,9 +47,9 @@
             <!-- Quality Control Circles Card -->
             <div class="col-md-4 mb-4">
                 <a href="qcc.php" class="card-link text-decoration-none">
-                    <div class="card hover-effect border border-2 border-warning bg-white" style="height: 210px;">
+                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 210px;">
                         <div class="card-body text-center p-4">
-                            <i class="bi bi-diagram-3 fs-1 text-warning mb-3"></i>
+                            <i class="bi bi-diagram-3 fs-1 text-primary mb-3"></i>
                             <h5 class="mb-2 text-dark fw-semibold">Quality Control Circles</h5>
                             <p class="text-muted">Team-based quality improvement and problem-solving</p>
                         </div>
@@ -60,9 +60,9 @@
             <!-- Awards Card -->
             <div class="col-md-4 mb-4">
                 <a href="awards.php" class="card-link text-decoration-none">
-                    <div class="card hover-effect border border-2 border-info bg-white" style="height: 210px;">
+                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 210px;">
                         <div class="card-body text-center p-4">
-                            <i class="bi bi-trophy fs-1 text-info mb-3"></i>
+                            <i class="bi bi-trophy fs-1 text-primary mb-3"></i>
                             <h5 class="mb-2 text-dark fw-semibold">Awards</h5>
                             <p class="text-muted">Recognition programs for excellence and achievement</p>
                         </div>
