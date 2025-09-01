@@ -37,7 +37,7 @@ $result = $stmt->get_result();
 
 <main class="container my-5 pt-5">
         <div class="page-header mb-4">
-            <h3 class="colour-defult">Services <i class="fa fa-tasks"></i>
+            <h3 class="colour-defult">Quality Assurance Audit<i class="fa fa-tasks"></i>
                 <div class="float-end">
                     <a href="../index.php" class="btn btn-info me-2"><i class="fa fa-home"></i> Home</a>
                     <a href="javascript:history.back()" class="btn btn-secondary"><i class="fa fa-arrow-left"></i> Back</a>
@@ -50,7 +50,7 @@ $result = $stmt->get_result();
                 <!-- Nav Tabs -->
                 <ul class="nav flex-column nav-pills" id="inspectorateTabs" role="tablist" aria-orientation="vertical">
                     <li class="nav-item">
-                        <a class="nav-link active" id="org-tab" data-bs-toggle="pill" href="#org" role="tab">Feedback Reports</a>
+                        <a class="nav-link active" id="org-tab" data-bs-toggle="pill" href="#org" role="tab">Audit Plans</a>
                     </li>
                     
                 </ul>

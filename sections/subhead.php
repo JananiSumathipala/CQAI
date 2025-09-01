@@ -1,6 +1,6 @@
             <section class="subhead-columns">
                 <div class="row" id="subhead-row">
-                    <div class="col-md-2 mb-4 mb-md-0">
+                    <div class="col-md-2 mb-4 mb-md-0" style="width: 280px;">
                         <div class="subhead-column">
                             <h4 class="subhead-title">Inspectorate</h4>
                             <ul class="subhead-list">
@@ -14,41 +14,41 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-2 mb-4 mb-md-0">
+                    <div class="col-md-2 mb-4 mb-md-0" style="width: 280px;">
                         <div class="subhead-column">
-                            <h4 class="subhead-title">Services</h4>
+                            <h4 class="subhead-title" style="text:center">Services</h4>
                             <ul class="subhead-list">
-                                <li><a href="services.php#org" style="text-decoration: none;color: var(--dark-color);">Quality Assurance Audits </a></li>
-                                <li>Aircraft Competency </li>
-                                <li>Latitudes and extensions </li>
-                                <li>Modifications / R&D Project</li>
-                                <li>Vehicle Emission Test </li>
+                                <li><a href="services/qa_audit_categories.php" style="text-decoration: none; color: var(--dark-color);">QA Audits </a></li>
+                                <li><a href="services/competency.php" style="text-decoration: none; color: var(--dark-color);">Aircraft Competency </a></li>
+                                <li><a href="services/latitude.php" style="text-decoration: none; color: var(--dark-color);">Latitudes & Extensions </a></li>
+                                <li><a href="services/modification.php" style="text-decoration: none; color: var(--dark-color);">Modifications R&D Project</a></li>
+                                <li><a href="services/vehicle_emission.php" style="text-decoration: none; color: var(--dark-color);">Vehicle Emission Test </a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-2 mb-4 mb-md-0">
+                    <div class="col-md-2 mb-4 mb-md-0" style="width: 280px;">
                         <div class="subhead-column">
                             <h4 class="subhead-title">Publication</h4>
                             <ul class="subhead-list">
-                                <li>Airworthiness Directives and Bulletins</li>
-                                <li>QAI Safety Newsletters</li>
-                                <li>Maintenance Programme </li>
-                                <li>Technical library </li>
+                                <li><a href="publication/ad_bulletins.php" style="text-decoration: none; color: var(--dark-color);">Airworthiness Directives & Bulletins</a></li>
+                                <li><a href="publication/qai_news.php" style="text-decoration: none; color: var(--dark-color);">QAI Safety Newsletters</a></li>
+                                <li><a href="publication/maintenace.php" style="text-decoration: none; color: var(--dark-color);">Maintenance Programme</a> </li>
+                                <li><a href="publication/tech_lib.php" style="text-decoration: none; color: var(--dark-color);">Technical library </a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-2 mb-4 mb-md-0">
+                    <div class="col-md-2 mb-4 mb-md-0" style="width: 280px;">
                         <div class="subhead-column">
                             <h4 class="subhead-title">Training</h4>
                             <ul class="subhead-list">
-                                <li>Approved Training Syllabus</li>
-                                <li>Continues Professional Development </li>
-                                <li>Productivity Improvement Professional Development</li>
-                                <li>Outside Training</li>
+                                <li><a href="training/training.php" style="text-decoration: none; color: var(--dark-color);">Approved Training Syllabus</a></li>
+                                <li><a href="training/training.php" style="text-decoration: none; color: var(--dark-color);">Continues Professional Development </a></li>
+                                <li><a href="training/training.php" style="text-decoration: none; color: var(--dark-color);">Productivity Improvement Professional Development</a></li>
+                                <li><a href="training/training.php" style="text-decoration: none; color: var(--dark-color);">Outside Training</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2" style="width: 280px;">
                         <div class="subhead-column">
                             <h4 class="subhead-title">Productivity</h4>
                             <ul class="subhead-list">
