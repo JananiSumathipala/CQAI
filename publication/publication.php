@@ -1,8 +1,8 @@
 <?php include '../template/head.php'; ?>
 <head>
     <link rel="stylesheet" href="../assets/css/audit_card.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
 </head>
 <body>
     <?php include '../template/header.php'; ?>
@@ -18,11 +18,11 @@
             </h3>
         </div>
         
-        <div class="row text-center">
+        <div class="row text-center" style="justify-content: center;">
             <!-- Online Subscription Card -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-2 mb-4">
                 <a href="online_sub.php" class="card-link text-decoration-none">
-                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 210px;">
+                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 300px; width: 210px;">
                         <div class="card-body text-center p-4">
                             <i class="fas fa-globe fs-1 text-primary mb-3"></i>
                             <h5 class="mb-2 text-dark fw-semibold">Online Subscription</h5>
@@ -33,9 +33,9 @@
             </div>
             
             <!-- Airworthiness Directives & Bulletins Card -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-2 mb-4">
                 <a href="ad_bulletins.php" class="card-link text-decoration-none">
-                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 210px;">
+                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 300px; width: 210px;">
                         <div class="card-body text-center p-4">
                             <i class="fas fa-file-alt fs-1 text-primary mb-3"></i>
                             <h5 class="mb-2 text-dark fw-semibold">Airworthiness Directives & Bulletins</h5>
@@ -46,9 +46,9 @@
             </div>
             
             <!-- QAI Safety Newsletters Card -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-2 mb-4">
                 <a href="qai_news.php" class="card-link text-decoration-none">
-                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 210px;">
+                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 300px; width: 210px;">
                         <div class="card-body text-center p-4">
                             <i class="fas fa-newspaper fs-1 text-primary mb-3"></i>
                             <h5 class="mb-2 text-dark fw-semibold">QAI Safety Newsletters</h5>
@@ -59,9 +59,9 @@
             </div>
             
             <!-- Maintenance Programme Card -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-2 mb-4">
                 <a href="maintenace.php" class="card-link text-decoration-none">
-                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 210px;">
+                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 300px; width: 210px;">
                         <div class="card-body text-center p-4">
                             <i class="fas fa-cogs fs-1 text-primary mb-3"></i>
                             <h5 class="mb-2 text-dark fw-semibold">Maintenance Programme</h5>
@@ -72,9 +72,9 @@
             </div>
             
             <!-- Technical Library Card -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-2 mb-4">
                 <a href="tech_lib.php" class="card-link text-decoration-none">
-                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 210px;">
+                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 300px; width: 210px;">
                         <div class="card-body text-center p-4">
                             <i class="fas fa-book-open fs-1 text-primary mb-3"></i>
                             <h5 class="mb-2 text-dark fw-semibold">Technical Library</h5>

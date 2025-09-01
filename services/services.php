@@ -1,7 +1,7 @@
 <?php include '../template/head.php'; ?>
 <head>
     <link rel="stylesheet" href="../assets/css/audit_card.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
 </head>
 <body>
     <?php include '../template/header.php'; ?>
@@ -17,11 +17,11 @@
             </h3>
         </div>
         
-        <div class="row text-center">
+        <div class="row text-center" style="justify-content: center;">
             <!-- Quality Assurance Audits Card -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-2 mb-4">
                 <a href="qa_audit_categories.php" class="card-link text-decoration-none">
-                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 210px;">
+                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 300px; width: 210px;">
                         <div class="card-body text-center p-4">
                             <i class="bi bi-clipboard-check fs-1 text-primary mb-3"></i>
                             <h5 class="mb-2 text-dark fw-semibold">Quality Assurance Audits</h5>
@@ -32,52 +32,52 @@
             </div>
             
             <!-- Aircraft Competency Card -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-2 mb-4">
                 <a href="competency.php" class="card-link text-decoration-none">
-                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 210px;">
+                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 300px; width: 210px;">
                         <div class="card-body text-center p-4">
                             <i class="bi bi-airplane fs-1 text-primary mb-3"></i>
                             <h5 class="mb-2 text-dark fw-semibold">Aircraft Competency</h5>
-                            <p class="text-muted">Aircraft certification and competency evaluation</p>
+                            <p class="text-muted">Aircraft certification & competency evaluation</p>
                         </div>
                     </div>
                 </a>
             </div>
             
             <!-- Latitudes and Extensions Card -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-2 mb-4">
                 <a href="latitude.php" class="card-link text-decoration-none">
-                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 210px;">
+                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 300px; width: 210px;">
                         <div class="card-body text-center p-4">
                             <i class="bi bi-geo-alt fs-1 text-primary mb-3"></i>
-                            <h5 class="mb-2 text-dark fw-semibold">Latitudes and Extensions</h5>
-                            <p class="text-muted">Regulatory latitude and extension services</p>
+                            <h5 class="mb-2 text-dark fw-semibold">Latitudes & Extensions</h5>
+                            <p class="text-muted">Regulatory latitude & extension services</p>
                         </div>
                     </div>
                 </a>
             </div>
             
             <!-- Modifications / R&D Projects Card -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-2 mb-4">
                 <a href="modification.php" class="card-link text-decoration-none">
-                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 210px;">
+                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 300px; width: 210px;">
                         <div class="card-body text-center p-4">
                             <i class="bi bi-tools fs-1 text-primary mb-3"></i>
-                            <h5 class="mb-2 text-dark fw-semibold">Modifications / R&D Projects</h5>
-                            <p class="text-muted">Modification approvals and research projects</p>
+                            <h5 class="mb-2 text-dark fw-semibold">Modifications R&D Projects</h5>
+                            <p class="text-muted">Modification approvals & research projects</p>
                         </div>
                     </div>
                 </a>
             </div>
             
             <!-- Vehicle Emission Test Card -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-2 mb-4">
                 <a href="vehicle_emission.php" class="card-link text-decoration-none">
-                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 210px;">
+                    <div class="card hover-effect border border-2 border-primary bg-white" style="height: 300px; width: 210px;">
                         <div class="card-body text-center p-4">
                             <i class="bi bi-car-front fs-1 text-primary mb-3"></i>
                             <h5 class="mb-2 text-dark fw-semibold">Vehicle Emission Test</h5>
-                            <p class="text-muted">Vehicle emission testing and certification</p>
+                            <p class="text-muted">Vehicle emission testing & certification</p>
                         </div>
                     </div>
                 </a>

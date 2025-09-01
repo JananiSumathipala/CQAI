@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Command Quality Assurance Inspectorate</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/all.min.css">
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css" />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../assets/css/styles.css">
@@ -398,39 +398,32 @@
                         </div>
                     </div>
 
+                    
                     <!-- Achievements -->
                     <div class="tab-pane fade" id="achievements" role="tabpanel">
-                        <div class="row">
-                            <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
-                                <div class="card achievement-card">
-                                    <img src="../assets/img/achievements/National Productivity Award 2015 - Gold Award.jpg" class="card-img-top" alt="2015 WINNER">
+                        <div class="row" style="justify-content: center;">
+                            <div class="col-sm-6 col-lg-4 col-xl-3 mb-4" >
+                                <div class="card achievement-card" data-image="../assets/img/achievements/2018.jpeg" data-title="2018 WINNER" data-description="National Productivity Award 2018 - Gold Award">
+                                    <img src="../assets/img/achievements/2018.jpeg" class="card-img-top achievement-zoom" alt="2015 WINNER" style="height:350px">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title">2015 WINNER</h5>
-                                        <p class="card-text"><strong>National Productivity Award 2015 - Gold Award</strong></p>
+                                        <h5 class="card-title">2018 WINNER</h5>
+                                        <p class="card-text"><strong>National Productivity Award 2018 - Gold Award</strong></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
-                                <div class="card achievement-card">
-                                    <img src="../assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" class="card-img-top" alt="2014 WINNER">
+                                <div class="card achievement-card" data-image="../assets/img/achievements/2014.jpg" data-title="2014 WINNER" data-description="Inter Departmental category Organized by national productivity secretariat">
+                                    <img src="../assets/img/achievements/2014.jpg" class="card-img-top achievement-zoom" alt="2014 WINNER" style="height:350px">
                                     <div class="card-body text-center">
                                         <h5 class="card-title">2014 WINNER</h5>
                                         <p class="card-text"><strong>Inter Departmental category Organized by national productivity secretariat</strong></p>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
-                                <div class="card achievement-card">
-                                    <img src="../assets/img/achievements/Public sector and Inter Departmental category Organized by national productivity secretariat 2008.jpg" class="card-img-top" alt="2008 WINNER">
-                                    <div class="card-body text-center">
-                                        <h5 class="card-title">2008 WINNER</h5>
-                                        <p class="card-text"><strong>National Productivity Award - First Place</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
-                                <div class="card achievement-card">
-                                    <img src="../assets/img/achievements/Inter Departmental category Organized by national productivity secretariat 2008.jpg" class="card-img-top" alt="2008 WINNER">
+                                <div class="card achievement-card" data-image="../assets/img/achievements/2008.jpeg" data-title="2008 WINNER" data-description="Provincial Productivity Award - First Place">
+                                    <img src="../assets/img/achievements/2008.jpeg" class="card-img-top achievement-zoom" alt="2008 WINNER" style="height:350px">
                                     <div class="card-body text-center">
                                         <h5 class="card-title">2008 WINNER</h5>
                                         <p class="card-text"><strong>Provincial Productivity Award - First Place</strong></p>
@@ -438,8 +431,8 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
-                                <div class="card achievement-card">
-                                    <img src="../assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" class="card-img-top" alt="2003 WINNER">
+                                <div class="card achievement-card" data-image="../assets/img/achievements/2003.jpeg" data-title="2003 WINNER" data-description="National Productivity Award">
+                                    <img src="../assets/img/achievements/2003.jpeg" class="card-img-top achievement-zoom" alt="2003 WINNER" style="height:350px">
                                     <div class="card-body text-center">
                                         <h5 class="card-title">2003 WINNER</h5>
                                         <p class="card-text"><strong>National Productivity Award</strong></p>
@@ -447,8 +440,8 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
-                                <div class="card achievement-card">
-                                    <img src="../assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" class="card-img-top" alt="1996 WINNER">
+                                <div class="card achievement-card" data-image="../assets/img/achievements/1996.jpg" data-title="1996 WINNER" data-description="Excellence in Quality">
+                                    <img src="../assets/img/achievements/1996.jpg" class="card-img-top achievement-zoom" alt="1996 WINNER" style="height:350px">
                                     <div class="card-body text-center">
                                         <h5 class="card-title">1996 WINNER</h5>
                                         <p class="card-text"><strong>Excellence in Quality</strong></p>
@@ -456,20 +449,31 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
-                                <div class="card achievement-card">
-                                    <img src="../assets/img/achievements/Government department category Organized by national productivity secretariat.jpg" class="card-img-top" alt="1996 Merit Award">
+                                <div class="card achievement-card" data-image="../assets/img/achievements/2024.jpg" data-title="2024 Gold Award" data-description="ICQCC Awards - Gold Award">
+                                    <img src="../assets/img/achievements/2024.jpg" class="card-img-top achievement-zoom" alt="2008 WINNER" style="height:350px">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title">1996 Merit Award</h5>
-                                        <p class="card-text"><strong>Quality Management Strategies and activities</strong></p>
+                                        <h5 class="card-title">2024 Gold Award</h5>
+                                        <p class="card-text"><strong>ICQCC Awards - Gold Award</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                                <div class="card achievement-card" data-image="../assets/img/achievements/2023.jpeg" data-title="2023 Gold Award" data-description="National Convention on Quality & Productivity 2023">
+                                    <img src="../assets/img/achievements/2023.jpeg" class="card-img-top achievement-zoom" alt="1996 Merit Award" style="height:350px">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">2023 Gold Award</h5>
+                                        <p class="card-text"><strong>National Convention on Quality & Productivity 2023</strong></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
     </main>
+
 
     <!-- Footer -->
     <?php
@@ -478,9 +482,9 @@
     ?>
 
     <!-- Bootstrap JS Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../assets/js/swiper-bundle.min.js"></script>
     
     <script>
         // Handle URL hash for direct tab access

@@ -1,7 +1,7 @@
 <?php include '../template/head.php'; ?>
 <head>
     <link rel="stylesheet" href="../assets/css/audit_card.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
@@ -60,7 +60,7 @@
             'Aeronautical Engineering' => ['img' => 'AE.png'],
             'Air Operations' => ['img' => 'AO.png'],
             'Construction Engineering' => ['img' => 'CE.png'],
-            'Electrical Engineering' => ['img' => 'EE.png'],
+            'Electronics Engineering' => ['img' => 'EE.png'],
             'General Engineering' => ['img' => 'GE.png'],
             'Ground Operations' => ['img' => 'GO.png'],
             'Productivity Management' => ['img' => 'PEM.png'],        

@@ -5,7 +5,7 @@
 include "template/head.php";
 require_once '../includes/config.php';
 
-$categories = $db->query("SELECT id, name FROM services_categories ORDER BY name")->fetch_all(MYSQLI_ASSOC);
+$categories = $db->query("SELECT id, name FROM categories ORDER BY name")->fetch_all(MYSQLI_ASSOC);
 $branches = $db->query("SELECT id, name FROM branches ORDER BY name")->fetch_all(MYSQLI_ASSOC);
 ?>
 
